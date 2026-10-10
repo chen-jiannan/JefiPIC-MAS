@@ -1,0 +1,27 @@
+{
+  "experiment": "FULL_EM_COINCIDENT_GRID_NATIVE_STAGGERED_ATOMIC_VS_OBSERVATION_PARITY",
+  "full_em": true,
+  "grid_current_layout": "staggered_face",
+  "boundary_mode": "open",
+  "steps": 7,
+  "source_grid": [
+    5,
+    4,
+    3
+  ],
+  "observation_grid": [
+    5,
+    4,
+    3
+  ],
+  "coincident_source_observation_grid": true,
+  "index_self_exclusion_required": true,
+  "tolerance_rel_l2": 5e-10,
+  "finite": true,
+  "E_atomic_vs_observation_rel_l2": 5.0271269956717445e-16,
+  "B_atomic_vs_observation_rel_l2": 4.2558522309025487e-16,
+  "E_atomic_vs_observation_max_abs": 4.163336342344337e-16,
+  "B_atomic_vs_observation_max_abs": 2.4233807008389483e-27,
+  "pass": true,
+  "interpretation": "A pass establishes implementation parity of the two GPU accumulation strategies for the same full-EM native staggered-face Jefimenko source histories. It is not a separate physical-model validation."
+}

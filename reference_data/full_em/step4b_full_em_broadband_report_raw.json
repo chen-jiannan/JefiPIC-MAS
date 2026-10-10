@@ -1,0 +1,133 @@
+{
+  "step": "4B",
+  "purpose": "broadband plasma-field spectrum and time-local-regime audit",
+  "accepted_execution": true,
+  "this_is_not_a_two_way_self_consistent_coupling_test": true,
+  "plasma_field_was_not_projected_to_3MHz_for_dynamics": true,
+  "configuration": {
+    "frequency_Hz": 3000000.0,
+    "dt_s": 1e-09,
+    "cycles": 4.0,
+    "discard_cycles": 1.0,
+    "particles_per_species": 3000,
+    "grid_n": 13,
+    "num_surface_probes": 96,
+    "formal_sources_per_arm": 900,
+    "formal_collocation_points_per_arm": 1800,
+    "feed_field_proxy_amplitude_V_per_m": 1.0,
+    "quasi_electrostatic_plasma": false,
+    "jefipic_kernel_mode_requested": "atomic",
+    "jefipic_kernel_mode_actual": "atomic",
+    "full_em_native_staggered_current_enabled": true,
+    "grid_source_backend_policy": "atomic-production; observation-reference-only"
+  },
+  "external_probe_source": {
+    "vacuum_harmonic_collocation_rel_l2": 0.005580415607686281,
+    "five_percent_gate_pass": true,
+    "note": "The external source is harmonic; the measured plasma response is not forced to be harmonic."
+  },
+  "execution": {
+    "steps_requested": 1335,
+    "steps_completed": 1335,
+    "all_probe_fields_finite": true
+  },
+  "spectrum": {
+    "sample_count": 1001,
+    "duration_s": 1.0000000000000002e-06,
+    "frequency_resolution_Hz": 999000.9990010296,
+    "nyquist_Hz": 499500499.5005148,
+    "fundamental_3MHz_energy_fraction": 0.3415576170080177,
+    "outside_fundamental_energy_fraction": 0.6584423829919823,
+    "energy_fraction_below_10MHz": 0.9720886287071976,
+    "energy_fraction_10_to_30MHz": 0.02602459224924437,
+    "energy_fraction_30_to_100MHz": 0.0015484598951862574,
+    "energy_fraction_above_100MHz": 0.0003383191483717381,
+    "f95_Hz": 8991008.991009267,
+    "f99_Hz": 14985014.985015444,
+    "harmonic_energy_fractions": {
+      "1": {
+        "frequency_Hz": 3000000.0,
+        "energy_fraction": 0.3415576170080177
+      },
+      "2": {
+        "frequency_Hz": 6000000.0,
+        "energy_fraction": 0.19254530773632622
+      },
+      "3": {
+        "frequency_Hz": 9000000.0,
+        "energy_fraction": 0.0361881571146047
+      },
+      "4": {
+        "frequency_Hz": 12000000.0,
+        "energy_fraction": 0.00765817193633829
+      },
+      "5": {
+        "frequency_Hz": 15000000.0,
+        "energy_fraction": 0.0029092910509787018
+      },
+      "6": {
+        "frequency_Hz": 18000000.0,
+        "energy_fraction": 0.0021087959453798353
+      }
+    },
+    "top_spectral_bins": [
+      {
+        "frequency_Hz": 2997002.9970030887,
+        "energy_fraction": 0.18255967249015778
+      },
+      {
+        "frequency_Hz": 3996003.9960041186,
+        "energy_fraction": 0.1589979445178599
+      },
+      {
+        "frequency_Hz": 1998001.9980020593,
+        "energy_fraction": 0.13090129851787954
+      },
+      {
+        "frequency_Hz": 4995004.995005148,
+        "energy_fraction": 0.1217718375039626
+      },
+      {
+        "frequency_Hz": 5994005.994006177,
+        "energy_fraction": 0.1151163658810234
+      },
+      {
+        "frequency_Hz": 999000.9990010296,
+        "energy_fraction": 0.11160594692910597
+      },
+      {
+        "frequency_Hz": 6993006.993007207,
+        "energy_fraction": 0.0774289418553028
+      },
+      {
+        "frequency_Hz": 7992007.992008237,
+        "energy_fraction": 0.037518463897300965
+      },
+      {
+        "frequency_Hz": 8991008.991009267,
+        "energy_fraction": 0.023676340711190777
+      },
+      {
+        "frequency_Hz": 9990009.990010297,
+        "energy_fraction": 0.012511816403413926
+      },
+      {
+        "frequency_Hz": 10989010.989011327,
+        "energy_fraction": 0.006577113661022744
+      },
+      {
+        "frequency_Hz": 11988011.988012355,
+        "energy_fraction": 0.00449058256018888
+      }
+    ]
+  },
+  "time_local_regime": {
+    "antenna_dimension_m": 0.06,
+    "predeclared_delay_fraction_limit": 0.1,
+    "delay_fraction_at_f95": 0.0017994466674026736,
+    "delay_fraction_at_f99": 0.0029990777790044557,
+    "classification": "broadband_time_domain_solver_required_time_local_may_remain_viable"
+  },
+  "decision": "STEP4B_PASS_use_measured_bandwidth_to_design_broadband_time_domain_MAS",
+  "scope_note": "Step 4B quantifies bandwidth only. It does not validate the old 154x/289x/17x values and does not establish two-way nonlinear plasma-antenna self-consistency."
+}

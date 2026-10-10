@@ -1,0 +1,212 @@
+{
+  "benchmark": "Step 1-C charge-conserving CIC deposition regression",
+  "particle_order": 1,
+  "pass_threshold_rel": 1e-12,
+  "random_count": 1000,
+  "seed": 20260921,
+  "fast_installed": true,
+  "JEFIPIC_FAST_DEPOSITION": "<unset; default enabled>",
+  "summary": {
+    "overall_step1c_pass": true,
+    "deterministic_face_pass": true,
+    "fractional_sweep_face_pass": true,
+    "random_stress_face_pass": true,
+    "current_moment_pass": true,
+    "fast_face_pass": true,
+    "fast_current_moment_pass": true,
+    "fast_vs_python_pass": true,
+    "python_worst_face_linf_rel": 9.79258322281072e-15,
+    "python_worst_current_moment_rel": 2.775557561562889e-16,
+    "fast_worst_face_linf_rel": 9.79258322281072e-15,
+    "fast_worst_current_moment_rel": 2.775557561562889e-16,
+    "fast_vs_python_worst_rel": 0.0,
+    "face_to_cell_worst_linf_rel_non_gating": 0.6000000000000043,
+    "note": "Step 1-C passes only the CIC face-source deposition. The face-to-cell residual is intentionally non-gating and is expected to remain large until Step 1-D changes the Jefimenko source representation."
+  },
+  "deterministic": [
+    {
+      "name": "A_stationary",
+      "p0": [
+        3.2,
+        3.3,
+        3.4
+      ],
+      "p1": [
+        3.2,
+        3.3,
+        3.4
+      ],
+      "python_face_linf_rel": 0.0,
+      "python_face_rms_rel": 0.0,
+      "python_cell_linf_rel": 0.0,
+      "python_moment_rel_error": 0.0,
+      "python_moment_abs_error": 0.0,
+      "charge0": 1.0,
+      "charge1": 1.0,
+      "fast_face_linf_rel": 0.0,
+      "fast_moment_rel_error": 0.0,
+      "fast_vs_python_max_rel": 0.0
+    },
+    {
+      "name": "B_x_subcell",
+      "p0": [
+        3.2,
+        3.3,
+        3.4
+      ],
+      "p1": [
+        3.35,
+        3.3,
+        3.4
+      ],
+      "python_face_linf_rel": 1.284980352575414e-16,
+      "python_face_rms_rel": 1.1036447652886903e-16,
+      "python_cell_linf_rel": 0.6000000000000001,
+      "python_moment_rel_error": 0.0,
+      "python_moment_abs_error": 0.0,
+      "charge0": 1.0,
+      "charge1": 1.0,
+      "fast_face_linf_rel": 1.284980352575414e-16,
+      "fast_moment_rel_error": 0.0,
+      "fast_vs_python_max_rel": 0.0
+    },
+    {
+      "name": "C_x_cross_grid_face",
+      "p0": [
+        3.9,
+        3.3,
+        3.4
+      ],
+      "p1": [
+        4.1,
+        3.3,
+        3.4
+      ],
+      "python_face_linf_rel": 9.637352644315609e-17,
+      "python_face_rms_rel": 9.364736370680029e-17,
+      "python_cell_linf_rel": 0.6,
+      "python_moment_rel_error": 0.0,
+      "python_moment_abs_error": 0.0,
+      "charge0": 1.0,
+      "charge1": 1.0,
+      "fast_face_linf_rel": 9.637352644315609e-17,
+      "fast_moment_rel_error": 0.0,
+      "fast_vs_python_max_rel": 0.0
+    },
+    {
+      "name": "D_x_cross_shape_knot",
+      "p0": [
+        3.45,
+        3.3,
+        3.4
+      ],
+      "p1": [
+        3.55,
+        3.3,
+        3.4
+      ],
+      "python_face_linf_rel": 1.2046690805394542e-17,
+      "python_face_rms_rel": 1.1615525902352074e-17,
+      "python_cell_linf_rel": 0.3333333333333334,
+      "python_moment_rel_error": 0.0,
+      "python_moment_abs_error": 0.0,
+      "charge0": 1.0,
+      "charge1": 1.0,
+      "fast_face_linf_rel": 1.2046690805394542e-17,
+      "fast_moment_rel_error": 0.0,
+      "fast_vs_python_max_rel": 0.0
+    },
+    {
+      "name": "E_xy_diagonal",
+      "p0": [
+        3.2,
+        3.2,
+        3.4
+      ],
+      "p1": [
+        3.35,
+        3.37,
+        3.4
+      ],
+      "python_face_linf_rel": 1.2360532449623215e-16,
+      "python_face_rms_rel": 1.1260698108111168e-16,
+      "python_cell_linf_rel": 0.5999999999999999,
+      "python_moment_rel_error": 0.0,
+      "python_moment_abs_error": 0.0,
+      "charge0": 1.0,
+      "charge1": 1.0,
+      "fast_face_linf_rel": 1.2360532449623215e-16,
+      "fast_moment_rel_error": 0.0,
+      "fast_vs_python_max_rel": 0.0
+    },
+    {
+      "name": "F_xyz_diagonal",
+      "p0": [
+        3.2,
+        3.2,
+        3.2
+      ],
+      "p1": [
+        3.35,
+        3.37,
+        3.39
+      ],
+      "python_face_linf_rel": 2.201740065652529e-17,
+      "python_face_rms_rel": 3.7304883451468125e-17,
+      "python_cell_linf_rel": 0.6,
+      "python_moment_rel_error": 0.0,
+      "python_moment_abs_error": 0.0,
+      "charge0": 1.0,
+      "charge1": 1.0,
+      "fast_face_linf_rel": 2.201740065652529e-17,
+      "fast_moment_rel_error": 0.0,
+      "fast_vs_python_max_rel": 0.0
+    },
+    {
+      "name": "G_xyz_multicell",
+      "p0": [
+        2.2,
+        2.3,
+        2.4
+      ],
+      "p1": [
+        4.7,
+        3.8,
+        5.1
+      ],
+      "python_face_linf_rel": 1.1014117307789252e-16,
+      "python_face_rms_rel": 1.1372447002495375e-16,
+      "python_cell_linf_rel": 0.5560450104441396,
+      "python_moment_rel_error": 1.5804987400578e-16,
+      "python_moment_abs_error": 2.5121479338940403e-15,
+      "charge0": 1.0,
+      "charge1": 1.0,
+      "fast_face_linf_rel": 1.1014117307789252e-16,
+      "fast_moment_rel_error": 1.5804987400578e-16,
+      "fast_vs_python_max_rel": 0.0
+    },
+    {
+      "name": "H_reverse_xyz",
+      "p0": [
+        3.35,
+        3.37,
+        3.39
+      ],
+      "p1": [
+        3.2,
+        3.2,
+        3.2
+      ],
+      "python_face_linf_rel": 2.201740065652529e-17,
+      "python_face_rms_rel": 3.7304883451468125e-17,
+      "python_cell_linf_rel": 0.6,
+      "python_moment_rel_error": 0.0,
+      "python_moment_abs_error": 0.0,
+      "charge0": 1.0,
+      "charge1": 1.0,
+      "fast_face_linf_rel": 2.201740065652529e-17,
+      "fast_moment_rel_error": 0.0,
+      "fast_vs_python_max_rel": 0.0
+    }
+  ]
+}

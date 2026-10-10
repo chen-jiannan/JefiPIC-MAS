@@ -1,0 +1,1165 @@
+{
+  "experiment": "STEP4C3_V2E_FIXED_OBSERVATION_BASIS_FAMILY",
+  "status": "complete",
+  "purpose": "single predeclared source-orientation basis augmentation after V2C-A density and V2D placement probes",
+  "output_directory": "/home/zhangjunjie/cjn/JefiPIC/JefiPIC_MAS/article_cases_output/step4c3_v2e_formal",
+  "forcing_file": "/home/zhangjunjie/cjn/JefiPIC/JefiPIC_MAS/article_cases_output/step4c3_formal/step4c3_forcing.npz",
+  "forcing_sha256": "e52ac6f55ce9dae9376abc32bc872ed459178ac3341287d61d1a7af1bd8b6c78",
+  "v2d_reference_report": "/home/zhangjunjie/cjn/JefiPIC/JefiPIC_MAS/article_cases_output/step4c3_v2d_formal/step4c3_v2d_report.json",
+  "v2d_reference_report_sha256": "9358e6a876aeed544b42b6b42cf4a05c448b9b65e7dac2ffd991f25b2911c64e",
+  "frozen": {
+    "frequencies_Hz": [
+      3000000,
+      6000000,
+      9000000
+    ],
+    "sources_per_arm": 900,
+    "source_depth_fraction": 0.8,
+    "lambda_rel": 0.0001,
+    "softening_m": 0.0,
+    "phasor_time_sample_count": 22,
+    "boundary_gate": 0.05,
+    "weak_region_threshold": 0.2,
+    "source_placement": "original production baseline_inner_surface_fps only",
+    "basis_families": [
+      "tangent_electric_dipole",
+      "full_vector_electric_dipole"
+    ],
+    "basis_selection_dependency": "predeclared_from_source_semantics_not_from_residual_targeting",
+    "kernel_rule": "same retarded electric-dipole tensor; augmentation changes only local source orientation span",
+    "collocation_rule": "original formal 900-case collocation fixed bitwise",
+    "holdout_rule": "original independent holdout fixed bitwise"
+  },
+  "upstream_precondition": {
+    "status": "complete",
+    "v2d_branch": "B_PLACEMENT_SENSITIVE_BUT_NOT_QUALIFIED",
+    "v2d_promoted_placement": "none",
+    "forcing_sha256_match": true,
+    "collocation_fingerprint_match": true,
+    "holdout_fingerprint_match": true,
+    "diagnostic_steps_match": true,
+    "source_placement_locked_to": "baseline_inner_surface_fps"
+  },
+  "fixed_observations": {
+    "status": "complete",
+    "collocation_fingerprint": "40ea2229af221c3a01330e92895a2f39a28e55171d03114430d1cd120ce3b306",
+    "holdout_fingerprint": "15e146d6488b8eb1be4919fa13d7201bd34b10ae488bdbe8dd60289d3b15b35c",
+    "collocation_point_count": 3600,
+    "holdout_point_count": 2020,
+    "region_names": [
+      "global",
+      "feed_rounded",
+      "feed_tips",
+      "feed_transition",
+      "outer_rounded",
+      "outer_tips",
+      "all_transition",
+      "side_mid"
+    ]
+  },
+  "phasor_fit": {
+    "status": "complete",
+    "sample_count": 22,
+    "diagnostic_steps": [
+      260,
+      280,
+      300,
+      320,
+      340,
+      360,
+      380,
+      400,
+      420,
+      440,
+      460,
+      480,
+      500,
+      520,
+      540,
+      560,
+      580,
+      600,
+      620,
+      640,
+      660,
+      667
+    ],
+    "times_s": [
+      2.6e-07,
+      2.8e-07,
+      3.0000000000000004e-07,
+      3.2e-07,
+      3.4000000000000003e-07,
+      3.6000000000000005e-07,
+      3.8e-07,
+      4.0000000000000003e-07,
+      4.2e-07,
+      4.4e-07,
+      4.6000000000000004e-07,
+      4.800000000000001e-07,
+      5.000000000000001e-07,
+      5.2e-07,
+      5.4e-07,
+      5.6e-07,
+      5.800000000000001e-07,
+      6.000000000000001e-07,
+      6.2e-07,
+      6.4e-07,
+      6.6e-07,
+      6.67e-07
+    ],
+    "collocation_fit_condition_number": 3.8513991794360996,
+    "holdout_fit_condition_number": 3.8513991794360996,
+    "max_fit_condition_number": 3.8513991794360996,
+    "minimum_harmonic_strength_ratio": 0.01,
+    "incident_harmonic_strength_ratio_to_max": {
+      "3000000": 1.0,
+      "6000000": 0.5269432280631083,
+      "9000000": 0.19679051711379067
+    },
+    "phasor_fingerprint": "4a70eea14ec26dd853ce84a5b9b29f49efb23b4967000aa79069aabf409b27b3"
+  },
+  "basis_families": {
+    "tangent_electric_dipole": {
+      "status": "complete",
+      "basis_family": "tangent_electric_dipole",
+      "source_orientations_per_point": 2,
+      "source_count_total": 1800,
+      "unknown_count": 3600,
+      "source_placement": "baseline_inner_surface_fps",
+      "frequency_results": {
+        "3000000": {
+          "status": "complete",
+          "frequency_Hz": 3000000,
+          "collocation_global": 0.022852039287193086,
+          "holdout_global": 0.033734377472662516,
+          "worst_region": {
+            "region": "feed_transition",
+            "residual_rms": 0.127904174988224,
+            "incident_rms": 2.4235224020809323,
+            "incident_ratio": 1.0011757242024126,
+            "local_rel": 0.052776147180814345,
+            "global_norm": 0.052838197374364924,
+            "gate_metric": "local_rel",
+            "gate_value": 0.052776147180814345,
+            "passed": false,
+            "point_count": 632
+          },
+          "regions": {
+            "global": {
+              "region": "global",
+              "residual_rms": 0.08166000987527233,
+              "incident_rms": 2.420676354304968,
+              "incident_ratio": 1.0,
+              "local_rel": 0.033734377472662516,
+              "global_norm": 0.033734377472662516,
+              "gate_metric": "local_rel",
+              "gate_value": 0.033734377472662516,
+              "passed": true,
+              "point_count": 256
+            },
+            "feed_rounded": {
+              "region": "feed_rounded",
+              "residual_rms": 0.10975958325919188,
+              "incident_rms": 2.5755276460069436,
+              "incident_ratio": 1.0639702583232928,
+              "local_rel": 0.04261634831579516,
+              "global_norm": 0.045342527126352006,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04261634831579516,
+              "passed": true,
+              "point_count": 858
+            },
+            "feed_tips": {
+              "region": "feed_tips",
+              "residual_rms": 0.06882415813917732,
+              "incident_rms": 2.6902010291893634,
+              "incident_ratio": 1.111342713950615,
+              "local_rel": 0.025583277008824897,
+              "global_norm": 0.028431788502737834,
+              "gate_metric": "local_rel",
+              "gate_value": 0.025583277008824897,
+              "passed": true,
+              "point_count": 565
+            },
+            "feed_transition": {
+              "region": "feed_transition",
+              "residual_rms": 0.127904174988224,
+              "incident_rms": 2.4235224020809323,
+              "incident_ratio": 1.0011757242024126,
+              "local_rel": 0.052776147180814345,
+              "global_norm": 0.052838197374364924,
+              "gate_metric": "local_rel",
+              "gate_value": 0.052776147180814345,
+              "passed": false,
+              "point_count": 632
+            },
+            "outer_rounded": {
+              "region": "outer_rounded",
+              "residual_rms": 0.0790006935179465,
+              "incident_rms": 2.3357462057488716,
+              "incident_ratio": 0.9649147031138404,
+              "local_rel": 0.03382246466825269,
+              "global_norm": 0.032635793453945405,
+              "gate_metric": "local_rel",
+              "gate_value": 0.03382246466825269,
+              "passed": true,
+              "point_count": 644
+            },
+            "outer_tips": {
+              "region": "outer_tips",
+              "residual_rms": 0.04329930420283737,
+              "incident_rms": 2.339503735854712,
+              "incident_ratio": 0.9664669676696361,
+              "local_rel": 0.018507901286602752,
+              "global_norm": 0.01788727523439192,
+              "gate_metric": "local_rel",
+              "gate_value": 0.018507901286602752,
+              "passed": true,
+              "point_count": 482
+            },
+            "all_transition": {
+              "region": "all_transition",
+              "residual_rms": 0.1198677974553435,
+              "incident_rms": 2.389559527670021,
+              "incident_ratio": 0.9871453998467792,
+              "local_rel": 0.0501631351164633,
+              "global_norm": 0.04951830807210918,
+              "gate_metric": "local_rel",
+              "gate_value": 0.0501631351164633,
+              "passed": false,
+              "point_count": 1002
+            },
+            "side_mid": {
+              "region": "side_mid",
+              "residual_rms": 0.05180884351652326,
+              "incident_rms": 2.4038485991688017,
+              "incident_ratio": 0.9930483250657448,
+              "local_rel": 0.021552456978545832,
+              "global_norm": 0.021402631303596462,
+              "gate_metric": "local_rel",
+              "gate_value": 0.021552456978545832,
+              "passed": true,
+              "point_count": 416
+            }
+          },
+          "passed_collocation_and_all_holdout_regions": false,
+          "retarded_operator_diagnostics": {
+            "operator_retarded_minus_local_rel_fro": 7.060859828736273e-05,
+            "max_pair_phase_delay_deg": 0.2132634866622355,
+            "source_orientations_per_point": 2
+          },
+          "operator_evaluator_consistency": {
+            "sampled_collocation_point_count": 12,
+            "relative_l2_error": 1.040683216635922e-14,
+            "tolerance": 5e-11,
+            "passed": true
+          },
+          "solver_diagnostics": {
+            "scaled_operator_smax_estimate": 5.874431134527996,
+            "ridge_alpha": 0.0005874431134527997,
+            "lambda_rel": 0.0001,
+            "column_scale_min": 302100.78043013427,
+            "column_scale_median": 808613.9243246061,
+            "column_scale_max": 1463126.587021578,
+            "column_scale_max_over_min": 4.843173807556416,
+            "stable_rank_proxy": 104.32078990491318,
+            "regularized_normal_condition_upper_bound": 100000001.0,
+            "note": "diagnostic only; not a physics gate"
+          },
+          "coefficient_energy_diagnostics": {
+            "weighted_vector_coefficient_rms_A_per_m": 5.560858779143964e-05,
+            "weighted_tangent_energy_proxy": 1.1264923415599326e-12,
+            "weighted_normal_energy_proxy": 0.0,
+            "weighted_total_energy_proxy": 1.1264923415599326e-12,
+            "normal_energy_fraction": 0.0,
+            "normal_to_tangent_energy_ratio": 0.0,
+            "source_orientations_per_point": 2,
+            "unknown_count": 3600
+          },
+          "softening_m": 0.0,
+          "v2d_baseline_reproduction": {
+            "max_absolute_metric_difference": 0.0,
+            "tolerance": 2e-08,
+            "worst_region_name_match": true,
+            "passed": true,
+            "differences": {
+              "collocation_global": 0.0,
+              "holdout_global": 0.0,
+              "worst_gate": 0.0,
+              "region:global": 0.0,
+              "region:feed_rounded": 0.0,
+              "region:feed_tips": 0.0,
+              "region:feed_transition": 0.0,
+              "region:outer_rounded": 0.0,
+              "region:outer_tips": 0.0,
+              "region:all_transition": 0.0,
+              "region:side_mid": 0.0
+            }
+          }
+        },
+        "6000000": {
+          "status": "complete",
+          "frequency_Hz": 6000000,
+          "collocation_global": 0.03389384234412552,
+          "holdout_global": 0.04183084449201642,
+          "worst_region": {
+            "region": "feed_rounded",
+            "residual_rms": 0.05532458174590468,
+            "incident_rms": 1.1082024730531457,
+            "incident_ratio": 0.9323183971035012,
+            "local_rel": 0.04992281021850012,
+            "global_norm": 0.046543954401814316,
+            "gate_metric": "local_rel",
+            "gate_value": 0.04992281021850012,
+            "passed": true,
+            "point_count": 858
+          },
+          "regions": {
+            "global": {
+              "region": "global",
+              "residual_rms": 0.049722332477804616,
+              "incident_rms": 1.1886523707952947,
+              "incident_ratio": 1.0,
+              "local_rel": 0.04183084449201642,
+              "global_norm": 0.04183084449201642,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04183084449201642,
+              "passed": true,
+              "point_count": 256
+            },
+            "feed_rounded": {
+              "region": "feed_rounded",
+              "residual_rms": 0.05532458174590468,
+              "incident_rms": 1.1082024730531457,
+              "incident_ratio": 0.9323183971035012,
+              "local_rel": 0.04992281021850012,
+              "global_norm": 0.046543954401814316,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04992281021850012,
+              "passed": true,
+              "point_count": 858
+            },
+            "feed_tips": {
+              "region": "feed_tips",
+              "residual_rms": 0.05521686285023263,
+              "incident_rms": 1.1113386273864483,
+              "incident_ratio": 0.9349568088127247,
+              "local_rel": 0.049685002833103134,
+              "global_norm": 0.04645333169468929,
+              "gate_metric": "local_rel",
+              "gate_value": 0.049685002833103134,
+              "passed": true,
+              "point_count": 565
+            },
+            "feed_transition": {
+              "region": "feed_transition",
+              "residual_rms": 0.053625918869628544,
+              "incident_rms": 1.101512581316121,
+              "incident_ratio": 0.92669026569907,
+              "local_rel": 0.04868389138647391,
+              "global_norm": 0.04511488824419617,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04868389138647391,
+              "passed": true,
+              "point_count": 632
+            },
+            "outer_rounded": {
+              "region": "outer_rounded",
+              "residual_rms": 0.03995996914242736,
+              "incident_rms": 1.2225161532762752,
+              "incident_ratio": 1.028489223016754,
+              "local_rel": 0.032686659423956786,
+              "global_norm": 0.03361787695395858,
+              "gate_metric": "local_rel",
+              "gate_value": 0.032686659423956786,
+              "passed": true,
+              "point_count": 644
+            },
+            "outer_tips": {
+              "region": "outer_tips",
+              "residual_rms": 0.03182597114617711,
+              "incident_rms": 1.2131687755205656,
+              "incident_ratio": 1.0206253782246424,
+              "local_rel": 0.026233753941219528,
+              "global_norm": 0.026774835038509383,
+              "gate_metric": "local_rel",
+              "gate_value": 0.026233753941219528,
+              "passed": true,
+              "point_count": 482
+            },
+            "all_transition": {
+              "region": "all_transition",
+              "residual_rms": 0.051666494764374626,
+              "incident_rms": 1.1564488511376276,
+              "incident_ratio": 0.9729075376040174,
+              "local_rel": 0.04467685251582809,
+              "global_norm": 0.043466446569072156,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04467685251582809,
+              "passed": true,
+              "point_count": 1002
+            },
+            "side_mid": {
+              "region": "side_mid",
+              "residual_rms": 0.04712680161905533,
+              "incident_rms": 1.2022646976257818,
+              "incident_ratio": 1.0114518989444992,
+              "local_rel": 0.03919835765960756,
+              "global_norm": 0.03964725329031572,
+              "gate_metric": "local_rel",
+              "gate_value": 0.03919835765960756,
+              "passed": true,
+              "point_count": 416
+            }
+          },
+          "passed_collocation_and_all_holdout_regions": true,
+          "retarded_operator_diagnostics": {
+            "operator_retarded_minus_local_rel_fro": 0.00014121719724614603,
+            "max_pair_phase_delay_deg": 0.426526973324471,
+            "source_orientations_per_point": 2
+          },
+          "operator_evaluator_consistency": {
+            "sampled_collocation_point_count": 12,
+            "relative_l2_error": 6.568781250272421e-15,
+            "tolerance": 5e-11,
+            "passed": true
+          },
+          "solver_diagnostics": {
+            "scaled_operator_smax_estimate": 5.874431143254721,
+            "ridge_alpha": 0.0005874431143254722,
+            "lambda_rel": 0.0001,
+            "column_scale_min": 151050.3896673853,
+            "column_scale_median": 404306.9616192244,
+            "column_scale_max": 731563.2920045026,
+            "column_scale_max_over_min": 4.843173815144824,
+            "stable_rank_proxy": 104.320789594967,
+            "regularized_normal_condition_upper_bound": 100000000.99999999,
+            "note": "diagnostic only; not a physics gate"
+          },
+          "coefficient_energy_diagnostics": {
+            "weighted_vector_coefficient_rms_A_per_m": 4.9284853382337734e-05,
+            "weighted_tangent_energy_proxy": 8.848536550680486e-13,
+            "weighted_normal_energy_proxy": 0.0,
+            "weighted_total_energy_proxy": 8.848536550680486e-13,
+            "normal_energy_fraction": 0.0,
+            "normal_to_tangent_energy_ratio": 0.0,
+            "source_orientations_per_point": 2,
+            "unknown_count": 3600
+          },
+          "softening_m": 0.0,
+          "v2d_baseline_reproduction": {
+            "max_absolute_metric_difference": 0.0,
+            "tolerance": 2e-08,
+            "worst_region_name_match": true,
+            "passed": true,
+            "differences": {
+              "collocation_global": 0.0,
+              "holdout_global": 0.0,
+              "worst_gate": 0.0,
+              "region:global": 0.0,
+              "region:feed_rounded": 0.0,
+              "region:feed_tips": 0.0,
+              "region:feed_transition": 0.0,
+              "region:outer_rounded": 0.0,
+              "region:outer_tips": 0.0,
+              "region:all_transition": 0.0,
+              "region:side_mid": 0.0
+            }
+          }
+        },
+        "9000000": {
+          "status": "complete",
+          "frequency_Hz": 9000000,
+          "collocation_global": 0.055250018539306694,
+          "holdout_global": 0.05594329714604577,
+          "worst_region": {
+            "region": "side_mid",
+            "residual_rms": 0.028549104296565576,
+            "incident_rms": 0.435540677309407,
+            "incident_ratio": 0.8506312906887848,
+            "local_rel": 0.06554865201783291,
+            "global_norm": 0.055757734468839235,
+            "gate_metric": "local_rel",
+            "gate_value": 0.06554865201783291,
+            "passed": false,
+            "point_count": 416
+          },
+          "regions": {
+            "global": {
+              "region": "global",
+              "residual_rms": 0.02864411619537362,
+              "incident_rms": 0.5120205217900402,
+              "incident_ratio": 1.0,
+              "local_rel": 0.05594329714604577,
+              "global_norm": 0.05594329714604577,
+              "gate_metric": "local_rel",
+              "gate_value": 0.05594329714604577,
+              "passed": false,
+              "point_count": 256
+            },
+            "feed_rounded": {
+              "region": "feed_rounded",
+              "residual_rms": 0.0371586294261288,
+              "incident_rms": 0.6351727480992951,
+              "incident_ratio": 1.2405220514965118,
+              "local_rel": 0.05850161162821153,
+              "global_norm": 0.07257253927288117,
+              "gate_metric": "local_rel",
+              "gate_value": 0.05850161162821153,
+              "passed": false,
+              "point_count": 858
+            },
+            "feed_tips": {
+              "region": "feed_tips",
+              "residual_rms": 0.036079594088730564,
+              "incident_rms": 0.6791330362949162,
+              "incident_ratio": 1.3263785481110117,
+              "local_rel": 0.05312595936367151,
+              "global_norm": 0.07046513284779123,
+              "gate_metric": "local_rel",
+              "gate_value": 0.05312595936367151,
+              "passed": false,
+              "point_count": 565
+            },
+            "feed_transition": {
+              "region": "feed_transition",
+              "residual_rms": 0.03628989603517567,
+              "incident_rms": 0.5705497476898254,
+              "incident_ratio": 1.1143103125928724,
+              "local_rel": 0.0636051390472341,
+              "global_norm": 0.07087586237423654,
+              "gate_metric": "local_rel",
+              "gate_value": 0.0636051390472341,
+              "passed": false,
+              "point_count": 632
+            },
+            "outer_rounded": {
+              "region": "outer_rounded",
+              "residual_rms": 0.017305880166860195,
+              "incident_rms": 0.623242051974128,
+              "incident_ratio": 1.2172208445771933,
+              "local_rel": 0.02776751041115338,
+              "global_norm": 0.03379919247447013,
+              "gate_metric": "local_rel",
+              "gate_value": 0.02776751041115338,
+              "passed": true,
+              "point_count": 644
+            },
+            "outer_tips": {
+              "region": "outer_tips",
+              "residual_rms": 0.014660315016883927,
+              "incident_rms": 0.6522832518480354,
+              "incident_ratio": 1.2739396646986574,
+              "local_rel": 0.022475381631137433,
+              "global_norm": 0.028632280139145583,
+              "gate_metric": "local_rel",
+              "gate_value": 0.022475381631137433,
+              "passed": true,
+              "point_count": 482
+            },
+            "all_transition": {
+              "region": "all_transition",
+              "residual_rms": 0.03110523887858467,
+              "incident_rms": 0.5669446353239543,
+              "incident_ratio": 1.1072693597160865,
+              "local_rel": 0.054864685086597594,
+              "global_norm": 0.06074998472686164,
+              "gate_metric": "local_rel",
+              "gate_value": 0.054864685086597594,
+              "passed": false,
+              "point_count": 1002
+            },
+            "side_mid": {
+              "region": "side_mid",
+              "residual_rms": 0.028549104296565576,
+              "incident_rms": 0.435540677309407,
+              "incident_ratio": 0.8506312906887848,
+              "local_rel": 0.06554865201783291,
+              "global_norm": 0.055757734468839235,
+              "gate_metric": "local_rel",
+              "gate_value": 0.06554865201783291,
+              "passed": false,
+              "point_count": 416
+            }
+          },
+          "passed_collocation_and_all_holdout_regions": false,
+          "retarded_operator_diagnostics": {
+            "operator_retarded_minus_local_rel_fro": 0.00021182579754777138,
+            "max_pair_phase_delay_deg": 0.6397904599867065,
+            "source_orientations_per_point": 2
+          },
+          "operator_evaluator_consistency": {
+            "sampled_collocation_point_count": 12,
+            "relative_l2_error": 8.471274640858207e-15,
+            "tolerance": 5e-11,
+            "passed": true
+          },
+          "solver_diagnostics": {
+            "scaled_operator_smax_estimate": 5.874431157799269,
+            "ridge_alpha": 0.000587443115779927,
+            "lambda_rel": 0.0001,
+            "column_scale_min": 100700.2591697214,
+            "column_scale_median": 269537.97380939603,
+            "column_scale_max": 487708.85966268077,
+            "column_scale_max_over_min": 4.843173827792147,
+            "stable_rank_proxy": 104.3207890783897,
+            "regularized_normal_condition_upper_bound": 100000000.99999996,
+            "note": "diagnostic only; not a physics gate"
+          },
+          "coefficient_energy_diagnostics": {
+            "weighted_vector_coefficient_rms_A_per_m": 4.2156871377490455e-05,
+            "weighted_tangent_energy_proxy": 6.474127631189729e-13,
+            "weighted_normal_energy_proxy": 0.0,
+            "weighted_total_energy_proxy": 6.474127631189729e-13,
+            "normal_energy_fraction": 0.0,
+            "normal_to_tangent_energy_ratio": 0.0,
+            "source_orientations_per_point": 2,
+            "unknown_count": 3600
+          },
+          "softening_m": 0.0,
+          "v2d_baseline_reproduction": {
+            "max_absolute_metric_difference": 0.0,
+            "tolerance": 2e-08,
+            "worst_region_name_match": true,
+            "passed": true,
+            "differences": {
+              "collocation_global": 0.0,
+              "holdout_global": 0.0,
+              "worst_gate": 0.0,
+              "region:global": 0.0,
+              "region:feed_rounded": 0.0,
+              "region:feed_tips": 0.0,
+              "region:feed_transition": 0.0,
+              "region:outer_rounded": 0.0,
+              "region:outer_tips": 0.0,
+              "region:all_transition": 0.0,
+              "region:side_mid": 0.0
+            }
+          }
+        }
+      }
+    },
+    "full_vector_electric_dipole": {
+      "status": "complete",
+      "basis_family": "full_vector_electric_dipole",
+      "source_orientations_per_point": 3,
+      "source_count_total": 1800,
+      "unknown_count": 5400,
+      "source_placement": "baseline_inner_surface_fps",
+      "frequency_results": {
+        "3000000": {
+          "status": "complete",
+          "frequency_Hz": 3000000,
+          "collocation_global": 0.021067549880259547,
+          "holdout_global": 0.03367049817033059,
+          "worst_region": {
+            "region": "feed_transition",
+            "residual_rms": 0.1210593167742498,
+            "incident_rms": 2.4235224020809323,
+            "incident_ratio": 1.0011757242024126,
+            "local_rel": 0.04995180431189886,
+            "global_norm": 0.05001053385718254,
+            "gate_metric": "local_rel",
+            "gate_value": 0.04995180431189886,
+            "passed": true,
+            "point_count": 632
+          },
+          "regions": {
+            "global": {
+              "region": "global",
+              "residual_rms": 0.08150537875858795,
+              "incident_rms": 2.420676354304968,
+              "incident_ratio": 1.0,
+              "local_rel": 0.03367049817033059,
+              "global_norm": 0.03367049817033059,
+              "gate_metric": "local_rel",
+              "gate_value": 0.03367049817033059,
+              "passed": true,
+              "point_count": 256
+            },
+            "feed_rounded": {
+              "region": "feed_rounded",
+              "residual_rms": 0.10906555525944818,
+              "incident_rms": 2.5755276460069436,
+              "incident_ratio": 1.0639702583232928,
+              "local_rel": 0.04234687809643265,
+              "global_norm": 0.04505581882744644,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04234687809643265,
+              "passed": true,
+              "point_count": 858
+            },
+            "feed_tips": {
+              "region": "feed_tips",
+              "residual_rms": 0.07599634160078529,
+              "incident_rms": 2.6902010291893634,
+              "incident_ratio": 1.111342713950615,
+              "local_rel": 0.02824931697527646,
+              "global_norm": 0.03139467259455492,
+              "gate_metric": "local_rel",
+              "gate_value": 0.02824931697527646,
+              "passed": true,
+              "point_count": 565
+            },
+            "feed_transition": {
+              "region": "feed_transition",
+              "residual_rms": 0.1210593167742498,
+              "incident_rms": 2.4235224020809323,
+              "incident_ratio": 1.0011757242024126,
+              "local_rel": 0.04995180431189886,
+              "global_norm": 0.05001053385718254,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04995180431189886,
+              "passed": true,
+              "point_count": 632
+            },
+            "outer_rounded": {
+              "region": "outer_rounded",
+              "residual_rms": 0.07589247561028804,
+              "incident_rms": 2.3357462057488716,
+              "incident_ratio": 0.9649147031138404,
+              "local_rel": 0.03249174735829482,
+              "global_norm": 0.031351764755878954,
+              "gate_metric": "local_rel",
+              "gate_value": 0.03249174735829482,
+              "passed": true,
+              "point_count": 644
+            },
+            "outer_tips": {
+              "region": "outer_tips",
+              "residual_rms": 0.05008033028648968,
+              "incident_rms": 2.339503735854712,
+              "incident_ratio": 0.9664669676696361,
+              "local_rel": 0.02140639038911104,
+              "global_norm": 0.020688569208116587,
+              "gate_metric": "local_rel",
+              "gate_value": 0.02140639038911104,
+              "passed": true,
+              "point_count": 482
+            },
+            "all_transition": {
+              "region": "all_transition",
+              "residual_rms": 0.11230188610804696,
+              "incident_rms": 2.389559527670021,
+              "incident_ratio": 0.9871453998467792,
+              "local_rel": 0.04699689830181746,
+              "global_norm": 0.04639277196570602,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04699689830181746,
+              "passed": true,
+              "point_count": 1002
+            },
+            "side_mid": {
+              "region": "side_mid",
+              "residual_rms": 0.05418605654645421,
+              "incident_rms": 2.4038485991688017,
+              "incident_ratio": 0.9930483250657448,
+              "local_rel": 0.022541376593014455,
+              "global_norm": 0.022384676270369188,
+              "gate_metric": "local_rel",
+              "gate_value": 0.022541376593014455,
+              "passed": true,
+              "point_count": 416
+            }
+          },
+          "passed_collocation_and_all_holdout_regions": true,
+          "retarded_operator_diagnostics": {
+            "operator_retarded_minus_local_rel_fro": 6.994909339419287e-05,
+            "max_pair_phase_delay_deg": 0.2132634866622355,
+            "min_distance_m": 0.0007999999999999999,
+            "max_distance_m": 0.05919887487789055,
+            "source_orientations_per_point": 3
+          },
+          "operator_evaluator_consistency": {
+            "sampled_collocation_point_count": 12,
+            "relative_l2_error": 7.85184138018635e-15,
+            "tolerance": 5e-11,
+            "passed": true
+          },
+          "solver_diagnostics": {
+            "scaled_operator_smax_estimate": 6.4632620424538025,
+            "ridge_alpha": 0.0006463262042453803,
+            "lambda_rel": 0.0001,
+            "column_scale_min": 302100.78043013427,
+            "column_scale_median": 845744.9086310349,
+            "column_scale_max": 1514766.7799778748,
+            "column_scale_max_over_min": 5.014110780584989,
+            "stable_rank_proxy": 129.2677625239831,
+            "regularized_normal_condition_upper_bound": 100000001.0,
+            "note": "diagnostic only; not a physics gate"
+          },
+          "coefficient_energy_diagnostics": {
+            "weighted_vector_coefficient_rms_A_per_m": 4.726466307559673e-05,
+            "weighted_tangent_energy_proxy": 6.775944303652387e-13,
+            "weighted_normal_energy_proxy": 1.3620549208251703e-13,
+            "weighted_total_energy_proxy": 8.137999224477558e-13,
+            "normal_energy_fraction": 0.1673697530872659,
+            "normal_to_tangent_energy_ratio": 0.20101329937009546,
+            "source_orientations_per_point": 3,
+            "unknown_count": 5400
+          },
+          "softening_m": 0.0,
+          "v2d_baseline_reproduction": {
+            "applicable": false,
+            "reason": "full-vector family intentionally changes the source orientation basis at fixed source locations"
+          }
+        },
+        "6000000": {
+          "status": "complete",
+          "frequency_Hz": 6000000,
+          "collocation_global": 0.032630505323256134,
+          "holdout_global": 0.04340036026569203,
+          "worst_region": {
+            "region": "feed_tips",
+            "residual_rms": 0.054268827526640404,
+            "incident_rms": 1.1113386273864483,
+            "incident_ratio": 0.9349568088127247,
+            "local_rel": 0.048831945717809896,
+            "global_norm": 0.04565576013643974,
+            "gate_metric": "local_rel",
+            "gate_value": 0.048831945717809896,
+            "passed": true,
+            "point_count": 565
+          },
+          "regions": {
+            "global": {
+              "region": "global",
+              "residual_rms": 0.05158794112318474,
+              "incident_rms": 1.1886523707952947,
+              "incident_ratio": 1.0,
+              "local_rel": 0.04340036026569203,
+              "global_norm": 0.04340036026569203,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04340036026569203,
+              "passed": true,
+              "point_count": 256
+            },
+            "feed_rounded": {
+              "region": "feed_rounded",
+              "residual_rms": 0.05376395028875643,
+              "incident_rms": 1.1082024730531457,
+              "incident_ratio": 0.9323183971035012,
+              "local_rel": 0.048514555413898715,
+              "global_norm": 0.045231012539675035,
+              "gate_metric": "local_rel",
+              "gate_value": 0.048514555413898715,
+              "passed": true,
+              "point_count": 858
+            },
+            "feed_tips": {
+              "region": "feed_tips",
+              "residual_rms": 0.054268827526640404,
+              "incident_rms": 1.1113386273864483,
+              "incident_ratio": 0.9349568088127247,
+              "local_rel": 0.048831945717809896,
+              "global_norm": 0.04565576013643974,
+              "gate_metric": "local_rel",
+              "gate_value": 0.048831945717809896,
+              "passed": true,
+              "point_count": 565
+            },
+            "feed_transition": {
+              "region": "feed_transition",
+              "residual_rms": 0.051750867870408473,
+              "incident_rms": 1.101512581316121,
+              "incident_ratio": 0.92669026569907,
+              "local_rel": 0.04698164029009541,
+              "global_norm": 0.04353742872340665,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04698164029009541,
+              "passed": true,
+              "point_count": 632
+            },
+            "outer_rounded": {
+              "region": "outer_rounded",
+              "residual_rms": 0.038490701106151534,
+              "incident_rms": 1.2225161532762752,
+              "incident_ratio": 1.028489223016754,
+              "local_rel": 0.03148482005984019,
+              "global_norm": 0.032381798120167345,
+              "gate_metric": "local_rel",
+              "gate_value": 0.03148482005984019,
+              "passed": true,
+              "point_count": 644
+            },
+            "outer_tips": {
+              "region": "outer_tips",
+              "residual_rms": 0.0319970609484168,
+              "incident_rms": 1.2131687755205656,
+              "incident_ratio": 1.0206253782246424,
+              "local_rel": 0.026374781146742746,
+              "global_norm": 0.026918770983486485,
+              "gate_metric": "local_rel",
+              "gate_value": 0.026374781146742746,
+              "passed": true,
+              "point_count": 482
+            },
+            "all_transition": {
+              "region": "all_transition",
+              "residual_rms": 0.049424065664984015,
+              "incident_rms": 1.1564488511376276,
+              "incident_ratio": 0.9729075376040174,
+              "local_rel": 0.04273778785491838,
+              "global_norm": 0.04157991594457152,
+              "gate_metric": "local_rel",
+              "gate_value": 0.04273778785491838,
+              "passed": true,
+              "point_count": 1002
+            },
+            "side_mid": {
+              "region": "side_mid",
+              "residual_rms": 0.050331590111673805,
+              "incident_rms": 1.2022646976257818,
+              "incident_ratio": 1.0114518989444992,
+              "local_rel": 0.0418639840386797,
+              "global_norm": 0.042343406153304786,
+              "gate_metric": "local_rel",
+              "gate_value": 0.0418639840386797,
+              "passed": true,
+              "point_count": 416
+            }
+          },
+          "passed_collocation_and_all_holdout_regions": true,
+          "retarded_operator_diagnostics": {
+            "operator_retarded_minus_local_rel_fro": 0.00013989818709416273,
+            "max_pair_phase_delay_deg": 0.426526973324471,
+            "min_distance_m": 0.0007999999999999999,
+            "max_distance_m": 0.05919887487789055,
+            "source_orientations_per_point": 3
+          },
+          "operator_evaluator_consistency": {
+            "sampled_collocation_point_count": 12,
+            "relative_l2_error": 8.826837281664489e-15,
+            "tolerance": 5e-11,
+            "passed": true
+          },
+          "solver_diagnostics": {
+            "scaled_operator_smax_estimate": 6.463261938856476,
+            "ridge_alpha": 0.0006463261938856477,
+            "lambda_rel": 0.0001,
+            "column_scale_min": 151050.3896673853,
+            "column_scale_median": 422872.4535503938,
+            "column_scale_max": 757383.3886086757,
+            "column_scale_max_over_min": 5.014110789627506,
+            "stable_rank_proxy": 129.2677666679572,
+            "regularized_normal_condition_upper_bound": 100000000.99999999,
+            "note": "diagnostic only; not a physics gate"
+          },
+          "coefficient_energy_diagnostics": {
+            "weighted_vector_coefficient_rms_A_per_m": 4.806316170052056e-05,
+            "weighted_tangent_energy_proxy": 6.733787560144418e-13,
+            "weighted_normal_energy_proxy": 1.6815043200774878e-13,
+            "weighted_total_energy_proxy": 8.415291880221906e-13,
+            "normal_energy_fraction": 0.19981532952284806,
+            "normal_to_tangent_energy_ratio": 0.24971151897186147,
+            "source_orientations_per_point": 3,
+            "unknown_count": 5400
+          },
+          "softening_m": 0.0,
+          "v2d_baseline_reproduction": {
+            "applicable": false,
+            "reason": "full-vector family intentionally changes the source orientation basis at fixed source locations"
+          }
+        },
+        "9000000": {
+          "status": "complete",
+          "frequency_Hz": 9000000,
+          "collocation_global": 0.05316105461524761,
+          "holdout_global": 0.05730666535427255,
+          "worst_region": {
+            "region": "side_mid",
+            "residual_rms": 0.03018738199224606,
+            "incident_rms": 0.435540677309407,
+            "incident_ratio": 0.8506312906887848,
+            "local_rel": 0.06931013235946507,
+            "global_norm": 0.05895736734674228,
+            "gate_metric": "local_rel",
+            "gate_value": 0.06931013235946507,
+            "passed": false,
+            "point_count": 416
+          },
+          "regions": {
+            "global": {
+              "region": "global",
+              "residual_rms": 0.02934218869674185,
+              "incident_rms": 0.5120205217900402,
+              "incident_ratio": 1.0,
+              "local_rel": 0.05730666535427255,
+              "global_norm": 0.05730666535427255,
+              "gate_metric": "local_rel",
+              "gate_value": 0.05730666535427255,
+              "passed": false,
+              "point_count": 256
+            },
+            "feed_rounded": {
+              "region": "feed_rounded",
+              "residual_rms": 0.03670102708068695,
+              "incident_rms": 0.6351727480992951,
+              "incident_ratio": 1.2405220514965118,
+              "local_rel": 0.057781174004256176,
+              "global_norm": 0.07167882051363679,
+              "gate_metric": "local_rel",
+              "gate_value": 0.057781174004256176,
+              "passed": false,
+              "point_count": 858
+            },
+            "feed_tips": {
+              "region": "feed_tips",
+              "residual_rms": 0.036180569848818935,
+              "incident_rms": 0.6791330362949162,
+              "incident_ratio": 1.3263785481110117,
+              "local_rel": 0.053274642691814776,
+              "global_norm": 0.0706623432247022,
+              "gate_metric": "local_rel",
+              "gate_value": 0.053274642691814776,
+              "passed": false,
+              "point_count": 565
+            },
+            "feed_transition": {
+              "region": "feed_transition",
+              "residual_rms": 0.035635691182522,
+              "incident_rms": 0.5705497476898254,
+              "incident_ratio": 1.1143103125928724,
+              "local_rel": 0.06245851711759068,
+              "global_norm": 0.06959816973338975,
+              "gate_metric": "local_rel",
+              "gate_value": 0.06245851711759068,
+              "passed": false,
+              "point_count": 632
+            },
+            "outer_rounded": {
+              "region": "outer_rounded",
+              "residual_rms": 0.01676074097760444,
+              "incident_rms": 0.623242051974128,
+              "incident_ratio": 1.2172208445771933,
+              "local_rel": 0.026892827472912904,
+              "global_norm": 0.0327345101696478,
+              "gate_metric": "local_rel",
+              "gate_value": 0.026892827472912904,
+              "passed": true,
+              "point_count": 644
+            },
+            "outer_tips": {
+              "region": "outer_tips",
+              "residual_rms": 0.014958411273589236,
+              "incident_rms": 0.6522832518480354,
+              "incident_ratio": 1.2739396646986574,
+              "local_rel": 0.0229323859400182,
+              "global_norm": 0.029214476055166985,
+              "gate_metric": "local_rel",
+              "gate_value": 0.0229323859400182,
+              "passed": true,
+              "point_count": 482
+            },
+            "all_transition": {
+              "region": "all_transition",
+              "residual_rms": 0.030289877124793852,
+              "incident_rms": 0.5669446353239543,
+              "incident_ratio": 1.1072693597160865,
+              "local_rel": 0.053426516872297596,
+              "global_norm": 0.059157545129049645,
+              "gate_metric": "local_rel",
+              "gate_value": 0.053426516872297596,
+              "passed": false,
+              "point_count": 1002
+            },
+            "side_mid": {
+              "region": "side_mid",
+              "residual_rms": 0.03018738199224606,
+              "incident_rms": 0.435540677309407,
+              "incident_ratio": 0.8506312906887848,
+              "local_rel": 0.06931013235946507,
+              "global_norm": 0.05895736734674228,
+              "gate_metric": "local_rel",
+              "gate_value": 0.06931013235946507,
+              "passed": false,
+              "point_count": 416
+            }
+          },
+          "passed_collocation_and_all_holdout_regions": false,
+          "retarded_operator_diagnostics": {
+            "operator_retarded_minus_local_rel_fro": 0.00020984728140568726,
+            "max_pair_phase_delay_deg": 0.6397904599867065,
+            "min_distance_m": 0.0007999999999999999,
+            "max_distance_m": 0.05919887487789055,
+            "source_orientations_per_point": 3
+          },
+          "operator_evaluator_consistency": {
+            "sampled_collocation_point_count": 12,
+            "relative_l2_error": 1.2346036237976168e-14,
+            "tolerance": 5e-11,
+            "passed": true
+          },
+          "solver_diagnostics": {
+            "scaled_operator_smax_estimate": 6.463261766194908,
+            "ridge_alpha": 0.0006463261766194908,
+            "lambda_rel": 0.0001,
+            "column_scale_min": 100700.25916972138,
+            "column_scale_median": 281914.96818345797,
+            "column_scale_max": 504922.2575388276,
+            "column_scale_max_over_min": 5.014110804698385,
+            "stable_rank_proxy": 129.2677735745553,
+            "regularized_normal_condition_upper_bound": 100000001.0,
+            "note": "diagnostic only; not a physics gate"
+          },
+          "coefficient_energy_diagnostics": {
+            "weighted_vector_coefficient_rms_A_per_m": 4.4093396771364854e-05,
+            "weighted_tangent_energy_proxy": 5.564124744425034e-13,
+            "weighted_normal_energy_proxy": 1.5184574627228896e-13,
+            "weighted_total_energy_proxy": 7.082582207147923e-13,
+            "normal_energy_fraction": 0.21439319986860492,
+            "normal_to_tangent_energy_ratio": 0.27290140542666763,
+            "source_orientations_per_point": 3,
+            "unknown_count": 5400
+          },
+          "softening_m": 0.0,
+          "v2d_baseline_reproduction": {
+            "applicable": false,
+            "reason": "full-vector family intentionally changes the source orientation basis at fixed source locations"
+          }
+        }
+      }
+    }
+  },
+  "decision_tree": {
+    "branch": "C_BASIS_TRAINING_HOLDOUT_TRADEOFF",
+    "promoted_basis": "none",
+    "trend_tolerance_absolute": 1e-08,
+    "facts": {
+      "baseline_all_frequency_qualified": false,
+      "augmented_all_frequency_qualified": false,
+      "delta_augmented_minus_baseline": {
+        "3000000": {
+          "collocation_global": -0.0017844894069335392,
+          "holdout_global": -6.387930233192618e-05,
+          "worst_region_gate": -0.0028243428689154818,
+          "baseline_worst_region": "feed_transition",
+          "augmented_worst_region": "feed_transition"
+        },
+        "6000000": {
+          "collocation_global": -0.0012633370208693859,
+          "holdout_global": 0.0015695157736756102,
+          "worst_region_gate": -0.0010908645006902223,
+          "baseline_worst_region": "feed_rounded",
+          "augmented_worst_region": "feed_tips"
+        },
+        "9000000": {
+          "collocation_global": -0.0020889639240590854,
+          "holdout_global": 0.0013633682082267798,
+          "worst_region_gate": 0.0037614803416321507,
+          "baseline_worst_region": "side_mid",
+          "augmented_worst_region": "side_mid"
+        }
+      }
+    },
+    "explanation": "The augmented basis improves the 9 MHz collocation fit but worsens the independent 9 MHz holdout. This is a generalization tradeoff, not qualification.",
+    "next_step_constraint": "V2E is the predeclared stop-loss basis experiment. Do not continue arbitrary basis-family, lambda, d/R, seed, density, or residual-targeted sweeps merely to cross 5%. Treat the remaining upper-band error as a quantified limitation unless the manuscript's central claim truly requires uniform <5% accuracy over 3-9 MHz; in that case a separately designed method-level reformulation is required. Step 4D remains blocked under the frozen qualification tree."
+  },
+  "failure": {
+    "present": false,
+    "type": "none",
+    "message": "none",
+    "traceback": "none"
+  }
+}

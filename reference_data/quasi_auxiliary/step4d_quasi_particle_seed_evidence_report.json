@@ -1,0 +1,113 @@
+{
+  "experiment": "STEP4D_B2C_FINAL_EVIDENCE_SYNTHESIS",
+  "status": "complete",
+  "no_PIC_rerun": true,
+  "no_parameter_change": true,
+  "source_reports": {
+    "b2a_v2": "article_cases_output/step4d_b_atomic12_formal/step4d_b2a_v2_corrected_report.json",
+    "b2b": "article_cases_output/step4d_b_atomic12_formal/step4d_b2b_particle_robustness_report.json"
+  },
+  "classification": "FINAL_STABLE_SOLVER_WITH_SAMPLING_DEPENDENT_RESPONSE_AND_LOCAL_FEED_TRANSITION_LIMITATION",
+  "execution": {
+    "all_9_cases_valid": true,
+    "atomic_kernel_frozen": true,
+    "global_boundary_all_9_cases_within_5pct": true
+  },
+  "particle_count_trends": [
+    {
+      "particles_per_species": 6000,
+      "ratio_median": 17.415330723782837,
+      "ratio_min": 13.509624316739462,
+      "ratio_max": 41.117570179396644,
+      "ratio_cv": 0.62213900185737,
+      "ratio_max_to_min": 3.0435761361956466,
+      "long_window_stable_count": 0,
+      "seed_count": 3,
+      "boundary_pass_count": 1,
+      "max_worst_local_boundary_gate": 0.07135322215666065
+    },
+    {
+      "particles_per_species": 12000,
+      "ratio_median": 6.881825209441547,
+      "ratio_min": 4.726710877373683,
+      "ratio_max": 18.430201390524402,
+      "ratio_cv": 0.7359295978001705,
+      "ratio_max_to_min": 3.899159874310915,
+      "long_window_stable_count": 1,
+      "seed_count": 3,
+      "boundary_pass_count": 1,
+      "max_worst_local_boundary_gate": 0.05995022130217908
+    },
+    {
+      "particles_per_species": 24000,
+      "ratio_median": 21.333271453211484,
+      "ratio_min": 7.4170983261205885,
+      "ratio_max": 21.93366498799706,
+      "ratio_cv": 0.4861479333197506,
+      "ratio_max_to_min": 2.957175976857942,
+      "long_window_stable_count": 3,
+      "seed_count": 3,
+      "boundary_pass_count": 2,
+      "max_worst_local_boundary_gate": 0.05641186419879904
+    }
+  ],
+  "response_particle_count_medians": [
+    17.415330723782837,
+    6.881825209441547,
+    21.333271453211484
+  ],
+  "response_median_monotonic_with_particle_count": false,
+  "response_convergence_assessment": "No clear magnitude convergence within 6000/12000/24000: the median response is non-monotonic and seed spread remains material. The 24000-particle level does show the best temporal-window stability and the lowest seed CV of the three tested levels, but not convergence to a unique scalar.",
+  "boundary_assessment": {
+    "global_all_9_cases_pass_5pct": true,
+    "local_boundary_pass_fraction_by_particle_count": {
+      "6000": "1/3",
+      "12000": "1/3",
+      "24000": "2/3"
+    },
+    "max_worst_local_gate_by_particle_count": {
+      "6000": 0.07135322215666065,
+      "12000": 0.05995022130217908,
+      "24000": 0.05641186419879904
+    },
+    "high_particle_boundary_pass_fraction": "2/3",
+    "interpretation": "Global independent holdout is robust across all realizations. The strict local 5% gate is not uniformly satisfied; failures remain concentrated in feed/transition regions and become less severe at higher particle count."
+  },
+  "temporal_estimator_assessment": {
+    "long_window_stable_count_by_particle_count": {
+      "6000": "0/3",
+      "12000": "1/3",
+      "24000": "3/3"
+    },
+    "high_particle_all_three_seeds_long_window_stable": true,
+    "interpretation": "Temporal/coherent-estimator robustness improves strongly with particle count (0/3, 1/3, 3/3 stable at 6000, 12000, 24000 respectively)."
+  },
+  "final_response_characterization": {
+    "recommended_characterization": "highest-sampling three-seed long-window coherent response distribution",
+    "particles_per_species": 24000,
+    "primary_window_cycles": 9.0,
+    "median_plasma_to_vacuum_ratio": 21.333271453211484,
+    "mean_plasma_to_vacuum_ratio": 16.894678255776377,
+    "min_plasma_to_vacuum_ratio": 7.4170983261205885,
+    "max_plasma_to_vacuum_ratio": 21.93366498799706,
+    "coefficient_of_variation": 0.4861479333197506,
+    "max_to_min_ratio": 2.957175976857942,
+    "interpretation": "Strong O(10) coherent plasma modification is reproducible in scale, but the precise projected-moment ratio is realization dependent and must not be presented as a unique converged scalar."
+  },
+  "manuscript_claims": {
+    "supported": [
+      "The corrected atomic two-way solver remained finite and dynamically stable in all nine article-scale sensitivity realizations.",
+      "Global independent boundary residual remained below 5% in all nine realizations.",
+      "At 24000 particles/species, all three seeds had stable final-8/9/10-cycle coherent estimates.",
+      "The plasma produces a strong O(10) modification of the auxiliary-source axial moment relative to matched vacuum.",
+      "The precise coherent response magnitude is seed/sampling dependent."
+    ],
+    "not_supported": [
+      "A unique particle-converged scalar plasma/vacuum response ratio.",
+      "Uniform <5% local boundary error for every seed and every named region.",
+      "A calibrated port current, impedance, admittance, S-parameter, or sheath-response coefficient."
+    ]
+  },
+  "next_step": "Freeze numerical parameters and move to manuscript/reviewer-response revision. Use the 24000-particle three-seed distribution as the highest-sampling response characterization; report local feed-transition boundary exceedances explicitly. Do not run further particle/seed/parameter sweeps.",
+  "c3_qualification_relabelled_as_pass": false
+}

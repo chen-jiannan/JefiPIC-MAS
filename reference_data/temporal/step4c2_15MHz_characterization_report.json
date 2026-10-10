@@ -1,0 +1,110 @@
+{
+  "step": "Step4C2 single-frequency characterization",
+  "mode": "formal",
+  "frequency_Hz": 15000000.0,
+  "frequency_MHz": 15.0,
+  "historical_3_6_9_gate_modified": false,
+  "this_frequency_is_part_of_original_formal_gate": false,
+  "interpretation": "Non-gating characterization when the requested frequency is not one of the original 3/6/9 MHz formal qualification frequencies. The numerical metrics are computed with the same operator and threshold definitions for comparability, but do not retroactively change the audited Step4C2-V4 decision.",
+  "settings": {
+    "total_length_m": 0.06,
+    "sources_per_arm": 900,
+    "collocation_points_per_arm": 1800,
+    "depth_frac": 0.8,
+    "lambda_rel": 0.0001,
+    "dt_s": 1e-09
+  },
+  "one_step_delay": {
+    "min_distance_m": 0.0007999999999999999,
+    "max_distance_m": 0.05919887487789055,
+    "max_delay_over_dt": 0.19746619135392174,
+    "alpha_min": 0.8025338086460783,
+    "alpha_max": 0.9973314872384148
+  },
+  "operator_assembly_seconds": 10.737319633364677,
+  "comparison_thresholds_reused_for_context_only": {
+    "boundary": 0.05,
+    "amplitude_relative_error": 0.05,
+    "phase_error_deg": 5.0,
+    "candidate_reference_global_difference": 0.05,
+    "weak_region_threshold": 0.2
+  },
+  "result": {
+    "frequency_Hz": 15000000.0,
+    "gmres_info": 0,
+    "reference": {
+      "collocation_rel_l2": 0.005585229112531963,
+      "worst_holdout_gate": 0.0061068448284535524
+    },
+    "mot_candidate": {
+      "continuous_physics_collocation_rel_l2": 0.005190703939239007,
+      "worst_holdout_gate": 0.005899128203475742
+    },
+    "holdouts": [
+      {
+        "pattern": "holdout",
+        "reference_worst_gate": {
+          "region": "all_transition",
+          "metric": "local_rel",
+          "value": 0.006081835238555421,
+          "incident_ratio": 1.8696759221567183
+        },
+        "candidate_worst_gate": {
+          "region": "all_transition",
+          "metric": "local_rel",
+          "value": 0.005899128203475742,
+          "incident_ratio": 1.8696759221567183
+        }
+      },
+      {
+        "pattern": "spot",
+        "reference_worst_gate": {
+          "region": "all_transition",
+          "metric": "local_rel",
+          "value": 0.0061068448284535524,
+          "incident_ratio": 1.8697262670610773
+        },
+        "candidate_worst_gate": {
+          "region": "all_transition",
+          "metric": "local_rel",
+          "value": 0.005812241683768337,
+          "incident_ratio": 1.8697262670610773
+        }
+      }
+    ],
+    "field_comparison": [
+      {
+        "pattern": "holdout",
+        "amplitude_relative_error": 0.0006859883033594194,
+        "phase_error_deg": 0.0006965478810506759,
+        "candidate_minus_reference_global_norm": 0.0026934086503577898
+      },
+      {
+        "pattern": "spot",
+        "amplitude_relative_error": 0.000685740954894376,
+        "phase_error_deg": 0.0006793327328109759,
+        "candidate_minus_reference_global_norm": 0.0028087034729798255
+      }
+    ],
+    "worst_field_amplitude_relative_error": 0.0006859883033594194,
+    "worst_field_phase_error_deg": 0.0006965478810506759,
+    "worst_candidate_minus_reference_global_norm": 0.0028087034729798255,
+    "retardation_diagnostic": {
+      "operator_retarded_minus_local_rel_fro": 0.0003530430048652341,
+      "max_pair_phase_delay_deg": 1.0663174333111776
+    },
+    "reference_operator_assembly_seconds": 11.458472891710699,
+    "gates": {
+      "gmres_converged": true,
+      "reference_collocation_lt_5pct": true,
+      "candidate_collocation_lt_5pct": true,
+      "reference_holdout_lt_5pct": true,
+      "candidate_holdout_lt_5pct": true,
+      "field_amplitude_error_lt_5pct": true,
+      "field_phase_error_lt_5deg": true,
+      "field_difference_global_norm_lt_5pct": true
+    },
+    "passed": true,
+    "quick_holdout_absolute_gates_are_descriptive": false
+  }
+}

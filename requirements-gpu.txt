@@ -1,0 +1,5 @@
+# Install requirements-cpu.txt first.
+# Then install a CuPy wheel matching the local CUDA runtime, e.g.
+#   pip install cupy-cuda12x
+# or
+#   pip install cupy-cuda11x

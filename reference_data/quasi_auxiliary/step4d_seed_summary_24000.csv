@@ -1,0 +1,4 @@
+seed,two_way_execution_valid,boundary_within_5pct,worst_region,worst_gate,primary_final_9cycle_ratio,long_window_span_8_9_10,long_window_stable
+101,True,True,all_transition,0.04655704991193657,7.4170983261205885,0.1432775541875137,True
+202,True,True,feed_transition,0.04327100923219877,21.333271453211484,0.11778793249264323,True
+303,True,False,feed_transition,0.05641186419879904,21.93366498799706,0.11611418416579482,True

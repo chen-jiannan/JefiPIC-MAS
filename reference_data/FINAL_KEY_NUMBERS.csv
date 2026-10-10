@@ -1,0 +1,18 @@
+evidence,metric,value,scope
+PIC CIC,worst normalized face-continuity error,9.79e-15,charge-conserving first-order CIC
+Full-EM backend parity,E Atomic-vs-observation relative L2,5.03e-16,"coincident grid, native staggered current"
+Full-EM backend parity,B Atomic-vs-observation relative L2,4.26e-16,"coincident grid, native staggered current"
+Full-EM broadband,spectral-bin spacing,0.999 MHz,1001 post-discard samples
+Full-EM broadband,f95,about 9.0 MHz,bin-resolved cumulative spectral energy
+Full-EM broadband,f99,about 15.0 MHz,bin-resolved cumulative spectral energy
+Retarded-MOT 15 MHz,worst holdout residual,0.590%,supplemental temporal characterization
+Retarded-MOT 15 MHz,field-amplitude error,0.0686%,vs continuous retarded harmonic reference
+Retarded-MOT 15 MHz,phase error,6.97e-4 deg,vs continuous retarded harmonic reference
+Overfit diagnostic,full-fit residual / worst holdout,0.559% / 0.611%,"900 sources/arm, 3 MHz"
+Overfit diagnostic,underdetermined fit residual / worst holdout,0.0487% / 3.519%,0.5 equations/unknown
+Spatial auxiliary chain,9 MHz global / worst-local holdout,5.594% / 6.555%,frozen quasi-electrostatic forcing; MAS spatial diagnostic
+Full-EM Step4D-A,collocation / global / worst-local,2.264% / 3.628% / 4.393%,668-step closure
+Full-EM Step4D-B,collocation / global / worst-local,3.038% / 4.431% / 4.566%,12 cycles; 24000 particles/species; seed 101
+Full-EM Step4D-B,steps completed,4001/4001,finite; no numerical runaway
+Mz diagnostic,final 1/2/3/4/6-cycle plasma-vacuum ratios,38.25 / 15.93 / 13.17 / 4.03 / 3.76,matched-case sensitivity only; not gain
+Quasi auxiliary 8-seed,24000-particle Mz median/range/CV,12.93 / 7.38-27.52 / 0.52,finite-particle sensitivity only

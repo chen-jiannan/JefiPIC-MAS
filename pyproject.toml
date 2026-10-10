@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jefipic-mas"
+version = "1.1.0"
+description = "Causal grid-decoupled Jefimenko-PIC / Method-of-Auxiliary-Sources code and reproducibility cases."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Jian-Nan Chen"}, {name = "Yong-Dong Li"}]
+dependencies = ["numpy>=1.24","scipy>=1.10","matplotlib>=3.7","h5py>=3.8","numba>=0.58"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["EMsolver*", "Particle_transport*", "RBG_Maxwell*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

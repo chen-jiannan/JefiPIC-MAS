@@ -1,0 +1,108 @@
+{
+  "experiment": "RETARDED_HARMONIC_COLLOCATION_OVERFIT_DIAGNOSTIC",
+  "purpose": "quantify collocation-vs-independent-holdout generalization using the current retarded harmonic electric-dipole MAS model",
+  "historical_time_local_recurrence_used": false,
+  "geometry": "60-mm article geometry",
+  "interpretation": "This is a deliberately underconstrained spatial fit. A small fit residual is not evidence of boundary accuracy unless the independent holdout remains comparably small.",
+  "results": [
+    {
+      "frequency_Hz": 3000000.0,
+      "sources_per_arm": 900,
+      "total_sources": 1800,
+      "unknowns": 3600,
+      "available_collocation_points": 3600,
+      "fit_fraction": 1.0,
+      "fit_points": 3600,
+      "fit_equations": 7200,
+      "lambda_rel": 0.0001,
+      "collocation_fit_rel_l2": 0.005585185779018092,
+      "unused_collocation_rel_l2": null,
+      "independent_holdout_global_rel_max": 0.005532570990607724,
+      "independent_holdout_worst_gate": 0.006106799124769051,
+      "holdout_to_fit_ratio": 1.0933922999858856,
+      "max_pair_phase_delay_deg": 0.2132634866622355,
+      "holdout_patterns": [
+        {
+          "pattern": "holdout",
+          "global_rel": 0.0055049785671668185,
+          "worst_region": "all_transition",
+          "worst_metric": "local_rel",
+          "worst_gate_value": 0.006081790285797897
+        },
+        {
+          "pattern": "spot",
+          "global_rel": 0.005532570990607724,
+          "worst_region": "all_transition",
+          "worst_metric": "local_rel",
+          "worst_gate_value": 0.006106799124769051
+        }
+      ]
+    },
+    {
+      "frequency_Hz": 3000000.0,
+      "sources_per_arm": 900,
+      "total_sources": 1800,
+      "unknowns": 3600,
+      "available_collocation_points": 3600,
+      "fit_fraction": 0.5,
+      "fit_points": 1800,
+      "fit_equations": 3600,
+      "lambda_rel": 0.0001,
+      "collocation_fit_rel_l2": 0.0037733221443122036,
+      "unused_collocation_rel_l2": 0.01582079628427543,
+      "independent_holdout_global_rel_max": 0.008084369462304428,
+      "independent_holdout_worst_gate": 0.008229275685014914,
+      "holdout_to_fit_ratio": 2.18090991711892,
+      "max_pair_phase_delay_deg": 0.21326347092282114,
+      "holdout_patterns": [
+        {
+          "pattern": "holdout",
+          "global_rel": 0.008084369462304428,
+          "worst_region": "all_transition",
+          "worst_metric": "local_rel",
+          "worst_gate_value": 0.008229275685014914
+        },
+        {
+          "pattern": "spot",
+          "global_rel": 0.007996140299849835,
+          "worst_region": "global",
+          "worst_metric": "local_rel",
+          "worst_gate_value": 0.007996140299849835
+        }
+      ]
+    },
+    {
+      "frequency_Hz": 3000000.0,
+      "sources_per_arm": 900,
+      "total_sources": 1800,
+      "unknowns": 3600,
+      "available_collocation_points": 3600,
+      "fit_fraction": 0.25,
+      "fit_points": 900,
+      "fit_equations": 1800,
+      "lambda_rel": 0.0001,
+      "collocation_fit_rel_l2": 0.0004873389677576802,
+      "unused_collocation_rel_l2": 0.0707551842848014,
+      "independent_holdout_global_rel_max": 0.03362459838698536,
+      "independent_holdout_worst_gate": 0.03519355985403572,
+      "holdout_to_fit_ratio": 72.21577214719065,
+      "max_pair_phase_delay_deg": 0.2132634866622355,
+      "holdout_patterns": [
+        {
+          "pattern": "holdout",
+          "global_rel": 0.033389973175760854,
+          "worst_region": "side_mid",
+          "worst_metric": "global_norm",
+          "worst_gate_value": 0.03367766009339859
+        },
+        {
+          "pattern": "spot",
+          "global_rel": 0.03362459838698536,
+          "worst_region": "side_mid",
+          "worst_metric": "global_norm",
+          "worst_gate_value": 0.03519355985403572
+        }
+      ]
+    }
+  ]
+}

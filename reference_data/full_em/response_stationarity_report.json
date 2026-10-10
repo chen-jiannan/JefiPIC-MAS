@@ -1,0 +1,116 @@
+{
+  "experiment": "STEP4D_B_RESPONSE_STATIONARITY_DIAGNOSTIC",
+  "simulation_rerun": false,
+  "root": "article_cases_output/step4d_b_full_em_atomic_final",
+  "run": "N24000_seed101",
+  "total_cycles": 12,
+  "observable": "axial auxiliary electric-current moment Mz",
+  "observable_is_not_port_current": true,
+  "observable_is_not_impedance_or_gain": true,
+  "purpose": "Quantify finite-time/window dependence of the auxiliary response without using it as a numerical-method acceptance gate.",
+  "final_window_values": {
+    "1cycle": {
+      "end_cycle": 12,
+      "window_cycles": 1.0,
+      "plasma_abs_Mz_A_m": 1.4589971414042269e-09,
+      "vacuum_abs_Mz_A_m": 3.8146300012306685e-11,
+      "plasma_to_vacuum_ratio": 38.24740907856143,
+      "plasma_fit_condition_number": 8.760115446861304,
+      "vacuum_fit_condition_number": 8.760115446861304,
+      "num_samples": 334
+    },
+    "2cycle": {
+      "end_cycle": 12,
+      "window_cycles": 2.0,
+      "plasma_abs_Mz_A_m": 6.078438802050325e-10,
+      "vacuum_abs_Mz_A_m": 3.8146273607433206e-11,
+      "plasma_to_vacuum_ratio": 15.934554616275484,
+      "plasma_fit_condition_number": 3.95665024266619,
+      "vacuum_fit_condition_number": 3.95665024266619,
+      "num_samples": 668
+    },
+    "3cycle": {
+      "end_cycle": 12,
+      "window_cycles": 3.0,
+      "plasma_abs_Mz_A_m": 5.024091002060892e-10,
+      "vacuum_abs_Mz_A_m": 3.814627180125013e-11,
+      "plasma_to_vacuum_ratio": 13.170595093112723,
+      "plasma_fit_condition_number": 3.663595136001703,
+      "vacuum_fit_condition_number": 3.663595136001703,
+      "num_samples": 1001
+    },
+    "4cycle": {
+      "end_cycle": 12,
+      "window_cycles": 4.0,
+      "plasma_abs_Mz_A_m": 1.5375129034987894e-10,
+      "vacuum_abs_Mz_A_m": 3.8146272318342015e-11,
+      "plasma_to_vacuum_ratio": 4.030571822766287,
+      "plasma_fit_condition_number": 3.572626549541344,
+      "vacuum_fit_condition_number": 3.572626549541344,
+      "num_samples": 1334
+    },
+    "6cycle": {
+      "end_cycle": 12,
+      "window_cycles": 6.0,
+      "plasma_abs_Mz_A_m": 1.4324991194723665e-10,
+      "vacuum_abs_Mz_A_m": 3.814627183874937e-11,
+      "plasma_to_vacuum_ratio": 3.7552794819052786,
+      "plasma_fit_condition_number": 3.5107962846248064,
+      "vacuum_fit_condition_number": 3.5107962846248064,
+      "num_samples": 2001
+    }
+  },
+  "late_cycle_ratio_statistics_by_window": {
+    "1cycle": {
+      "count": 6,
+      "min": 5.4071744784067866,
+      "q25": 17.842878949720834,
+      "median": 31.404130390667635,
+      "q75": 57.124492310756494,
+      "max": 80.29529068949572,
+      "mean": 37.921855672682625,
+      "std": 28.911715159327855
+    },
+    "2cycle": {
+      "count": 6,
+      "min": 4.648373324317689,
+      "q25": 8.330261694214627,
+      "median": 15.567937825202472,
+      "q75": 16.31913813901415,
+      "max": 33.59614230462783,
+      "mean": 15.311272084475641,
+      "std": 10.350683785153137
+    },
+    "3cycle": {
+      "count": 6,
+      "min": 4.489637576658758,
+      "q25": 5.110093221707052,
+      "median": 9.95776453380852,
+      "q75": 23.201928491185985,
+      "max": 35.75782177333738,
+      "mean": 15.212306835377483,
+      "std": 13.074913236349557
+    },
+    "4cycle": {
+      "count": 6,
+      "min": 3.334034485745073,
+      "q25": 3.637021070078107,
+      "median": 9.902964102035513,
+      "q75": 24.587182415806403,
+      "max": 30.243013460644743,
+      "mean": 14.06887856615831,
+      "std": 12.43502821988859
+    },
+    "6cycle": {
+      "count": 6,
+      "min": 3.7552794819052786,
+      "q25": 13.882721341562917,
+      "median": 19.40208304424246,
+      "q75": 22.292445720364814,
+      "max": 24.036802029617743,
+      "mean": 16.98251360884721,
+      "std": 7.700485092420525
+    }
+  },
+  "interpretation_rule": "If ratios vary strongly with fit window/end time while the underlying two-way execution and boundary metrics remain valid, report the response as window/realization dependent and do not promote one ratio to a converged physical scalar."
+}

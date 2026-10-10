@@ -1,0 +1,553 @@
+{
+  "experiment": "STEP4D_A_FULL_EM_ATOMIC_TWO_WAY_RETARDED_MOT_CLOSURE",
+  "status": "complete",
+  "mode": "formal",
+  "purpose": "full-EM validation of two-way PIC/Jefimenko <-> causal Retarded-MOT MAS closure",
+  "v2e_precondition": {
+    "v2e_branch": "C_BASIS_TRAINING_HOLDOUT_TRADEOFF",
+    "v2e_promoted_basis": "none",
+    "known_c3_limitation_explicitly_accepted": true,
+    "frozen_checks": {
+      "sources_per_arm": true,
+      "source_depth_fraction": true,
+      "lambda_rel": true,
+      "softening_m": true,
+      "boundary_gate": true,
+      "source_placement": true
+    }
+  },
+  "c3_qualification_relabelled_as_pass": false,
+  "known_upper_band_limitation_carried_forward": true,
+  "production_basis": "2-tangential-DOF continuity-consistent electric dipoles",
+  "drive": {
+    "type": "localized impressed feed electric field / voltage-like drive",
+    "prescribed_active_surface_current_used": false,
+    "unconstrained_active_passive_same_mode_cancellation_possible": false,
+    "feed_frequency_Hz": 3000000.0,
+    "feed_field_amplitude_V_per_m": 1.0,
+    "ramp_cycles": 0.5,
+    "grid_injection": "same analytic E_feed(x,t) added to PIC E field; no external B is prescribed, while retarded plasma/MAS currents generate self-consistent magnetic fields",
+    "boundary_rhs": "same analytic E_feed at collocation/holdout points"
+  },
+  "frozen": {
+    "sources_per_arm": 900,
+    "source_depth_fraction": 0.8,
+    "lambda_rel": 0.0001,
+    "softening_m": 0.0,
+    "dt_s": 1e-09,
+    "collocation_factor": 2.0,
+    "boundary_gate": 0.05,
+    "weak_region_threshold": 0.2,
+    "plasma_kernel_quasi_electrostatic": false,
+    "full_em_grid_source_enabled": true,
+    "full_em_atomic_staggered_current_patch": true,
+    "plasma_grid_kernel_mode_actual": "atomic"
+  },
+  "geometry": {
+    "fingerprint": "0cf4be9664b22e91feb7504bb0af4baefea3b96a201188e9bb815d6016b3235d",
+    "num_sources_total": 1800,
+    "num_collocation_points": 3600,
+    "num_holdout_points": 2020,
+    "one_step_delay_collocation": {
+      "min_distance_m": 0.0007999999999999999,
+      "max_distance_m": 0.05919887487789055,
+      "min_delay_s": 2.668512761585216e-12,
+      "max_delay_s": 1.9746619135392176e-10,
+      "max_delay_over_dt": 0.19746619135392174,
+      "alpha_min": 0.8025338086460783,
+      "alpha_max": 0.9973314872384148
+    },
+    "holdout_max_delay_over_dt": 0.19746777389626707
+  },
+  "execution": {
+    "steps_requested": 668,
+    "steps_completed": 668,
+    "all_states_finite": true,
+    "numerical_runaway_detected": false,
+    "plasma_surface_rms_runaway_gate_V_per_m": 1000000000000.0,
+    "coefficient_temporal_closure_max_relative": 4.0196792614810595e-15,
+    "coefficient_temporal_closure_gate": 1e-10,
+    "solver_point_history_continuity_residual_max_code": 0.002084002985068774,
+    "absorbed_electrons": 6,
+    "absorbed_ions": 0
+  },
+  "boundary": {
+    "time_aggregated_collocation_rel_l2": 0.022636862949732387,
+    "independent_holdout": {
+      "regions": {
+        "global": {
+          "region": "global",
+          "residual_rms_V_per_m": 0.14884041909530396,
+          "incident_rms_V_per_m": 4.103047652744846,
+          "incident_ratio": 1.0,
+          "local_rel": 0.036275576520719444,
+          "global_norm": 0.036275576520719444,
+          "gate_metric": "local_rel",
+          "gate_value": 0.036275576520719444,
+          "passed_5pct": true,
+          "sample_count_accumulated": 5376
+        },
+        "feed_rounded": {
+          "region": "feed_rounded",
+          "residual_rms_V_per_m": 0.1808975916046057,
+          "incident_rms_V_per_m": 4.957894836646324,
+          "incident_ratio": 1.20834444448375,
+          "local_rel": 0.036486774642233134,
+          "global_norm": 0.044088591436072966,
+          "gate_metric": "local_rel",
+          "gate_value": 0.036486774642233134,
+          "passed_5pct": true,
+          "sample_count_accumulated": 18018
+        },
+        "feed_tips": {
+          "region": "feed_tips",
+          "residual_rms_V_per_m": 0.1322440315384849,
+          "incident_rms_V_per_m": 5.136761958487985,
+          "incident_ratio": 1.251938167242978,
+          "local_rel": 0.02574462912768712,
+          "global_norm": 0.0322306838064668,
+          "gate_metric": "local_rel",
+          "gate_value": 0.02574462912768712,
+          "passed_5pct": true,
+          "sample_count_accumulated": 11865
+        },
+        "feed_transition": {
+          "region": "feed_transition",
+          "residual_rms_V_per_m": 0.2071719178650596,
+          "incident_rms_V_per_m": 4.715624592198991,
+          "incident_ratio": 1.1492980319261819,
+          "local_rel": 0.043933081146404644,
+          "global_norm": 0.0504922036980161,
+          "gate_metric": "local_rel",
+          "gate_value": 0.043933081146404644,
+          "passed_5pct": true,
+          "sample_count_accumulated": 13272
+        },
+        "outer_rounded": {
+          "region": "outer_rounded",
+          "residual_rms_V_per_m": 0.13678922100498703,
+          "incident_rms_V_per_m": 3.7578382895256346,
+          "incident_ratio": 0.9158651343012616,
+          "local_rel": 0.03640103976434133,
+          "global_norm": 0.03333844317247404,
+          "gate_metric": "local_rel",
+          "gate_value": 0.03640103976434133,
+          "passed_5pct": true,
+          "sample_count_accumulated": 13524
+        },
+        "outer_tips": {
+          "region": "outer_tips",
+          "residual_rms_V_per_m": 0.10943081668630707,
+          "incident_rms_V_per_m": 3.6448389315718974,
+          "incident_ratio": 0.8883247868529099,
+          "local_rel": 0.030023498634852763,
+          "global_norm": 0.026670618025384212,
+          "gate_metric": "local_rel",
+          "gate_value": 0.030023498634852763,
+          "passed_5pct": true,
+          "sample_count_accumulated": 10122
+        },
+        "all_transition": {
+          "region": "all_transition",
+          "residual_rms_V_per_m": 0.19102120860920482,
+          "incident_rms_V_per_m": 4.456370376968294,
+          "incident_ratio": 1.0861122643767207,
+          "local_rel": 0.04286475145702727,
+          "global_norm": 0.04655593226693723,
+          "gate_metric": "local_rel",
+          "gate_value": 0.04286475145702727,
+          "passed_5pct": true,
+          "sample_count_accumulated": 21042
+        },
+        "side_mid": {
+          "region": "side_mid",
+          "residual_rms_V_per_m": 0.11277033383905126,
+          "incident_rms_V_per_m": 3.9149072518929886,
+          "incident_ratio": 0.9541461818689833,
+          "local_rel": 0.028805365384971263,
+          "global_norm": 0.027484529399411303,
+          "gate_metric": "local_rel",
+          "gate_value": 0.028805365384971263,
+          "passed_5pct": true,
+          "sample_count_accumulated": 8736
+        }
+      },
+      "worst_gate": {
+        "region": "feed_transition",
+        "residual_rms_V_per_m": 0.2071719178650596,
+        "incident_rms_V_per_m": 4.715624592198991,
+        "incident_ratio": 1.1492980319261819,
+        "local_rel": 0.043933081146404644,
+        "global_norm": 0.0504922036980161,
+        "gate_metric": "local_rel",
+        "gate_value": 0.043933081146404644,
+        "passed_5pct": true,
+        "sample_count_accumulated": 13272
+      }
+    },
+    "boundary_within_predeclared_5pct": true,
+    "interpretation": "reported diagnostically; failure does not get relabelled because C3 upper-band limitation is explicitly carried forward"
+  },
+  "homogeneous_mas_tail_from_coupled_final_state": {
+    "steps": 200,
+    "tail_window": 50,
+    "median_growth_factor_last_window": 0.9900400248643078,
+    "growth_gate": 1.001,
+    "component_stability_only": true
+  },
+  "vacuum_reference": {
+    "collocation_rel_l2": 0.004988094321474934,
+    "independent_holdout": {
+      "regions": {
+        "global": {
+          "region": "global",
+          "residual_rms_V_per_m": 0.0008435395903783157,
+          "incident_rms_V_per_m": 0.12463643977284644,
+          "incident_ratio": 1.0,
+          "local_rel": 0.006768001331839158,
+          "global_norm": 0.006768001331839158,
+          "gate_metric": "local_rel",
+          "gate_value": 0.006768001331839158,
+          "passed_5pct": true,
+          "sample_count_accumulated": 5376
+        },
+        "feed_rounded": {
+          "region": "feed_rounded",
+          "residual_rms_V_per_m": 0.0014257671023663128,
+          "incident_rms_V_per_m": 0.30629820037826144,
+          "incident_ratio": 2.457533293926711,
+          "local_rel": 0.004654833429009928,
+          "global_norm": 0.011439408129474936,
+          "gate_metric": "local_rel",
+          "gate_value": 0.004654833429009928,
+          "passed_5pct": true,
+          "sample_count_accumulated": 18018
+        },
+        "feed_tips": {
+          "region": "feed_tips",
+          "residual_rms_V_per_m": 0.0008093759008560537,
+          "incident_rms_V_per_m": 0.2853546584731416,
+          "incident_ratio": 2.2894962259288603,
+          "local_rel": 0.002836385798594679,
+          "global_norm": 0.006493894581160734,
+          "gate_metric": "local_rel",
+          "gate_value": 0.002836385798594679,
+          "passed_5pct": true,
+          "sample_count_accumulated": 11865
+        },
+        "feed_transition": {
+          "region": "feed_transition",
+          "residual_rms_V_per_m": 0.001791552647178913,
+          "incident_rms_V_per_m": 0.3355028338694375,
+          "incident_ratio": 2.6918518731833263,
+          "local_rel": 0.005339903173146084,
+          "global_norm": 0.014374228359250875,
+          "gate_metric": "local_rel",
+          "gate_value": 0.005339903173146084,
+          "passed_5pct": true,
+          "sample_count_accumulated": 13272
+        },
+        "outer_rounded": {
+          "region": "outer_rounded",
+          "residual_rms_V_per_m": 0.00018805894717248043,
+          "incident_rms_V_per_m": 3.288461703604426e-13,
+          "incident_ratio": 2.6384432270351624e-12,
+          "local_rel": 571875132.2734039,
+          "global_norm": 0.0015088600694566,
+          "gate_metric": "global_norm",
+          "gate_value": 0.0015088600694566,
+          "passed_5pct": true,
+          "sample_count_accumulated": 13524
+        },
+        "outer_tips": {
+          "region": "outer_tips",
+          "residual_rms_V_per_m": 0.00010594156897816098,
+          "incident_rms_V_per_m": 2.087193629000723e-13,
+          "incident_ratio": 1.6746255210793042e-12,
+          "local_rel": 507579016.65731984,
+          "global_norm": 0.0008500047752586851,
+          "gate_metric": "global_norm",
+          "gate_value": 0.0008500047752586851,
+          "passed_5pct": true,
+          "sample_count_accumulated": 10122
+        },
+        "all_transition": {
+          "region": "all_transition",
+          "residual_rms_V_per_m": 0.0014308538115751306,
+          "incident_rms_V_per_m": 0.2664531576081561,
+          "incident_ratio": 2.1378431387624257,
+          "local_rel": 0.005370001333139887,
+          "global_norm": 0.011480220505198186,
+          "gate_metric": "local_rel",
+          "gate_value": 0.005370001333139887,
+          "passed_5pct": true,
+          "sample_count_accumulated": 21042
+        },
+        "side_mid": {
+          "region": "side_mid",
+          "residual_rms_V_per_m": 0.0002177763113403057,
+          "incident_rms_V_per_m": 0.02160212795440111,
+          "incident_ratio": 0.1733211249757424,
+          "local_rel": 0.010081243468236056,
+          "global_norm": 0.0017472924590690283,
+          "gate_metric": "global_norm",
+          "gate_value": 0.0017472924590690283,
+          "passed_5pct": true,
+          "sample_count_accumulated": 8736
+        }
+      },
+      "worst_gate": {
+        "region": "global",
+        "residual_rms_V_per_m": 0.0008435395903783157,
+        "incident_rms_V_per_m": 0.12463643977284644,
+        "incident_ratio": 1.0,
+        "local_rel": 0.006768001331839158,
+        "global_norm": 0.006768001331839158,
+        "gate_metric": "local_rel",
+        "gate_value": 0.006768001331839158,
+        "passed_5pct": true,
+        "sample_count_accumulated": 5376
+      }
+    },
+    "temporal_closure_max_relative": 1.2688252915568208e-14,
+    "response": {
+      "num_samples": 418,
+      "current_fit_condition_number": 4.086460316440841,
+      "polarization_fit_condition_number": 4.086460316440841,
+      "frequencies": {
+        "3MHz": {
+          "current_moment_vector_A_m": [
+            [
+              3.4846491958620234e-17,
+              2.4747108828380264e-16
+            ],
+            [
+              -6.6962844896487346e-18,
+              -5.2537622890841723e-17
+            ],
+            [
+              -1.5826480394474102e-15,
+              3.814616674442747e-11
+            ]
+          ],
+          "current_moment_norm_A_m": 3.8146166778114154e-11,
+          "axial_current_moment_A_m": 3.8146166777258746e-11,
+          "polarization_moment_vector_C_m": [
+            [
+              1.3128622022499572e-23,
+              -1.8484205833121507e-24
+            ],
+            [
+              -2.786965969503311e-24,
+              3.5536867812984964e-25
+            ],
+            [
+              2.023662661278518e-18,
+              8.635011945441743e-23
+            ]
+          ],
+          "polarization_moment_norm_C_m": 2.023662663166188e-18,
+          "axial_polarization_moment_C_m": 2.023662663120807e-18,
+          "continuity_harmonic_ratio_abs_iwD_over_M": 0.9999731495319301
+        },
+        "6MHz": {
+          "current_moment_vector_A_m": [
+            [
+              -3.5150222450171844e-22,
+              -1.3473127925159914e-21
+            ],
+            [
+              -6.128533647677552e-22,
+              -6.322001016077608e-22
+            ],
+            [
+              6.17456510229598e-17,
+              1.1113652565894193e-17
+            ]
+          ],
+          "current_moment_norm_A_m": 6.273785696306987e-17,
+          "axial_current_moment_A_m": 6.273785694143962e-17,
+          "polarization_moment_vector_C_m": [
+            [
+              -4.1956595753296976e-29,
+              1.0152117309241634e-28
+            ],
+            [
+              -1.902583951192468e-29,
+              7.545831923224847e-29
+            ],
+            [
+              5.2629016056566785e-27,
+              -2.7153751969243226e-27
+            ]
+          ],
+          "polarization_moment_norm_C_m": 5.9236406555360195e-27,
+          "axial_polarization_moment_C_m": 5.922110753008208e-27,
+          "continuity_harmonic_ratio_abs_iwD_over_M": 0.003558590084343188
+        },
+        "9MHz": {
+          "current_moment_vector_A_m": [
+            [
+              -1.4013974601429999e-22,
+              3.8783740446385583e-22
+            ],
+            [
+              2.797808314209749e-24,
+              6.842717835258747e-23
+            ],
+            [
+              -3.8148631359949104e-17,
+              4.888541660125109e-17
+            ]
+          ],
+          "current_moment_norm_A_m": 6.200888671061524e-17,
+          "axial_current_moment_A_m": 6.200888670920619e-17,
+          "polarization_moment_vector_C_m": [
+            [
+              -1.5679905389111896e-29,
+              -9.749507531822525e-30
+            ],
+            [
+              -8.768437401944198e-30,
+              -3.490295922533636e-30
+            ],
+            [
+              1.251980106207588e-27,
+              2.7835766342783825e-27
+            ]
+          ],
+          "polarization_moment_norm_C_m": 3.052242297923013e-27,
+          "axial_polarization_moment_C_m": 3.052171860370928e-27,
+          "continuity_harmonic_ratio_abs_iwD_over_M": 0.002783411566506995
+        }
+      }
+    }
+  },
+  "two_way_plasma_response": {
+    "num_samples": 418,
+    "current_fit_condition_number": 4.086460316440841,
+    "polarization_fit_condition_number": 4.086460316440841,
+    "frequencies": {
+      "3MHz": {
+        "current_moment_vector_A_m": [
+          [
+            -8.576442898244784e-11,
+            -1.6579082836827897e-10
+          ],
+          [
+            -8.49108601366145e-11,
+            -1.6366037337083133e-10
+          ],
+          [
+            -2.5332424343544075e-09,
+            -2.428656551617588e-09
+          ]
+        ],
+        "current_moment_norm_A_m": 3.519165609197672e-09,
+        "axial_current_moment_A_m": 3.5093717211103296e-09,
+        "polarization_moment_vector_C_m": [
+          [
+            -5.24035488598521e-18,
+            9.156812000252564e-18
+          ],
+          [
+            -8.138409959199385e-18,
+            5.152786162287675e-18
+          ],
+          [
+            -1.0685010210155079e-16,
+            1.8493728143034203e-16
+          ]
+        ],
+        "polarization_moment_norm_C_m": 2.140626913527779e-16,
+        "axial_polarization_moment_C_m": 2.1358544515476087e-16,
+        "continuity_harmonic_ratio_abs_iwD_over_M": 1.147211270967224
+      },
+      "6MHz": {
+        "current_moment_vector_A_m": [
+          [
+            5.772944121009286e-11,
+            1.7637639190512435e-10
+          ],
+          [
+            -7.431415701277232e-11,
+            8.549806998554727e-11
+          ],
+          [
+            2.2146927483354826e-09,
+            1.3197824607255736e-09
+          ]
+        ],
+        "current_moment_norm_A_m": 2.5872695157397686e-09,
+        "axial_current_moment_A_m": 2.578117474664144e-09,
+        "polarization_moment_vector_C_m": [
+          [
+            4.790482194698715e-18,
+            1.3721290031069596e-19
+          ],
+          [
+            2.2794136016174545e-18,
+            2.2147352898910766e-18
+          ],
+          [
+            3.7822126836424686e-17,
+            -4.393581003626743e-17
+          ]
+        ],
+        "polarization_moment_norm_C_m": 5.825750602096557e-17,
+        "axial_polarization_moment_C_m": 5.797299959441097e-17,
+        "continuity_harmonic_ratio_abs_iwD_over_M": 0.8477234327241429
+      },
+      "9MHz": {
+        "current_moment_vector_A_m": [
+          [
+            3.684955239935727e-11,
+            9.167202838936573e-11
+          ],
+          [
+            -7.470092493309419e-11,
+            1.3678705382308697e-10
+          ],
+          [
+            -5.786392674046631e-10,
+            -2.1891099031228484e-09
+          ]
+        ],
+        "current_moment_norm_A_m": 2.271800639649889e-09,
+        "axial_current_moment_A_m": 2.2642936138524816e-09,
+        "polarization_moment_vector_C_m": [
+          [
+            1.7950553411876484e-18,
+            -3.012668225836934e-19
+          ],
+          [
+            2.4317017138546628e-18,
+            1.359979290975034e-18
+          ],
+          [
+            -3.244829074671868e-17,
+            1.7956776553492242e-17
+          ]
+        ],
+        "polarization_moment_norm_C_m": 3.7234568600280554e-17,
+        "axial_polarization_moment_C_m": 3.708554161092484e-17,
+        "continuity_harmonic_ratio_abs_iwD_over_M": 0.9261775763519287
+      }
+    }
+  },
+  "rf_response_proxy": {
+    "observable": "axial auxiliary electric-current moment M_z=sum_j w_j K_jz",
+    "units": "A m",
+    "not_a_port_current": true,
+    "not_impedance_or_admittance": true,
+    "not_S_parameter": true,
+    "3MHz_vacuum_abs_A_m": 3.8146166777258746e-11,
+    "3MHz_two_way_plasma_abs_A_m": 3.5093717211103296e-09,
+    "3MHz_plasma_to_vacuum_ratio": 91.99801756234338,
+    "response_values_are_manuscript_final": false,
+    "reason_not_final": "Step 4D-A uses the closure-test particle/grid settings; reviewer-facing article values require Step 4D-B representative and seed/window sensitivity reruns after closure stability is established."
+  },
+  "two_way_execution_valid": true,
+  "classification": "TWO_WAY_EXECUTION_VALID_AND_BOUNDARY_WITHIN_PREDECLARED_5PCT",
+  "next_step": "Run Step 4D-B article-scale representative plus seed/window sensitivity using the identical frozen two-way formulation, then revise Major-2/Major-4 manuscript claims."
+}

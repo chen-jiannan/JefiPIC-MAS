@@ -1,0 +1,44 @@
+{
+  "experiment": "STEP4D_B1_ARTICLE_SCALE_REPRESENTATIVE",
+  "status": "complete",
+  "case": {
+    "particles_per_species": 24000,
+    "seed": 101,
+    "grid_n": 17,
+    "cycles": 12.0,
+    "fit_windows_cycles": [
+      1.0,
+      2.0,
+      3.0
+    ],
+    "duration_extension_reason": "The validated 6-cycle atomic B1 execution passed stability and the 5% boundary gate, but its final 1/2/3-cycle 3 MHz plasma/vacuum ratios were 66.1366/45.5647/30.8579 with relative span 0.7743 > 0.20; duration is extended only, with all physics and estimator definitions frozen."
+  },
+  "two_way_execution_valid": true,
+  "boundary_within_predeclared_5pct": true,
+  "worst_holdout": {
+    "region": "all_transition",
+    "residual_rms_V_per_m": 0.08691242679560067,
+    "incident_rms_V_per_m": 1.9032665370084108,
+    "incident_ratio": 1.0007484030870022,
+    "local_rel": 0.04566487410229532,
+    "global_norm": 0.04569904983504105,
+    "gate_metric": "local_rel",
+    "gate_value": 0.04566487410229532,
+    "passed_5pct": true,
+    "sample_count_accumulated": 188376
+  },
+  "window_diagnostics": {
+    "ratio_min": 13.170595093112723,
+    "ratio_max": 38.24740907856143,
+    "ratio_median": 15.934554616275484,
+    "ratio_relative_span": 1.573737992013618,
+    "ratio_relative_span_gate": 0.2,
+    "max_fit_condition_number": 8.760115446861304,
+    "fit_condition_limit": 100.0,
+    "window_stability_ready": false
+  },
+  "ready_for_b2_sensitivity": false,
+  "known_c3_limitation_carried_forward": true,
+  "c3_qualification_relabelled_as_pass": false,
+  "next_step": "Do not start the 3x3 sensitivity matrix yet; extend only run duration until final-window response is converged. Do not retune MAS physics."
+}
