@@ -1,0 +1,537 @@
+{
+  "status": "INDEPENDENT_POSTPROCESSING_PASSED_FOR_COMPLETED_CASE",
+  "archive_members": 65,
+  "completion": {
+    "nodes": 4001,
+    "updates": 4000,
+    "dt_s": 1e-09,
+    "time_start_s": 0.0,
+    "time_end_s": 4e-06,
+    "drive_cycles": 12,
+    "true_two_way": true,
+    "independent_snapshots": 188,
+    "independent_spatial_points": 2020,
+    "global_uniform_subset_points": 256,
+    "global_note": "Global denotes the existing 256-point uniform subset. Dense regional sets overlap; their 2020-point union is not an area quadrature."
+  },
+  "native_feedback": [
+    {
+      "mode": "SI",
+      "E_relative": 2.4255138750134512e-15,
+      "B_relative": 2.1605723143772143e-15,
+      "CPU_reference_matches_bound_fixture": true,
+      "nodes": 12,
+      "receivers": 27,
+      "scored_nodes": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ]
+    },
+    {
+      "mode": "LHQCD",
+      "E_relative": 2.5304146306903444e-15,
+      "B_relative": 2.5542482483573892e-15,
+      "CPU_reference_matches_bound_fixture": true,
+      "nodes": 12,
+      "receivers": 27,
+      "scored_nodes": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ]
+    }
+  ],
+  "source_bound_hashes": {
+    "magnetic_feedback.py": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\magnetic_feedback.py"
+    },
+    "article_backend.py": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\article_backend.py"
+    },
+    "article_em_augmented_cpu.py": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\article_em_augmented_cpu.py"
+    },
+    "article_compatible_mixed_cpu.py": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\article_compatible_mixed_cpu.py"
+    },
+    "run_article.py": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\run_article.py"
+    },
+    "feedback_reference.py": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\feedback_reference.py"
+    },
+    "validate_operator_cpu.py": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "outputs\\CPC_article_compatible_GPU_20261115\\validate_operator_cpu.py"
+    },
+    "actual_geometry.npz": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\actual_geometry.npz"
+    },
+    "calibration.json": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\calibration.json"
+    },
+    "code/EMsolver/cuda_functions.py": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "outputs\\CPC_article_compatible_GPU_20261115\\code\\EMsolver\\cuda_functions.py"
+    },
+    "validation/em_feedback_fixture.npz": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\CPU_release_evidence\\em_feedback_fixture.npz"
+    },
+    "validation/operator_fixture.npz": {
+      "hash_matches": true,
+      "manifest_matches": true,
+      "evidence_path": "work\\compatible_return_review_20261115\\compatible_return_20261115_131122_714744\\provenance\\CPU_release_evidence\\operator_fixture.npz"
+    }
+  },
+  "provenance_hashes": {
+    "actual_geometry.npz": true,
+    "article_backend.py": true,
+    "article_compatible_mixed_cpu.py": true,
+    "article_direct_incident.py": true,
+    "article_em_augmented_cpu.py": true,
+    "article_reflective_cc.py": true,
+    "calibration.json": true,
+    "feedback_reference.py": true,
+    "geometry_provenance.json": true,
+    "magnetic_feedback.py": true,
+    "code/EMsolver/mas_mixed_mot.py": true,
+    "run_article.py": true,
+    "run_full.py": true,
+    "validate_feedback_gpu.py": true
+  },
+  "native_completed_before_full_run": true,
+  "source_continuity": {
+    "valid_updates": 4000,
+    "maximum_linf_relative": 5.411101485616866e-14,
+    "median_linf_relative": 1.5086497600397297e-14,
+    "p99_linf_relative": 2.4974454027644213e-14,
+    "all_below_1e_9": true,
+    "initial_node": "Previous rho unavailable: expected; no time difference at node zero.",
+    "scope": "Summary recomputed from 4000 saved continuity records. Raw full rho/J histories are not in this archive; the PDE residual itself cannot be independently regenerated here."
+  },
+  "independent_surface": {
+    "regions": {
+      "global": {
+        "residual_rms_V_m": 0.0709916879103552,
+        "incident_rms_V_m": 11.752818299139577,
+        "incident_ratio": 1.0,
+        "local_relative": 0.006040396958706705,
+        "gate_metric": "local_rel",
+        "gate_value": 0.006040396958706705,
+        "spatial_points": 256
+      },
+      "feed_rounded": {
+        "residual_rms_V_m": 0.055313569780431365,
+        "incident_rms_V_m": 17.7714406569053,
+        "incident_ratio": 1.512100349429068,
+        "local_relative": 0.0031124977906019477,
+        "gate_metric": "local_rel",
+        "gate_value": 0.0031124977906019477,
+        "spatial_points": 858
+      },
+      "feed_tips": {
+        "residual_rms_V_m": 0.03960072299598053,
+        "incident_rms_V_m": 20.089018055710078,
+        "incident_ratio": 1.7092936812594808,
+        "local_relative": 0.0019712622531455424,
+        "gate_metric": "local_rel",
+        "gate_value": 0.0019712622531455424,
+        "spatial_points": 565
+      },
+      "feed_transition": {
+        "residual_rms_V_m": 0.06849856726351936,
+        "incident_rms_V_m": 15.052058050511409,
+        "incident_ratio": 1.280719029886931,
+        "local_relative": 0.004550777510533986,
+        "gate_metric": "local_rel",
+        "gate_value": 0.004550777510533986,
+        "spatial_points": 632
+      },
+      "outer_rounded": {
+        "residual_rms_V_m": 0.15127591287758113,
+        "incident_rms_V_m": 11.05992158438896,
+        "incident_ratio": 0.9410442076857988,
+        "local_relative": 0.013677846784294253,
+        "gate_metric": "local_rel",
+        "gate_value": 0.013677846784294253,
+        "spatial_points": 644
+      },
+      "outer_tips": {
+        "residual_rms_V_m": 0.13384224525018798,
+        "incident_rms_V_m": 11.312740595718411,
+        "incident_ratio": 0.9625555596776831,
+        "local_relative": 0.011831107070628307,
+        "gate_metric": "local_rel",
+        "gate_value": 0.011831107070628307,
+        "spatial_points": 482
+      },
+      "all_transition": {
+        "residual_rms_V_m": 0.10765746152570868,
+        "incident_rms_V_m": 13.824932841217446,
+        "incident_ratio": 1.1763078854226454,
+        "local_relative": 0.007787195985845251,
+        "gate_metric": "local_rel",
+        "gate_value": 0.007787195985845251,
+        "spatial_points": 1002
+      },
+      "side_mid": {
+        "residual_rms_V_m": 0.013119807709689551,
+        "incident_rms_V_m": 9.947076550810168,
+        "incident_ratio": 0.8463567033567083,
+        "local_relative": 0.0013189611684069095,
+        "gate_metric": "local_rel",
+        "gate_value": 0.0013189611684069095,
+        "spatial_points": 416
+      }
+    },
+    "worst_region": "outer_rounded",
+    "worst_Et": 0.013677846784294253,
+    "Bn_over_full_B": 0.0013093650039860726,
+    "all_2020_Et_unweighted": 0.006874821413271054,
+    "snapshots": 188
+  },
+  "time_windows": [
+    {
+      "cycles": [
+        0.75,
+        4.0
+      ],
+      "regions": {
+        "global": {
+          "residual_rms_V_m": 0.06275543964387859,
+          "incident_rms_V_m": 13.329308722259881,
+          "incident_ratio": 1.0,
+          "local_relative": 0.004708079087333112,
+          "gate_metric": "local_rel",
+          "gate_value": 0.004708079087333112,
+          "spatial_points": 256
+        },
+        "feed_rounded": {
+          "residual_rms_V_m": 0.06129278011291062,
+          "incident_rms_V_m": 24.30114191414624,
+          "incident_ratio": 1.8231359495457893,
+          "local_relative": 0.0025222181052006747,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0025222181052006747,
+          "spatial_points": 858
+        },
+        "feed_tips": {
+          "residual_rms_V_m": 0.04793835399654712,
+          "incident_rms_V_m": 27.48925172557393,
+          "incident_ratio": 2.0623163810188454,
+          "local_relative": 0.0017438944673764578,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0017438944673764578,
+          "spatial_points": 565
+        },
+        "feed_transition": {
+          "residual_rms_V_m": 0.0735209825511104,
+          "incident_rms_V_m": 20.56263063378775,
+          "incident_ratio": 1.5426629439115818,
+          "local_relative": 0.0035754657981505273,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0035754657981505273,
+          "spatial_points": 632
+        },
+        "outer_rounded": {
+          "residual_rms_V_m": 0.13035343265869057,
+          "incident_rms_V_m": 10.248279776102933,
+          "incident_ratio": 0.7688530582976412,
+          "local_relative": 0.012719542743422201,
+          "gate_metric": "local_rel",
+          "gate_value": 0.012719542743422201,
+          "spatial_points": 644
+        },
+        "outer_tips": {
+          "residual_rms_V_m": 0.12048076054849578,
+          "incident_rms_V_m": 10.533416914292248,
+          "incident_ratio": 0.7902448006700822,
+          "local_relative": 0.011437956128464039,
+          "gate_metric": "local_rel",
+          "gate_value": 0.011437956128464039,
+          "spatial_points": 482
+        },
+        "all_transition": {
+          "residual_rms_V_m": 0.09567644670421935,
+          "incident_rms_V_m": 17.53305073220699,
+          "incident_ratio": 1.31537584563008,
+          "local_relative": 0.005456919515350993,
+          "gate_metric": "local_rel",
+          "gate_value": 0.005456919515350993,
+          "spatial_points": 1002
+        },
+        "side_mid": {
+          "residual_rms_V_m": 0.011570954521414475,
+          "incident_rms_V_m": 9.53068842860679,
+          "incident_ratio": 0.7150174571837012,
+          "local_relative": 0.0012140733177976666,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0012140733177976666,
+          "spatial_points": 416
+        }
+      },
+      "worst_region": "outer_rounded",
+      "worst_Et": 0.012719542743422201,
+      "Bn_over_full_B": 0.0016100315051714334,
+      "all_2020_Et_unweighted": 0.00494988883680213,
+      "snapshots": 54
+    },
+    {
+      "cycles": [
+        4.0,
+        8.0
+      ],
+      "regions": {
+        "global": {
+          "residual_rms_V_m": 0.0743558860393736,
+          "incident_rms_V_m": 10.792869423074078,
+          "incident_ratio": 1.0,
+          "local_relative": 0.006889352879634412,
+          "gate_metric": "local_rel",
+          "gate_value": 0.006889352879634412,
+          "spatial_points": 256
+        },
+        "feed_rounded": {
+          "residual_rms_V_m": 0.052777995943936014,
+          "incident_rms_V_m": 13.668901033877015,
+          "incident_ratio": 1.2664751604104714,
+          "local_relative": 0.0038611733169426708,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0038611733169426708,
+          "spatial_points": 858
+        },
+        "feed_tips": {
+          "residual_rms_V_m": 0.0363014551825631,
+          "incident_rms_V_m": 15.441286416730778,
+          "incident_ratio": 1.430693341264636,
+          "local_relative": 0.0023509346438409517,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0023509346438409517,
+          "spatial_points": 565
+        },
+        "feed_transition": {
+          "residual_rms_V_m": 0.0658035861017441,
+          "incident_rms_V_m": 11.589702600932204,
+          "incident_ratio": 1.0738295949504009,
+          "local_relative": 0.005677763128835701,
+          "gate_metric": "local_rel",
+          "gate_value": 0.005677763128835701,
+          "spatial_points": 632
+        },
+        "outer_rounded": {
+          "residual_rms_V_m": 0.1613554224138455,
+          "incident_rms_V_m": 12.210840970948931,
+          "incident_ratio": 1.1313804042549955,
+          "local_relative": 0.013214112180948846,
+          "gate_metric": "local_rel",
+          "gate_value": 0.013214112180948846,
+          "spatial_points": 644
+        },
+        "outer_tips": {
+          "residual_rms_V_m": 0.14531213046242625,
+          "incident_rms_V_m": 12.490445888412056,
+          "incident_ratio": 1.15728685290204,
+          "local_relative": 0.011633862534662497,
+          "gate_metric": "local_rel",
+          "gate_value": 0.011633862534662497,
+          "spatial_points": 482
+        },
+        "all_transition": {
+          "residual_rms_V_m": 0.10998284350468954,
+          "incident_rms_V_m": 11.981919854131238,
+          "incident_ratio": 1.1101700006223636,
+          "local_relative": 0.009179066864378051,
+          "gate_metric": "local_rel",
+          "gate_value": 0.009179066864378051,
+          "spatial_points": 1002
+        },
+        "side_mid": {
+          "residual_rms_V_m": 0.013324325954997348,
+          "incident_rms_V_m": 9.645939011901264,
+          "incident_ratio": 0.8937325778517443,
+          "local_relative": 0.0013813404727686595,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0013813404727686595,
+          "spatial_points": 416
+        }
+      },
+      "worst_region": "outer_rounded",
+      "worst_Et": 0.013214112180948846,
+      "Bn_over_full_B": 0.001357890513069106,
+      "all_2020_Et_unweighted": 0.008272256469395466,
+      "snapshots": 67
+    },
+    {
+      "cycles": [
+        8.0,
+        12.01
+      ],
+      "regions": {
+        "global": {
+          "residual_rms_V_m": 0.07374739262141095,
+          "incident_rms_V_m": 11.309376157908545,
+          "incident_ratio": 1.0,
+          "local_relative": 0.006520907218197005,
+          "gate_metric": "local_rel",
+          "gate_value": 0.006520907218197005,
+          "spatial_points": 256
+        },
+        "feed_rounded": {
+          "residual_rms_V_m": 0.05264723699456126,
+          "incident_rms_V_m": 14.946307456661096,
+          "incident_ratio": 1.3215854922474461,
+          "local_relative": 0.0035224243276956043,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0035224243276956043,
+          "spatial_points": 858
+        },
+        "feed_tips": {
+          "residual_rms_V_m": 0.03507686749910144,
+          "incident_rms_V_m": 16.879860300518153,
+          "incident_ratio": 1.4925545021079007,
+          "local_relative": 0.002078030675290879,
+          "gate_metric": "local_rel",
+          "gate_value": 0.002078030675290879,
+          "spatial_points": 565
+        },
+        "feed_transition": {
+          "residual_rms_V_m": 0.06692616953767488,
+          "incident_rms_V_m": 12.673995012579796,
+          "incident_ratio": 1.120662610883005,
+          "local_relative": 0.005280589859097004,
+          "gate_metric": "local_rel",
+          "gate_value": 0.005280589859097004,
+          "spatial_points": 632
+        },
+        "outer_rounded": {
+          "residual_rms_V_m": 0.15646826270770756,
+          "incident_rms_V_m": 10.463175754027976,
+          "incident_ratio": 0.9251770927003052,
+          "local_relative": 0.014954184693635913,
+          "gate_metric": "local_rel",
+          "gate_value": 0.014954184693635913,
+          "spatial_points": 644
+        },
+        "outer_tips": {
+          "residual_rms_V_m": 0.1321009904944352,
+          "incident_rms_V_m": 10.661462683369077,
+          "incident_ratio": 0.9427100606175887,
+          "local_relative": 0.012390512860913621,
+          "gate_metric": "local_rel",
+          "gate_value": 0.012390512860913621,
+          "spatial_points": 482
+        },
+        "all_transition": {
+          "residual_rms_V_m": 0.11422562581194011,
+          "incident_rms_V_m": 12.040500372690817,
+          "incident_ratio": 1.0646476166831715,
+          "local_relative": 0.00948678396049191,
+          "gate_metric": "local_rel",
+          "gate_value": 0.00948678396049191,
+          "spatial_points": 1002
+        },
+        "side_mid": {
+          "residual_rms_V_m": 0.014055008068200108,
+          "incident_rms_V_m": 10.553728826473428,
+          "incident_ratio": 0.9331839952191616,
+          "local_relative": 0.0013317575521690419,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0013317575521690419,
+          "spatial_points": 416
+        }
+      },
+      "worst_region": "outer_rounded",
+      "worst_Et": 0.014954184693635913,
+      "Bn_over_full_B": 0.0011532266063615628,
+      "all_2020_Et_unweighted": 0.007961930053844478,
+      "snapshots": 67
+    }
+  ],
+  "recomputed_report_max_absolute_difference": 3.469446951953614e-18,
+  "finite_arrays": {
+    "coupled_RF\\diagnostics.npz": true,
+    "coupled_RF\\incident_harmonics.npz": true,
+    "coupled_RF\\independent_surface_fields.npz": true,
+    "cpu_feedback\\CPU_arithmetic_LHQCD.npz": true,
+    "cpu_feedback\\CPU_arithmetic_SI.npz": true,
+    "gpu_direct\\code_units_direct.npz": true,
+    "gpu_direct\\SI_direct.npz": true,
+    "gpu_feedback\\native_feedback_LHQCD.npz": true,
+    "gpu_feedback\\native_feedback_SI.npz": true,
+    "provenance\\actual_geometry.npz": true,
+    "provenance\\CPU_release_evidence\\em_feedback_fixture.npz": true,
+    "provenance\\CPU_release_evidence\\operator_fixture.npz": true
+  },
+  "stability": {
+    "all_saved_arrays_finite": true,
+    "state_norm_max": 0.013375819160596533,
+    "state_norm_final": 0.008808656772600091,
+    "coefficient_closure_max": 8.962281265293104e-15,
+    "tail_steps": 500,
+    "tail_initial": 0.008808656772600091,
+    "tail_final": 0.004578260649329591,
+    "tail_final_over_initial": 0.5197456056603968,
+    "tail_max_over_initial": 1.0,
+    "tail_last50_median_step_growth": 0.9995723353740977,
+    "scope": "Observed 12-cycle driven coupled computation plus 500-step homogeneous boundary-state tail, not a general unconditional stability proof."
+  },
+  "model": {
+    "total_length_m": 0.06,
+    "radius_m": 0.001,
+    "gap_m": 0.002,
+    "drive_Hz": 3000000.0,
+    "particles_per_species": 24000,
+    "grid_n": 17,
+    "theta": 0.6,
+    "electric_sources": 1992,
+    "magnetic_sources": 664,
+    "total_dofs": 5976,
+    "collection_and_boundary_replacement_enabled": true,
+    "surface_events": [
+      440,
+      0
+    ],
+    "note": "Driven original article model, not the passive no-collection SCUFF vacuum dipole experiment. Collection/reinjection is the configured numerical reservoir treatment, not a validation of conductor charging/current collection physics."
+  },
+  "performance": {
+    "gpu": "NVIDIA A800 80GB PCIe",
+    "formal_benchmark_eligible": false,
+    "foreign_GPU_process_observed": true,
+    "main_loop_elapsed_with_setup_s": 1855.8002664569067,
+    "note": "Shared device and synchronized intrusive diagnostics: usable implementation profile, not exclusive-device throughput or peak memory measurement."
+  },
+  "publication_scope": {
+    "usable": true,
+    "usable_as": "Completed original driven coupled-case continuity, PEC surface residual and observed stability evidence.",
+    "independent_software_field_accuracy": "Use separately qualified SCUFF/WarpX comparisons within their own geometries, excitation and probe scopes.",
+    "E_B_note": "Et residual and Bn/full incident vector B residual are boundary checks, not full vector solution errors. Full unprojected holdout Bn is used, never the projected internal magnetic diagnostic.",
+    "response_note": "Electric auxiliary moments only, not port impedance or plasma/vacuum ratio. Magnetic auxiliary moment is saved separately; neither is asserted to be the total physical conductor moment."
+  }
+}

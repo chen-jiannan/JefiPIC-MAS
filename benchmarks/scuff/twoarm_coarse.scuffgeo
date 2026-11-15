@@ -1,0 +1,8 @@
+OBJECT LowerArm
+MESHFILE lower_coarse.msh
+MATERIAL PEC
+ENDOBJECT
+OBJECT UpperArm
+MESHFILE upper_coarse.msh
+MATERIAL PEC
+ENDOBJECT

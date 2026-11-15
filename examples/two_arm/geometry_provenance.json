@@ -1,0 +1,20 @@
+{
+  "physical_geometry": "Same 60 mm two-arm rounded PEC, radius 1 mm, feed gap 2 mm; no physical surface change",
+  "base_geometry_fingerprint": "0cf4be9664b22e91feb7504bb0af4baefea3b96a201188e9bb815d6016b3235d",
+  "geometry_fingerprint": "0608e90263adbc26866e7692109bb8cf3e95313af726ce86451f03d69a5b6564",
+  "sources_total": 1992,
+  "collocation_total": 3984,
+  "original_sources_retained": 1800,
+  "original_collocation_retained": 3600,
+  "added_sources": "96 tangent electric dipole locations per feed hemisphere, radius 0.6R inside PEC; 6 Gauss mu x 16 phi",
+  "added_collocation": "192 points per feed hemisphere, 8 Gauss mu x 24 phi; recomputed physical Voronoi area weights",
+  "independent_holdout_points": 2020,
+  "all_original_holdouts_unchanged": true,
+  "unchanged": "Physical conductor/particle/drive configuration, original electric auxiliary locations, all independent holdouts, volume CC deposition and the retarded Hermite kernel",
+  "electric_sources_total": 1992,
+  "magnetic_sources_total": 664,
+  "total_dofs": 5976,
+  "magnetic_source_rule": "Every third frozen electric auxiliary location, three Cartesian dual moment components; same rescaled patch-weight rule as CPU qualification",
+  "theta": 0.6,
+  "magnetic_test_space": "Resolved weighted static magnetic auxiliary range, relative SVD cutoff=1e-4"
+}

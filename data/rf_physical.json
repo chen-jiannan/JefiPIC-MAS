@@ -1,0 +1,33 @@
+{
+  "f_pe_Hz": 2839302.485541182,
+  "T_pe_s": 3.521991774713627e-07,
+  "lambda_D_m": 0.010513181590800294,
+  "drive_frequency_Hz": 3000000.0,
+  "drive_period_s": 3.3333333333333335e-07,
+  "dt_s": 1e-09,
+  "steps_per_drive_period": 333.3333333333333,
+  "dx_m": 0.010588235294117647,
+  "dx_over_c_s": 3.5318551256274924e-11,
+  "dt_over_dx_over_c": 28.313732144444444,
+  "antenna_electrical_size_L_over_lambda": 0.0006004153713566737,
+  "spatial_truncation_radius_m": 0.0,
+  "taper_width_m": 0.0,
+  "jefipic_unit_mode": "LHQCD",
+  "jefipic_unit_bridge": {
+    "mode": "LHQCD",
+    "meter_SI_to_code": 15541.21524167369,
+    "second_SI_to_code": 1554125418846.7249,
+    "kilogram_SI_to_code": 7.213621991693117e+30,
+    "Coulomb_SI_to_code": 1.0713703277570692e+22,
+    "surface_charge_density_C_per_m2_SI_to_code": 44357765785884.8,
+    "volume_charge_density_C_per_m3_SI_to_code": 2854201881.6482043,
+    "Ampere_SI_to_code": 6893696364.342851,
+    "surface_current_density_A_per_m_SI_to_code": 443575.1166908389,
+    "surface_polarization_density_C_per_m_SI_to_code": 6.893735857181844e+17,
+    "Volt_per_meter_SI_to_code": 4.3323823077185345e-12,
+    "Tesla_SI_to_code": 0.00043324057020635494,
+    "c_code": 2.9979090484247153,
+    "epsilon0_code": 90631227428685.16,
+    "surface_current_density_A_per_m2_SI_to_code": 28.54185530494388
+  }
+}

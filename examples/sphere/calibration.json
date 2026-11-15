@@ -1,0 +1,11 @@
+{
+  "rule": "Fixed reference Et norm divided by c times Bn norm; if Bn/full B<1%, use full B norm instead. Rule shared with twoarm; its branch remains unchanged.",
+  "origin": "previous qualified unsplit CC sphere n36 incident plasma field record; all87 nodes",
+  "source_diagnostics_sha256": "51c29ad3a8cbfaa580202ef92d1f42efad84f0f9e62cc4dd71c8563c304f64dd",
+  "no_WarpX_or_scattered_field_fitting": true,
+  "beta": 97.7310864525766,
+  "old_particle_sha256": "4d15ba6cdf3eddff0b8f98dac700d1aa9a190f87e98cea0c5b455b76222bce89",
+  "weak_Bn_guard_ratio": 0.01,
+  "reference_Bn_over_full_B": 0.00019473556360119617,
+  "normalization_branch": "full incident B; axisymmetric Bn is near zero"
+}

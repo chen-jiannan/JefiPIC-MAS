@@ -1,0 +1,49 @@
+{
+  "scope": "Pair real CPU states at six epochs; each scored pair retains native dt=1ns.",
+  "epochs": [
+    {
+      "original_node": 260,
+      "replay_first_node": 0,
+      "replay_scored_node": 1
+    },
+    {
+      "original_node": 520,
+      "replay_first_node": 2,
+      "replay_scored_node": 3
+    },
+    {
+      "original_node": 800,
+      "replay_first_node": 4,
+      "replay_scored_node": 5
+    },
+    {
+      "original_node": 1080,
+      "replay_first_node": 6,
+      "replay_scored_node": 7
+    },
+    {
+      "original_node": 1340,
+      "replay_first_node": 8,
+      "replay_scored_node": 9
+    },
+    {
+      "original_node": 1620,
+      "replay_first_node": 10,
+      "replay_scored_node": 11
+    }
+  ],
+  "SI_CPU_operator_parity": {
+    "E": 1.4498608354777788e-15,
+    "B": 1.6091639982698677e-15
+  },
+  "original_unit_bridge": {
+    "E": 0.00026197177040003446,
+    "B": 0.0002612157454439424
+  },
+  "history_nodes": 8,
+  "electric_sources": 1992,
+  "magnetic_sources": 664,
+  "dt_s": 1e-09,
+  "note": "Unscored transition intervals connect selected snapshots solely to exercise history; scored odd nodes reproduce actual adjacent original time states. No particle advancement.",
+  "fixture_sha256": "fe4d6c6a7deb3e89dc53d3a8af772c6ef4f239a10b58d10e5dc5f3120e7f2c96"
+}

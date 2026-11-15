@@ -1,0 +1,31 @@
+{
+  "status": "CPU_QUALIFICATION_PASSED_NATIVE_CUDA_GATE_REQUIRED",
+  "boundary_revision": "normalized-mixed-hermite-mot-v2",
+  "theta": 0.6,
+  "ridge_rel": 0.0001,
+  "magnetic_weight": 97.7310864525766,
+  "native_CUDA_tested": false,
+  "original_PIC_and_plasma_sources_preserved": true,
+  "delay": {
+    "max_delay_over_dt": 0.7499009446557854,
+    "magnetic_weight": 97.7310864525766
+  },
+  "spectrum": {
+    "spectral_radius": 1.000000000000002,
+    "growth_tolerance": 1e-08,
+    "modes_above_1_plus_tolerance": 0
+  },
+  "arbitrary_history_operator_E_B_relative": [
+    6.940995857506558e-16,
+    1.0422568210491058e-15
+  ],
+  "frozen_incident_replay": {
+    "samples": 87,
+    "finite": true,
+    "max_K_coeff_norm": 0.056468420168491434,
+    "collocation_Et_relative": 0.0034431948280327276,
+    "collocation_Bn_relative": 2.5215072699714485,
+    "collocation_Bn_over_full_incident_B": 0.0004910271393424036,
+    "scope": "Boundary response to old incident records only, not a new coupled PIC or WarpX comparison."
+  }
+}

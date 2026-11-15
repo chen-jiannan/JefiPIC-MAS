@@ -1,0 +1,205 @@
+{
+  "summary": [
+    {
+      "method": "MAS",
+      "parameter": 48,
+      "unknowns": 49,
+      "trials": 3,
+      "E_error_105_pct": 1.693165624928527,
+      "E_error_110_pct": 1.214106200994539,
+      "Phi_error_110_pct": 2.3679503243320013,
+      "process_median_s": 1.204413500148803,
+      "process_min_s": 1.2010877998545766,
+      "process_max_s": 1.5806384002789855,
+      "mesh_wall_s": null,
+      "dipole_rel_error": 0.006931567429525334
+    },
+    {
+      "method": "MAS",
+      "parameter": 96,
+      "unknowns": 97,
+      "trials": 3,
+      "E_error_105_pct": 0.25050367960857106,
+      "E_error_110_pct": 0.16125261469012267,
+      "Phi_error_110_pct": 0.2217784133849608,
+      "process_median_s": 1.2178674996830523,
+      "process_min_s": 1.206147300079465,
+      "process_max_s": 1.2302979002706707,
+      "mesh_wall_s": null,
+      "dipole_rel_error": 0.0005963366606872607
+    },
+    {
+      "method": "MAS",
+      "parameter": 192,
+      "unknowns": 193,
+      "trials": 3,
+      "E_error_105_pct": 0.02235014663236252,
+      "E_error_110_pct": 0.01256244529737605,
+      "Phi_error_110_pct": 0.011135242507926885,
+      "process_median_s": 1.2503301999531686,
+      "process_min_s": 1.2331019998528063,
+      "process_max_s": 1.2709609000012279,
+      "mesh_wall_s": null,
+      "dipole_rel_error": 2.4278434955152787e-05
+    },
+    {
+      "method": "MAS",
+      "parameter": 320,
+      "unknowns": 321,
+      "trials": 3,
+      "E_error_105_pct": 0.0023756986961397703,
+      "E_error_110_pct": 0.0011600660334698774,
+      "Phi_error_110_pct": 0.0007573114158233231,
+      "process_median_s": 1.281324100214988,
+      "process_min_s": 1.2811680003069341,
+      "process_max_s": 1.2918684002943337,
+      "mesh_wall_s": null,
+      "dipole_rel_error": 1.2642094066631734e-06
+    },
+    {
+      "method": "GetDP_P2",
+      "parameter": 0.4,
+      "unknowns": 5551,
+      "trials": 3,
+      "E_error_105_pct": 8.593421516137242,
+      "E_error_110_pct": 7.400557643782389,
+      "Phi_error_110_pct": 6.55823348838357,
+      "process_median_s": 0.522987499833107,
+      "process_min_s": 0.5206923997029662,
+      "process_max_s": 0.5250359000638127,
+      "mesh_wall_s": 0.2504227003082633,
+      "dipole_rel_error": 0.009997112686160612
+    },
+    {
+      "method": "GetDP_P2",
+      "parameter": 0.2,
+      "unknowns": 12136,
+      "trials": 3,
+      "E_error_105_pct": 2.3645047811658415,
+      "E_error_110_pct": 2.370968775845695,
+      "Phi_error_110_pct": 0.9723084912452138,
+      "process_median_s": 1.4286746000871062,
+      "process_min_s": 1.4235230996273458,
+      "process_max_s": 1.4411447001621127,
+      "mesh_wall_s": 0.3583587999455631,
+      "dipole_rel_error": 0.0007357871237409346
+    },
+    {
+      "method": "GetDP_P2",
+      "parameter": 0.1,
+      "unknowns": 30119,
+      "trials": 3,
+      "E_error_105_pct": 0.7622763293601833,
+      "E_error_110_pct": 0.8318641080127867,
+      "Phi_error_110_pct": 0.1319687003880115,
+      "process_median_s": 5.099872900173068,
+      "process_min_s": 5.080784100107849,
+      "process_max_s": 5.1155801001004875,
+      "mesh_wall_s": 0.7807459002360702,
+      "dipole_rel_error": 0.00021210076243615076
+    },
+    {
+      "method": "GetDP_P2",
+      "parameter": 0.05,
+      "unknowns": 84449,
+      "trials": 3,
+      "E_error_105_pct": 0.23734665498994462,
+      "E_error_110_pct": 0.35329881148433917,
+      "Phi_error_110_pct": 0.03153732222214048,
+      "process_median_s": 21.264736299868673,
+      "process_min_s": 21.2617665999569,
+      "process_max_s": 21.425700400024652,
+      "mesh_wall_s": 2.8422866999171674,
+      "dipole_rel_error": 0.00030951479456325774
+    }
+  ],
+  "cpu_summary": [
+    {
+      "sources_per_arm": 90,
+      "total_sources": 180,
+      "unknowns": 360,
+      "assembly_median_s": 0.2846631002612412,
+      "ridge_setup_median_s": 0.006493799854069948,
+      "recurrence_median_of_trial_medians_ms": 0.25355000980198383,
+      "recurrence_trial_median_min_ms": 0.24359975941479206,
+      "recurrence_trial_median_max_ms": 0.2585500478744507,
+      "retained_arrays_MiB": 6.92138671875
+    },
+    {
+      "sources_per_arm": 180,
+      "total_sources": 360,
+      "unknowns": 720,
+      "assembly_median_s": 0.8886032002046704,
+      "ridge_setup_median_s": 0.03145259991288185,
+      "recurrence_median_of_trial_medians_ms": 1.2812998611479998,
+      "recurrence_trial_median_min_ms": 1.2210998684167862,
+      "recurrence_trial_median_max_ms": 1.3541497755795717,
+      "retained_arrays_MiB": 27.685546875
+    },
+    {
+      "sources_per_arm": 450,
+      "total_sources": 900,
+      "unknowns": 1800,
+      "assembly_median_s": 3.3731811000034213,
+      "ridge_setup_median_s": 0.38472899980843067,
+      "recurrence_median_of_trial_medians_ms": 9.142949944362044,
+      "recurrence_trial_median_min_ms": 9.13779973052442,
+      "recurrence_trial_median_max_ms": 9.390899911522865,
+      "retained_arrays_MiB": 173.03466796875
+    },
+    {
+      "sources_per_arm": 900,
+      "total_sources": 1800,
+      "unknowns": 3600,
+      "assembly_median_s": 10.95108520006761,
+      "ridge_setup_median_s": 2.596050100401044,
+      "recurrence_median_of_trial_medians_ms": 40.25165014900267,
+      "recurrence_trial_median_min_ms": 39.81410013511777,
+      "recurrence_trial_median_max_ms": 40.71729979477823,
+      "retained_arrays_MiB": 692.138671875
+    }
+  ],
+  "cross_software_field_differences": [
+    {
+      "h_over_R": 0.4,
+      "probe_radius_over_R": 1.05,
+      "MAS320_vs_FEM_relative_L2": 0.09055763972990671
+    },
+    {
+      "h_over_R": 0.4,
+      "probe_radius_over_R": 1.1,
+      "MAS320_vs_FEM_relative_L2": 0.07526669160003016
+    },
+    {
+      "h_over_R": 0.2,
+      "probe_radius_over_R": 1.05,
+      "MAS320_vs_FEM_relative_L2": 0.02374671041499749
+    },
+    {
+      "h_over_R": 0.2,
+      "probe_radius_over_R": 1.1,
+      "MAS320_vs_FEM_relative_L2": 0.02349307537760582
+    },
+    {
+      "h_over_R": 0.1,
+      "probe_radius_over_R": 1.05,
+      "MAS320_vs_FEM_relative_L2": 0.007600743615238844
+    },
+    {
+      "h_over_R": 0.1,
+      "probe_radius_over_R": 1.1,
+      "MAS320_vs_FEM_relative_L2": 0.008304043444128446
+    },
+    {
+      "h_over_R": 0.05,
+      "probe_radius_over_R": 1.05,
+      "MAS320_vs_FEM_relative_L2": 0.002372714368757976
+    },
+    {
+      "h_over_R": 0.05,
+      "probe_radius_over_R": 1.1,
+      "MAS320_vs_FEM_relative_L2": 0.003533200061289585
+    }
+  ],
+  "process_timing_scope": "Fresh processes, startup and I/O included, no cache purge. FEM mesh generation measured once per mesh separately; MAS solve includes original condition-number diagnostics. No complete RF-PIC speedup claimed."
+}

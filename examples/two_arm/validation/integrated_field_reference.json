@@ -1,0 +1,35 @@
+{
+  "scope": "Independent full E/M observation evaluator used by the full driver versus recorded-state Hermite references",
+  "tests": [
+    {
+      "node": 260,
+      "E_relative": 2.5193775202988403e-16,
+      "B_relative": 2.6214034443372117e-16
+    },
+    {
+      "node": 520,
+      "E_relative": 2.1617226608185342e-16,
+      "B_relative": 5.085092194294368e-16
+    },
+    {
+      "node": 800,
+      "E_relative": 2.0357339966086761e-16,
+      "B_relative": 6.41729036785733e-16
+    },
+    {
+      "node": 1080,
+      "E_relative": 3.0766970435679504e-16,
+      "B_relative": 5.241710703190196e-16
+    },
+    {
+      "node": 1340,
+      "E_relative": 4.871704182332135e-16,
+      "B_relative": 4.051095937596723e-16
+    },
+    {
+      "node": 1620,
+      "E_relative": 1.0625334132607935e-15,
+      "B_relative": 7.371113700618974e-16
+    }
+  ]
+}

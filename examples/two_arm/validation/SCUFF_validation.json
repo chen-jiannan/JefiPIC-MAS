@@ -1,0 +1,38 @@
+{
+  "mode": "compatible",
+  "magnetic_sources": 664,
+  "magnetic_dofs": 1992,
+  "SCUFF": {
+    "periodic_solver": "direct regularized recurrence, no transient truncation",
+    "fixed_point_residual": 4.424763236283273e-09,
+    "E_offset": 0.018629272805291273,
+    "B_offset": 0.011188083973771195,
+    "E_probes": 0.015885569511793984,
+    "B_probes": 0.009838467658372423
+  },
+  "scope": "Existing full-vector SCUFF reference plus independent dual source parity.\n\nNo new SCUFF simulation and no CUDA execution are claimed here.\n",
+  "independent_dual_parity": [
+    {
+      "test": "random_real",
+      "E_relative": 1.2998968982855688e-15,
+      "B_relative": 7.397512318765003e-16
+    },
+    {
+      "test": "periodic_complex",
+      "E_relative": 5.0050527889936894e-15,
+      "B_relative": 2.1012417372522696e-15
+    }
+  ],
+  "random_power": {
+    "steps": 1000,
+    "power_steps": 500,
+    "last100_median_growth": 0.9996801267269939,
+    "final_norm": 0.7234592006582041,
+    "max_free_norm": 0.9979085344443791
+  },
+  "checks": {
+    "SCUFF_EB": true,
+    "independent_duality": true,
+    "random_zero_input": true
+  }
+}

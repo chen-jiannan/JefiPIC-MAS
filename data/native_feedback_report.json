@@ -1,0 +1,67 @@
+{
+  "status": "NATIVE_EM_FEEDBACK_PASSED",
+  "scope": "Mandatory native CUDA replay BEFORE any new particle advancement.\n\nSix pairs of recorded CPU states at dt=1ns, 27 grid receivers, SI/LHQCD,\nelectric + magnetic sources and ring wrap. No particle trajectory is run.\n",
+  "source_sha256": {
+    "magnetic_feedback.py": "7385a7409c4b37887a07fad7a3262c517c60627f7dcfcc4c397d25ecddf5f879",
+    "article_backend.py": "d03279c5354fce72f034b6cbaaeee23daabee7e42a22095de9a5b1192e38f372",
+    "article_em_augmented_cpu.py": "ef8b71cc02edabddd04a58725252e37433d1ea8f67a38171a8c25ad4a6d52b00",
+    "article_compatible_mixed_cpu.py": "ab3b3caf07b1610baaf1c09e185ee9750aa8c406b775db642c757ed716a82598",
+    "run_article.py": "20bece872040eea8bb8400c6b663bf1d27e54d7adc64ba93d25697c7a2c0d44f",
+    "feedback_reference.py": "9c729f3c26e636d74b59e5327f596af9561a5a96f1119f4066f846a70c6d7eb8",
+    "validate_operator_cpu.py": "a8e968fb7e83e8d49c9b14dfa5fea55edcf2aac72c29cab56fc99e93094fdf82",
+    "actual_geometry.npz": "4331642f047383ad36c26b0b08e56a05d26024ae80a0625e731652aca03a1c92",
+    "calibration.json": "f34ae1df3ac3eff5d40fd4ba1893a53ee93cf635933a3e3e38b130b89555144a",
+    "code/EMsolver/cuda_functions.py": "e6652bfab451ea23da62db57aff40264632eff99a1c0aae9c53ee25d6892d59c",
+    "validation/em_feedback_fixture.npz": "fe4d6c6a7deb3e89dc53d3a8af772c6ef4f239a10b58d10e5dc5f3120e7f2c96",
+    "validation/operator_fixture.npz": "a3d9d8d208a74b0a444d9bcf74ca7ac6a683c3b8da4abf971118c6fdda8c8cd5"
+  },
+  "tests": [
+    {
+      "unit_mode": "SI",
+      "E_relative": 2.4255138750134512e-15,
+      "B_relative": 2.1605723143772147e-15,
+      "original_unit_bridge_E_relative": 0.0,
+      "original_unit_bridge_B_relative": 0.0,
+      "nodes": 12,
+      "scored_nodes": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "electric_sources": 1992,
+      "magnetic_sources": 664,
+      "receivers": 27,
+      "history_nodes": 8,
+      "zero_prehistory": true,
+      "idempotent_max_absolute": 0.0
+    },
+    {
+      "unit_mode": "LHQCD",
+      "E_relative": 2.5304146306903444e-15,
+      "B_relative": 2.554248248357389e-15,
+      "original_unit_bridge_E_relative": 0.00026197177040003446,
+      "original_unit_bridge_B_relative": 0.0002612157454439424,
+      "nodes": 12,
+      "scored_nodes": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "electric_sources": 1992,
+      "magnetic_sources": 664,
+      "receivers": 27,
+      "history_nodes": 8,
+      "zero_prehistory": true,
+      "idempotent_max_absolute": 0.0
+    }
+  ],
+  "visible_devices": "GPU-ffa1e848-ad17-e325-3889-ee71dad1dfbb",
+  "gpu_name": "NVIDIA A800 80GB PCIe",
+  "native_CUDA": true
+}

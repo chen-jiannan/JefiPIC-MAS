@@ -1,0 +1,780 @@
+{
+  "version": "compatible-EM-native-v5-20261115",
+  "files": [
+    {
+      "path": "actual_geometry.npz",
+      "bytes": 176462,
+      "sha256": "4331642f047383ad36c26b0b08e56a05d26024ae80a0625e731652aca03a1c92"
+    },
+    {
+      "path": "article_backend.py",
+      "bytes": 6718,
+      "sha256": "d03279c5354fce72f034b6cbaaeee23daabee7e42a22095de9a5b1192e38f372"
+    },
+    {
+      "path": "article_compatible_mixed_cpu.py",
+      "bytes": 2704,
+      "sha256": "ab3b3caf07b1610baaf1c09e185ee9750aa8c406b775db642c757ed716a82598"
+    },
+    {
+      "path": "article_direct_incident.py",
+      "bytes": 4080,
+      "sha256": "df7ee0248aed0826f819a696f02a48c167e3a90931114e45fa419bd17267891f"
+    },
+    {
+      "path": "article_em_augmented_cpu.py",
+      "bytes": 3497,
+      "sha256": "ef8b71cc02edabddd04a58725252e37433d1ea8f67a38171a8c25ad4a6d52b00"
+    },
+    {
+      "path": "article_reflective_cc.py",
+      "bytes": 5414,
+      "sha256": "4d3fc543085156c621c7de365fa50ec42862fa495e4307e2711bdfdd14df253b"
+    },
+    {
+      "path": "calibration.json",
+      "bytes": 1559,
+      "sha256": "f34ae1df3ac3eff5d40fd4ba1893a53ee93cf635933a3e3e38b130b89555144a"
+    },
+    {
+      "path": "campaign_tools.py",
+      "bytes": 6782,
+      "sha256": "d49991831d379091950eb38c2c09b9da722b8ea4ad0a9c1e5d79768371141e57"
+    },
+    {
+      "path": "code/article_cases/__init__.py",
+      "bytes": 53,
+      "sha256": "0613cc51f27b04dd5b049a158b527b19afffb5f25b9ec39729f8823fb3235548"
+    },
+    {
+      "path": "code/article_cases/_jefipic_mas_case_common.py",
+      "bytes": 101975,
+      "sha256": "9908b44d1cb7ccef69694bf512afe608486b006bb1e3ed06a59b441f3181b0fd"
+    },
+    {
+      "path": "code/article_cases/case2_floating_surface_charge_benchmark.py",
+      "bytes": 53855,
+      "sha256": "0dc283f045fa7d477f6a02c867ead6b61db63214ff6bffa0d5fcbfb8845bb917"
+    },
+    {
+      "path": "code/article_cases/case2_sphere_uniform_field_induced_charge_test.py",
+      "bytes": 26420,
+      "sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb"
+    },
+    {
+      "path": "code/article_cases/case2_spherical_floating_surface_charge_benchmark.py",
+      "bytes": 23896,
+      "sha256": "ae333e837243dbf3986a3b071518c102e4f00897588886432958bac635d71561"
+    },
+    {
+      "path": "code/article_cases/retarded_harmonic_collocation_overfit_test.py",
+      "bytes": 6268,
+      "sha256": "013fe13b576757c1cb420b6c1ce08bfefd436e55eec8b30dcd896e497576bcb5"
+    },
+    {
+      "path": "code/article_cases/step1c_charge_conserving_cic_regression.py",
+      "bytes": 18085,
+      "sha256": "2348e3cb028b4ed184a006d06b4badf20cbd4958e676e1a8a99c2e47b4b3259a"
+    },
+    {
+      "path": "code/article_cases/step1d_full_em_coincident_atomic_observation_parity.py",
+      "bytes": 5905,
+      "sha256": "06ef9993cc9c4e63f85d98583e645d8edf83eb577e84b95584253b370890ec32"
+    },
+    {
+      "path": "code/article_cases/step2a_mas_dipole_source_closure.py",
+      "bytes": 9896,
+      "sha256": "c963e831540cdf38b02cae7f12b68a4895639eb22ee4c9ad2c949916af3b0c2a"
+    },
+    {
+      "path": "code/article_cases/step2kd1_coherent_closed_auxiliary_surface.py",
+      "bytes": 49030,
+      "sha256": "a5b99e5e3b6da43b537a469a2fcef06ed8b725e1743f3db3095e7de4778ebf15"
+    },
+    {
+      "path": "code/article_cases/step2ma_smooth_capsule_acceptance.py",
+      "bytes": 21670,
+      "sha256": "4a8eeb0d27d4035bee94d389da9e6ffa5ea5490eda6b2f6ee5c7b576252287f5"
+    },
+    {
+      "path": "code/article_cases/step2mb1_incident_normalization_feed_localization.py",
+      "bytes": 26437,
+      "sha256": "b5cdf445a67bd77ce88baee5543eb5874a794d37ad000db89448e2d982b8bdd0"
+    },
+    {
+      "path": "code/article_cases/step2mc_smooth_bent_geometry_transfer.py",
+      "bytes": 33451,
+      "sha256": "2cbbd8e1db3c099603fe83057c97a5dc8e37df551ced21e6b3e43ace86130803"
+    },
+    {
+      "path": "code/article_cases/step3c2a_d3b_harmonic_feed_field_candidate.py",
+      "bytes": 17135,
+      "sha256": "e84427b6c79e5668e6b42579da6dcfdf62961e041d1c874acd74d398c45df6f2"
+    },
+    {
+      "path": "code/article_cases/step4b_broadband_plasma_spectrum_audit_full_em_atomic.py",
+      "bytes": 21545,
+      "sha256": "1507d7ec8502c22e39bc7a070f0eefdda1a6e59924e3ee8a285970368ca6e1de"
+    },
+    {
+      "path": "code/article_cases/step4c1_v4_retarded_mot_stability.py",
+      "bytes": 11606,
+      "sha256": "f3c6acaa5a2a47018f04976a4878817f827a8205326bdc59bdde72ba00fbbf9b"
+    },
+    {
+      "path": "code/article_cases/step4c2_single_frequency_characterization.py",
+      "bytes": 3760,
+      "sha256": "0a84772db40fa5f7da38b161e16d48b0001c5172863d716a8edb331ef44e9944"
+    },
+    {
+      "path": "code/article_cases/step4c2_v4_retarded_frequency_regression.py",
+      "bytes": 18490,
+      "sha256": "3623805a1fb9a7efb7964d4fd28824ac105241b8eb82ad37a4f32c26b9497480"
+    },
+    {
+      "path": "code/article_cases/step4c3_one_way_broadband_pic_to_implicit_mas.py",
+      "bytes": 52285,
+      "sha256": "d232cbb3cad7fdf75f068ee86921d4e2345352a9785ea3302b30ca3a7cb8bc09"
+    },
+    {
+      "path": "code/article_cases/step4c3_v2_retarded_mot_broadband_replay.py",
+      "bytes": 30208,
+      "sha256": "628488f9163ac35230a3b5aaec51ce12871d355b2df31a74f8da382417cd6a91"
+    },
+    {
+      "path": "code/article_cases/step4c3_v2a_feed_transition_residual_diagnostic.py",
+      "bytes": 31484,
+      "sha256": "16b0b1751140e59f9ea8d4d64020805810d385d683d2a42ac37fd1fd55a125b4"
+    },
+    {
+      "path": "code/article_cases/step4c3_v2b_spatial_cross_validation.py",
+      "bytes": 47368,
+      "sha256": "4caaa681f6e2134a694f3c930f1ec7a76d70fc2cc738878283e9f61294bf2ab7"
+    },
+    {
+      "path": "code/article_cases/step4c3_v2c_a_fixed_observation_source_density.py",
+      "bytes": 48442,
+      "sha256": "073d3595270dac04deb9f2fe6dae951f539882b036702c1aede33d69361c2dc5"
+    },
+    {
+      "path": "code/article_cases/step4c3_v2d_source_placement_localization_probe.py",
+      "bytes": 67940,
+      "sha256": "679c1dfe154c5af01e80ec3bc9d7297d097d7e6a7a548cd638cfb6379003ef9b"
+    },
+    {
+      "path": "code/article_cases/step4c3_v2e_basis_family_probe.py",
+      "bytes": 42077,
+      "sha256": "90be8a446fbf7025758537d3424384e8463f424773a0ff4858192b6d39a0f084"
+    },
+    {
+      "path": "code/article_cases/step4d_a_two_way_retarded_mot_closure.py",
+      "bytes": 35558,
+      "sha256": "90f4967b6694dc14004e1d158d2c655b9753624bc4e49983d9a505a63b7ee447"
+    },
+    {
+      "path": "code/article_cases/step4d_a_two_way_retarded_mot_closure_full_em_atomic.py",
+      "bytes": 39586,
+      "sha256": "e0f86996a89f236c49a9735c00d2c48e2b23dc5cb209cb3dbd50cfa4f9995ae8"
+    },
+    {
+      "path": "code/article_cases/step4d_b0_atomic_kernel_startup_probe.py",
+      "bytes": 10999,
+      "sha256": "a79f8c871ee6de2ecba077727c602502eaf520cc7bd826d9a9c985b9b28281a3"
+    },
+    {
+      "path": "code/article_cases/step4d_b2a_long_window_seed_ensemble.py",
+      "bytes": 15844,
+      "sha256": "4a51d7fee2d9bf41dfcd231c3cba108c30ec1e6078b093dc12dc3f70bf0fbc2e"
+    },
+    {
+      "path": "code/article_cases/step4d_b2a_v2_reanalysis.py",
+      "bytes": 5748,
+      "sha256": "fe0866505351de10ba5a2a5044bf2ce0158a4f042a0c7b55ee09149c1f1afe62"
+    },
+    {
+      "path": "code/article_cases/step4d_b2b_particle_robustness.py",
+      "bytes": 8938,
+      "sha256": "9600ecf9113b5da71c3b578212166ea72c533cd36dfa26f350f4a2c159cf20ff"
+    },
+    {
+      "path": "code/article_cases/step4d_b2c_final_evidence_synthesis.py",
+      "bytes": 12050,
+      "sha256": "631815b6b8ebb416e1686b95f6fedaaf306c9112dafc2fd93dcc784d348d889e"
+    },
+    {
+      "path": "code/article_cases/step4d_b_article_scale_sensitivity.py",
+      "bytes": 40123,
+      "sha256": "a93c3f4b9dc1e2b8da5a1799f83fdce6f0d29f977a270e1fde228ab261b2941f"
+    },
+    {
+      "path": "code/article_cases/step4d_b_full_em_atomic_article_scale.py",
+      "bytes": 40715,
+      "sha256": "0c3692ff19d6abaf951117dcdac6c21baabd13d814fff9cbc11b57e2eed9c494"
+    },
+    {
+      "path": "code/article_cases/step4d_b_response_stationarity_diagnostic.py",
+      "bytes": 7088,
+      "sha256": "5420522371f008a1decd9121ee64d3fb45af45248e80ef3a869a47f9cc43bd68"
+    },
+    {
+      "path": "code/article_cases/step4d_extended_seed_ensemble_v2.py",
+      "bytes": 6410,
+      "sha256": "19d6fd6bec3abb02b0cf28915c38901e61fc9ceccb1c143852e1cfe09d772874"
+    },
+    {
+      "path": "code/AUTHORS.md",
+      "bytes": 282,
+      "sha256": "71256e9c6a894d039b5dcd563da0e6d4422f36c2043653d509b72a098a24ee3b"
+    },
+    {
+      "path": "code/CHANGELOG.md",
+      "bytes": 1029,
+      "sha256": "20703f21c3068225037fc80f11a286642cef6cefa79cf93f2e4f2bae843cf5ec"
+    },
+    {
+      "path": "code/CITATION.cff",
+      "bytes": 892,
+      "sha256": "f2d4ba44a1d3e4bb8816ae1b22db30752d509e7a8233b0aa8d2871e095b74a98"
+    },
+    {
+      "path": "code/CONTRIBUTING.md",
+      "bytes": 524,
+      "sha256": "3788126f9b9ce8a950322933ac1bcabb78df8be89fe5a2b20cf13393502a3bad"
+    },
+    {
+      "path": "code/CPC_REVIEW_SHA256SUMS.txt",
+      "bytes": 13046,
+      "sha256": "3887ddfce3ad2de130e0ba9b4c25025134db748691e32e08a505a2086918c0ee"
+    },
+    {
+      "path": "code/docs/DATA_AND_MANUSCRIPT_MAP.md",
+      "bytes": 1487,
+      "sha256": "c77a4dc71e456db2af485a45bd1e9f3e5b25e4d4f4b035af26d86bc31e402de6"
+    },
+    {
+      "path": "code/docs/GITHUB_RELEASE_CHECKLIST_CN.md",
+      "bytes": 876,
+      "sha256": "efc5d86b2f461533fd5f2b5c62979394c27f6934aee5cb5f2945be9af3dd0e7a"
+    },
+    {
+      "path": "code/docs/GPU_BACKENDS.md",
+      "bytes": 1249,
+      "sha256": "b1c6c90663b77de45f3262c779740c66303145187284343b2d364abc6b348c5d"
+    },
+    {
+      "path": "code/docs/GPU_SETUP.md",
+      "bytes": 426,
+      "sha256": "3e591ad843f8af79c70fd6b57b025560726e12dfe8f6b9743468a0cea725ffbb"
+    },
+    {
+      "path": "code/docs/METHOD_SCOPE.md",
+      "bytes": 1392,
+      "sha256": "0cbb5ba6a6737b0682477e8f5150a78b756abd76cd873c34f2323bf216da9174"
+    },
+    {
+      "path": "code/docs/REPRODUCIBILITY.md",
+      "bytes": 2560,
+      "sha256": "a9176da8053ec91696396befc30c6de67541993dab928b99ab52f8968e77e06f"
+    },
+    {
+      "path": "code/EMsolver/__init__.py",
+      "bytes": 1414,
+      "sha256": "eb6f5d3713a09cdd61eaceb537fd5c052cf7a129ce90a80d6d04a30c01405483"
+    },
+    {
+      "path": "code/EMsolver/cuda_functions.py",
+      "bytes": 70823,
+      "sha256": "e6652bfab451ea23da62db57aff40264632eff99a1c0aae9c53ee25d6892d59c"
+    },
+    {
+      "path": "code/EMsolver/mas_dipole_basis.py",
+      "bytes": 11888,
+      "sha256": "bc47ae6138bf0ef9e0eac775d454e7991afd6a89a5b7f0c8369a9450ca7dc7c2"
+    },
+    {
+      "path": "code/EMsolver/mas_integration.py",
+      "bytes": 67809,
+      "sha256": "92fc782bb430c29f66f0787c384237d77f5c6eb3d626781de2f4947a73bdf5ea"
+    },
+    {
+      "path": "code/EMsolver/mas_mixed_mot.py",
+      "bytes": 6980,
+      "sha256": "4b2e753a7a7ab1c12a94a90c227d241b59c3c4a8e9f42ea1e4de4b990f273372"
+    },
+    {
+      "path": "code/EMsolver/mas_preprocessor.py",
+      "bytes": 78663,
+      "sha256": "88775ce4e2fb3f1f67c8084fe04235e373ed529d38a53dbf9448c29043ed8734"
+    },
+    {
+      "path": "code/EMsolver/mesh_guidance.py",
+      "bytes": 11487,
+      "sha256": "6703a1f7f306e8cd706b38b02f54be6471f668ade74d8c93f6ccebb2b677452c"
+    },
+    {
+      "path": "code/EMsolver/perf_diagnostics.py",
+      "bytes": 4824,
+      "sha256": "c099403a18cac2c9a86eb0a67129714469381ab99cc52fc9dafbab8d834bf2f7"
+    },
+    {
+      "path": "code/EMsolver/preprocessing.py",
+      "bytes": 499,
+      "sha256": "6ef3e64718d1df34d610ff0c2fc01d87ac6db2572540cfceb8acb49d6a762fe3"
+    },
+    {
+      "path": "code/EMsolver/region_distance.py",
+      "bytes": 4339,
+      "sha256": "ea9db9a860319c22205c7540075283ddbd07320faeb6a41415719590c19226fe"
+    },
+    {
+      "path": "code/EMsolver/revision_profile.py",
+      "bytes": 4547,
+      "sha256": "ebd707b94bb1f7c2408cbcdacf0986cfc380df4aa81e89eec2b092e6e4c012c7"
+    },
+    {
+      "path": "code/EMsolver/solver.py",
+      "bytes": 51180,
+      "sha256": "12b8fe409b3462ef78e0a11ab71b1f18be3df1bb767972926ac5483f91656554"
+    },
+    {
+      "path": "code/EMsolver/tdie_integration.py",
+      "bytes": 668,
+      "sha256": "240595b98c8e4a97d471ca31ad8dff78752b1671f0059e9e849c56a2ea16d30e"
+    },
+    {
+      "path": "code/examples/cpu_minimal.py",
+      "bytes": 216,
+      "sha256": "fd6ae44ca974c0717cafa8867368f0ebfe4f90eb41812cf7ba28f21ae19d017d"
+    },
+    {
+      "path": "code/examples/full_jefipic_mas_sheath/Full_JefiPIC_MAS_Sheath.py",
+      "bytes": 23425,
+      "sha256": "c89d0974e772542b0940b88ca04aaf27990a1ea410d8657e80725a8321c69a11"
+    },
+    {
+      "path": "code/examples/full_jefipic_mas_sheath/README_FULL_JEFIPIC_MAS_SHEATH.md",
+      "bytes": 2954,
+      "sha256": "00cabcbcd5c6372008cf5ec02183a31e028b512ed9c9614274c2ea6c1743e87a"
+    },
+    {
+      "path": "code/examples/gpu_two_way_quick.py",
+      "bytes": 216,
+      "sha256": "1b4f964b7eb5251a0890b9499c35981f16d8c7372e47f7bad84a778a03905dda"
+    },
+    {
+      "path": "code/examples/README.md",
+      "bytes": 326,
+      "sha256": "7afc078b1ce2e3b8392f4dd885e6d1ff8a8d24c14521160b3e0b9d0a68a91445"
+    },
+    {
+      "path": "code/examples/stl_mas_demo/center_fed_dipole.stl",
+      "bytes": 572833,
+      "sha256": "3212245d96c4aa51e17858af7284c98460729f69727043e490f87ffec9eb7b30"
+    },
+    {
+      "path": "code/examples/stl_mas_demo/create_dipole_stl.py",
+      "bytes": 5573,
+      "sha256": "6d9fd9a79b48735bbc6c41d09253daa2944f0b920b40a019c3f1c4d1dd0d5711"
+    },
+    {
+      "path": "code/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "code/Makefile",
+      "bytes": 259,
+      "sha256": "8bd6219178a11ad93517196190c5f6ae7b1766e69107a3b2fcf8c12e634ea07e"
+    },
+    {
+      "path": "code/Particle_transport/__init__.py",
+      "bytes": 45,
+      "sha256": "19243e27fe7513e6374bcdb8967a19d76388b0e7f18775e182228464427d59b6"
+    },
+    {
+      "path": "code/Particle_transport/cuda_kernels.py",
+      "bytes": 19376,
+      "sha256": "b8a5c2fc508db3a81a7624dc0b32d2eccad96375685c4b5735be572021ff5984"
+    },
+    {
+      "path": "code/Particle_transport/fast_deposition.py",
+      "bytes": 24395,
+      "sha256": "6d572b7e095d1f2f6ef558dacf5360092200a29bbb1a9d7102940af2dc1d03db"
+    },
+    {
+      "path": "code/Particle_transport/main.py",
+      "bytes": 57069,
+      "sha256": "c42cebcbc06005e1437c1451e058af2f62106f84f56c2f1ee014d193d6df6f96"
+    },
+    {
+      "path": "code/provenance/PUBLIC_PACKAGE_MANIFEST.csv",
+      "bytes": 13124,
+      "sha256": "16f9ed3eb5dbc7f72e6cd607fef50395bd652c2658b23eb1d9e72ca84f5f3474"
+    },
+    {
+      "path": "code/provenance/README.md",
+      "bytes": 335,
+      "sha256": "581775736f4583b91034a868911d80b0c2ef6649f7ed58b7e1aeb4682aad30d1"
+    },
+    {
+      "path": "code/provenance/SHA256SUMS.txt",
+      "bytes": 12522,
+      "sha256": "5138676d4e3b2bcbb05da670ccb95884894c9c04c5cb338b489d1beb4a4e6e77"
+    },
+    {
+      "path": "code/provenance/VALIDATION.md",
+      "bytes": 2034,
+      "sha256": "37875ffa0a1fa3780dee87bfc73ceba09a2334c82283ebe2b0961f88690a4271"
+    },
+    {
+      "path": "code/pyproject.toml",
+      "bytes": 720,
+      "sha256": "18e3b39d059991b64e6315b232567fdc45d9c475a082b6dc01627c82b8612a5b"
+    },
+    {
+      "path": "code/RBG_Maxwell/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "code/RBG_Maxwell/Plasma/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "code/RBG_Maxwell/Plasma/utils.py",
+      "bytes": 10756,
+      "sha256": "2feb930976103ef77b3c0fe9037f99535c31754eaed9bc64b1199b37771403a3"
+    },
+    {
+      "path": "code/RBG_Maxwell/Unit_conversion/__init__.py",
+      "bytes": 18,
+      "sha256": "c8e1cd666fd98cf2364f2c24c805534e3e4968d82157b8d011c24b214690a900"
+    },
+    {
+      "path": "code/RBG_Maxwell/Unit_conversion/main.py",
+      "bytes": 6606,
+      "sha256": "e99fb77e833b0e98597cb2e6ab7359746c92c896db3554b0ca4410a7adf747e0"
+    },
+    {
+      "path": "code/README.md",
+      "bytes": 5349,
+      "sha256": "9b31bce210bfdb36faa9f3e012fe7e793bffdc7efc36716815cd5053801973b7"
+    },
+    {
+      "path": "code/README_CN.md",
+      "bytes": 1828,
+      "sha256": "1793eacf557e750a5858c2c82d843fdc6a09ad8acfe258c15e05e5c4d6b8574c"
+    },
+    {
+      "path": "code/README_CPC_REVIEW.md",
+      "bytes": 1350,
+      "sha256": "35b3aca80dbeaaaafd4fd347cbceaeceab0489560007d54fbaa6d58f752e0d63"
+    },
+    {
+      "path": "code/reference_data/FINAL_KEY_NUMBERS.csv",
+      "bytes": 1723,
+      "sha256": "f863301b5b3672d43358fae17b1ae2a3baeaf4e815eedd1b78789f9634359bcb"
+    },
+    {
+      "path": "code/reference_data/full_em/full_em_atomic_observation_parity_report.json",
+      "bytes": 901,
+      "sha256": "91ae4f505ba274fa736d55b60e45456d16c48eac85618955ad73273c4da8b41c"
+    },
+    {
+      "path": "code/reference_data/full_em/response_stationarity_report.json",
+      "bytes": 4017,
+      "sha256": "9a117ea70f0d04efdacf6b913aecb571f5d44c02a7204eed27e6c2ba61b8ed00"
+    },
+    {
+      "path": "code/reference_data/full_em/response_stationarity_rolling.csv",
+      "bytes": 5597,
+      "sha256": "c1e15b6765811f07b1aff1a94dc79e48ba36732fe536bf286aad2f75a8144607"
+    },
+    {
+      "path": "code/reference_data/full_em/step1c_charge_conserving_cic_report.json",
+      "bytes": 5611,
+      "sha256": "3890afe7f03681c36a94adfd1f2e1c9ef425ccadc4389450f9664aeae02e83eb"
+    },
+    {
+      "path": "code/reference_data/full_em/step4b_full_em_broadband_report_raw.json",
+      "bytes": 4363,
+      "sha256": "33864bfb186f8f770609b90bfa7928704b15a438ee111a9c8823ce939e2399e8"
+    },
+    {
+      "path": "code/reference_data/full_em/step4d_a_full_em_atomic_region_metrics.csv",
+      "bytes": 1346,
+      "sha256": "65ca44cf7698f1621b74ef1fbe5dc1298fb2120eeef497d10dff28dd911823c2"
+    },
+    {
+      "path": "code/reference_data/full_em/step4d_a_full_em_atomic_report.json",
+      "bytes": 19847,
+      "sha256": "2b728ab45135f052522372056acf5e3af0d53d171009fcdc8e20b7e92f600fc2"
+    },
+    {
+      "path": "code/reference_data/full_em/step4d_b_full_em_article_report.json",
+      "bytes": 1700,
+      "sha256": "39645f432d286399eb6302106347473562d3f52d363c21436fd411b8ed623eb0"
+    },
+    {
+      "path": "code/reference_data/full_em/step4d_b_full_em_window_summary.csv",
+      "bytes": 638,
+      "sha256": "a886b15f9090cfdd300d4b1a6bf0609aacdbd86912c158f6c05610e8fec686ee"
+    },
+    {
+      "path": "code/reference_data/quasi_auxiliary/step4c3_basis_frequency_summary.csv",
+      "bytes": 1656,
+      "sha256": "141c053af422cb2083fa8ae4c6198588d15d2bb397d17032a3984ee71e032fc5"
+    },
+    {
+      "path": "code/reference_data/quasi_auxiliary/step4c3_density_frequency_summary.csv",
+      "bytes": 2157,
+      "sha256": "84299f4dc2b212eb78bc0f7cd01ca5bd288fbc539c69c11328397e05a0a696fe"
+    },
+    {
+      "path": "code/reference_data/quasi_auxiliary/step4c3_placement_frequency_summary.csv",
+      "bytes": 2376,
+      "sha256": "9a98c0683258673a3ad05255c3253015d69db019d2e94d3e1d93e3b1897bb705"
+    },
+    {
+      "path": "code/reference_data/quasi_auxiliary/step4c3_v2e_report.json",
+      "bytes": 47049,
+      "sha256": "e0c27a55d9f1d2e012294505b82a19951ab40c8fe58f859ce8ccb028aedf2acd"
+    },
+    {
+      "path": "code/reference_data/quasi_auxiliary/step4d_particle_seed_cases.csv",
+      "bytes": 1228,
+      "sha256": "054b78aa1836e24d9d41a95e3ac31a54f58af1c8acc65a75e1182a57ecda89f6"
+    },
+    {
+      "path": "code/reference_data/quasi_auxiliary/step4d_particle_summaries.csv",
+      "bytes": 771,
+      "sha256": "dec778ebc1049f66fad8807de743c50bb96c83602db68a9fe65bd44613b02c96"
+    },
+    {
+      "path": "code/reference_data/quasi_auxiliary/step4d_quasi_particle_seed_evidence_report.json",
+      "bytes": 5380,
+      "sha256": "d353215c9532e4c18b318daa6adc5ca2aa077271c5610aafd6dc92949059bec9"
+    },
+    {
+      "path": "code/reference_data/quasi_auxiliary/step4d_seed_summary_24000.csv",
+      "bytes": 428,
+      "sha256": "e551bb74b6b5bce5576d4ddc340806ae328b8ce661981b3fefbf3f85fbac4f25"
+    },
+    {
+      "path": "code/reference_data/README.md",
+      "bytes": 824,
+      "sha256": "52194fe0f73857d4df0187e6f06703f5fe82203db3c2b8acdb3c196ce2ff2681"
+    },
+    {
+      "path": "code/reference_data/spatial_auxiliary/collocation_overfit_report.json",
+      "bytes": 3841,
+      "sha256": "6173eabe2bc7c96c0333a0365e380dda4cf0872dc0c262b82879bd4ee5f65719"
+    },
+    {
+      "path": "code/reference_data/spatial_auxiliary/collocation_overfit_summary.csv",
+      "bytes": 786,
+      "sha256": "f1854cd999455174233df79be9927d40ea31ff613b08a2bebdab5114efea34ff"
+    },
+    {
+      "path": "code/reference_data/temporal/step4c1_v4_formal_report.json",
+      "bytes": 17657,
+      "sha256": "72fd285925d873286e58db926ac627eb13aba99ba848675e9d7ae240ac09d42e"
+    },
+    {
+      "path": "code/reference_data/temporal/step4c2_15MHz_characterization_report.json",
+      "bytes": 3875,
+      "sha256": "fe690fcf6ee47f368c55f25143c522f53b2d7e8c1a6eff0f084056a131772ec8"
+    },
+    {
+      "path": "code/reference_data/temporal/step4c2_v4_3_6_9MHz_report.json",
+      "bytes": 9489,
+      "sha256": "86043d15eef6b767ccd65a9d69a23e9b3e51540f4dbcb295294b327d9cc46895"
+    },
+    {
+      "path": "code/RELEASE_NOTES_v1.1.0.md",
+      "bytes": 1592,
+      "sha256": "1c495a7558332e6a381049f17435a9572141439cb770ba711a3ba174839ad8b0"
+    },
+    {
+      "path": "code/requirements-cpu.txt",
+      "bytes": 74,
+      "sha256": "c73137937e7532cfe3ad50511477023851fabe1adf8d20eb6c2af91025e8903b"
+    },
+    {
+      "path": "code/requirements-gpu.txt",
+      "bytes": 167,
+      "sha256": "0febad6828c6ae654450f226c126a7d6574482bec7b106d426396d397cb47a68"
+    },
+    {
+      "path": "code/scripts/benchmark_command.py",
+      "bytes": 1520,
+      "sha256": "1a4fbb961b4e9f1ffb538e086a4e64ebf2a0501c665853db15b395aae26f092b"
+    },
+    {
+      "path": "code/scripts/benchmark_field_backends.py",
+      "bytes": 4866,
+      "sha256": "3e3cc08f9ba33d00c2f923a9b483d5a2b0fe11618e756776d9cf3503bfc96b3a"
+    },
+    {
+      "path": "code/scripts/benchmark_mas_recurrence.py",
+      "bytes": 3677,
+      "sha256": "58e0f7efc1bb26ac8cc81e83c035184b151c7afd690ae435ef52743fc478a44c"
+    },
+    {
+      "path": "code/scripts/check_environment.py",
+      "bytes": 631,
+      "sha256": "5c7e8d3622ccf0be46985d79e498c36b05abfb38238a89356d96df61edc79b67"
+    },
+    {
+      "path": "code/scripts/run_cpu_repro.py",
+      "bytes": 1446,
+      "sha256": "1caca3c4a5735547f85f2e12457a828e0ce94146f8ca4d067870af455e499e17"
+    },
+    {
+      "path": "code/scripts/run_gpu_quick.py",
+      "bytes": 687,
+      "sha256": "c57d802ee4707f6cd657e33c156e6c57d973577b448291277489361cfbb29d19"
+    },
+    {
+      "path": "code/tests/test_cpu_smoke.py",
+      "bytes": 965,
+      "sha256": "8117a0189686f260b4f392c3c3f1677fe563c55bbd5f17fc1f0ef95fd388c3e5"
+    },
+    {
+      "path": "code/tests/test_revision_profile.py",
+      "bytes": 2952,
+      "sha256": "7efce9dae5119c56a154af56b6be81ea97a1e23c5e71bed657e0af99310615ff"
+    },
+    {
+      "path": "feedback_reference.py",
+      "bytes": 4050,
+      "sha256": "9c729f3c26e636d74b59e5327f596af9561a5a96f1119f4066f846a70c6d7eb8"
+    },
+    {
+      "path": "geometry_provenance.json",
+      "bytes": 1348,
+      "sha256": "f34936b779b61bf88bb355ccc4cce0fbb848f39c4fd16f81512fd8d2ea929f2e"
+    },
+    {
+      "path": "magnetic_feedback.py",
+      "bytes": 4775,
+      "sha256": "7385a7409c4b37887a07fad7a3262c517c60627f7dcfcc4c397d25ecddf5f879"
+    },
+    {
+      "path": "qualify_direct_incident_cpu.py",
+      "bytes": 3433,
+      "sha256": "390f099528b27e3d1a6a9252afe8a8f229981f415f614ba781dc8d6d68f7433b"
+    },
+    {
+      "path": "qualify_feedback_cpu.py",
+      "bytes": 4100,
+      "sha256": "91f7c113be8b0d503ed51c2f8dd28f14ad09407ece2aad25a944160f509e79d9"
+    },
+    {
+      "path": "qualify_reflective_cic_fix.py",
+      "bytes": 3736,
+      "sha256": "fda8acb061170b341511e48e047546b8f856c3ea5728c45904d0c8e56c9b5481"
+    },
+    {
+      "path": "README_\u8fd0\u884c\u4e0e\u9a8c\u6536.txt",
+      "bytes": 3767,
+      "sha256": "b42b795f4186e1f11d5d922d08d789d41f616c3f820ff9b74b1c3a8e6c0e9f3e"
+    },
+    {
+      "path": "run_article.py",
+      "bytes": 19103,
+      "sha256": "20bece872040eea8bb8400c6b663bf1d27e54d7adc64ba93d25697c7a2c0d44f"
+    },
+    {
+      "path": "run_full.py",
+      "bytes": 8172,
+      "sha256": "1f1ed20d0ea6da0fb1ccaf0a733bdd632c7d68bf6e75773e25e041b16f19b3e1"
+    },
+    {
+      "path": "validate_direct_gpu.py",
+      "bytes": 2686,
+      "sha256": "df1e101e7ae26527b228b13124a546f995f6639132ecd2a61a654f5bc39629b6"
+    },
+    {
+      "path": "validate_feedback_gpu.py",
+      "bytes": 6013,
+      "sha256": "abfc33adb8cae86d8cdb62c5ba2e1708dbd16ca83848c9dbf1c1dc34e8385e19"
+    },
+    {
+      "path": "validate_operator_cpu.py",
+      "bytes": 1694,
+      "sha256": "a8e968fb7e83e8d49c9b14dfa5fea55edcf2aac72c29cab56fc99e93094fdf82"
+    },
+    {
+      "path": "validation/core_source_identity.json",
+      "bytes": 6885,
+      "sha256": "6981f7db88527f485f0d783113f702f5687a9eb25315a466465b9db11ac3aa87"
+    },
+    {
+      "path": "validation/CPU_candidate_certificate.json",
+      "bytes": 2666,
+      "sha256": "6ead3d7ba17ffb51091fe9693a66033e2a1c62a9d4016ac07f9f3acba9f45e19"
+    },
+    {
+      "path": "validation/em_feedback_fixture.npz",
+      "bytes": 1504499,
+      "sha256": "fe4d6c6a7deb3e89dc53d3a8af772c6ef4f239a10b58d10e5dc5f3120e7f2c96"
+    },
+    {
+      "path": "validation/feedback_CPU_arithmetic.json",
+      "bytes": 1951,
+      "sha256": "eaa51c75a20bbf7b8b772928ce88ad155b01569a9f55d763c63023248cc8deca"
+    },
+    {
+      "path": "validation/feedback_fixture.json",
+      "bytes": 1336,
+      "sha256": "b23435b3885beb110a19cf352e422b7a4ac7d4cf9b48279ab14e84adaeac0acb"
+    },
+    {
+      "path": "validation/installed_operator_local_CPU.json",
+      "bytes": 662,
+      "sha256": "4340bb94980ec4ece84da6b0dec5cc22f9cc7d322b719bc4bcf3754bf8c029f2"
+    },
+    {
+      "path": "validation/integrated_CPU_smoke.json",
+      "bytes": 7415,
+      "sha256": "ca7fff46e8d8e303174dbb695e65b5b80c5fee072159a7bcf9a75ed50edcfc26"
+    },
+    {
+      "path": "validation/integrated_field_reference.json",
+      "bytes": 885,
+      "sha256": "dde885eac5473422355768a9549fb2e5b9ddab80b0fae9f6cec0815bb421526f"
+    },
+    {
+      "path": "validation/late_window_audit.json",
+      "bytes": 3155,
+      "sha256": "df146f52939b7d480b1ae385598e31ac1e0b337723764599fb8662c7a006a94e"
+    },
+    {
+      "path": "validation/operator_fixture.npz",
+      "bytes": 649979,
+      "sha256": "a3d9d8d208a74b0a444d9bcf74ca7ac6a683c3b8da4abf971118c6fdda8c8cd5"
+    },
+    {
+      "path": "validation/physical_control.json",
+      "bytes": 45357,
+      "sha256": "025d5d68aabbe3703c92e09da30394eb059ac4b064faeb16e75cab0faab90a64"
+    },
+    {
+      "path": "validation/report.json",
+      "bytes": 20341,
+      "sha256": "020bd50b49f0a3511e792499a48cb1484d0686082e87704dabf720933f2a153e"
+    },
+    {
+      "path": "validation/runner_control_flow_CPU_test.json",
+      "bytes": 794,
+      "sha256": "12dd13718081f5b2fbe33038b78798a31964ca698c395ef33fd8729dd8d1a2fa"
+    },
+    {
+      "path": "validation/SCUFF_validation.json",
+      "bytes": 1169,
+      "sha256": "5db7f10ee32f69d0b63ee90cfb3a565124485a27f4384d508db94c857237c7fc"
+    }
+  ]
+}

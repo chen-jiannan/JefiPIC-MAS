@@ -1,0 +1,6 @@
+{
+  "EMsolver/solver.py": "12b8fe409b3462ef78e0a11ab71b1f18be3df1bb767972926ac5483f91656554",
+  "EMsolver/cuda_functions.py": "e6652bfab451ea23da62db57aff40264632eff99a1c0aae9c53ee25d6892d59c",
+  "Particle_transport/main.py": "c42cebcbc06005e1437c1451e058af2f62106f84f56c2f1ee014d193d6df6f96",
+  "Particle_transport/cuda_kernels.py": "b8a5c2fc508db3a81a7624dc0b32d2eccad96375685c4b5735be572021ff5984"
+}

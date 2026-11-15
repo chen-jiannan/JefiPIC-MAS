@@ -1,0 +1,9 @@
+{
+  "twoarm_reference_beta_unchanged": 6415.6591576401015,
+  "theta_0p5_E_B_map_parity": [
+    7.22924236740944e-16,
+    6.91953509999892e-16
+  ],
+  "sphere_theta_0p6_CPU_qualification": "passed",
+  "CUDA": "pending actual GPU test"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "INSTALLED_COMPATIBLE_OPERATOR_CPU_PASSED",
+  "tests": [
+    {
+      "original_node": 260,
+      "E_relative": 8.464874778815659e-14,
+      "B_relative": 1.9562172087029743e-12,
+      "coefficient_relative": 2.7141276065615338e-08
+    },
+    {
+      "original_node": 1620,
+      "E_relative": 2.996269968971001e-13,
+      "B_relative": 3.4496303603926313e-12,
+      "coefficient_relative": 5.693200581447057e-08
+    }
+  ],
+  "magnetic_test_rank": 1981,
+  "fixture_sha256": "a3d9d8d208a74b0a444d9bcf74ca7ac6a683c3b8da4abf971118c6fdda8c8cd5",
+  "scope": "Small installed-operator replay before initializing the new particle run."
+}

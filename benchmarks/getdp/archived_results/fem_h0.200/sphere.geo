@@ -1,0 +1,13 @@
+SetFactory("OpenCASCADE");
+R=0.004; B=8; h=0.00080000000000000004;
+Sphere(1)={0,0,0,R}; Sphere(2)={0,0,0,B*R};
+air()=BooleanDifference{Volume{2};Delete;}{Volume{1};Delete;};
+inner()=Surface In BoundingBox{-1.01*R,-1.01*R,-1.01*R,1.01*R,1.01*R,1.01*R};
+outer()=Boundary{Volume{air()};}; outer()-=inner();
+Physical Volume(1)={air()}; Physical Surface(2)={inner()}; Physical Surface(3)={outer()};
+Field[1]=MathEval; Field[1].F=Sprintf("%g+0.3*(Sqrt(x*x+y*y+z*z)-%g)",h,R);
+Background Field=1;
+Mesh.MeshSizeMin=h; Mesh.MeshSizeMax=2*R;
+Mesh.MeshSizeFromPoints=0; Mesh.MeshSizeFromCurvature=0; Mesh.MeshSizeExtendFromBoundary=0;
+Mesh.MshFileVersion=2.2; Mesh.Binary=0; Mesh.ElementOrder=2;
+Mesh.MaxNumThreads3D=1; General.NumThreads=1; Mesh.RandomSeed=1;

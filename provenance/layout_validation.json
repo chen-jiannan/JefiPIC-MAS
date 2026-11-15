@@ -1,0 +1,195 @@
+{
+  "status": "CURRENT_LAYOUT_CPU_AND_REPRODUCTION_PASSED",
+  "layout": "one shared source tree at repository root; no bundled old repository",
+  "source_function_checks": 738,
+  "function_check_scope": "Resource paths and import/module names normalized; only verification scaffold functions are excluded. Constants, formulas, update logic and numerical functions retained.",
+  "CPU": {
+    "reflected_CC": {
+      "status": "FOLDED_REFLECTIVE_CIC_CPU_QUALIFIED",
+      "adapter_sha256": "7dd1db0254c757571c8960333615f1514f5c93db21204a7714fc5c8f825fcd00",
+      "scope": "Actual new CPU adapter. Identical full physical box and particle positions; no half-cell guard shrink and no qv deposition. Long slot replacement trajectories retain the existing RF mathematical source contract; this is not a particle-collection/conductor-charge physics validation.",
+      "rows": [
+        {
+          "case": "old_failing_half_cell",
+          "particles": 1,
+          "grid": 4,
+          "coordinate_scale": 1.0,
+          "continuity_linf_relative": 8.315380130495355e-17,
+          "charge_relative": 0.0,
+          "outer_normal_flux_absolute": 0.0
+        },
+        {
+          "case": "all_eight_corners",
+          "particles": 8,
+          "grid": 4,
+          "coordinate_scale": 1.0,
+          "continuity_linf_relative": 0.0,
+          "charge_relative": 0.0,
+          "outer_normal_flux_absolute": 0.0
+        },
+        {
+          "case": "long_reservoir_reset_trajectories",
+          "particles": 120,
+          "grid": 17,
+          "coordinate_scale": 1.0,
+          "continuity_linf_relative": 8.103651874024463e-16,
+          "charge_relative": 0.0,
+          "outer_normal_flux_absolute": 0.0
+        },
+        {
+          "case": "LHQCD_scale_long_trajectories",
+          "particles": 120,
+          "grid": 17,
+          "coordinate_scale": 100000000.0,
+          "continuity_linf_relative": 8.220639418795693e-16,
+          "charge_relative": 0.0,
+          "outer_normal_flux_absolute": 0.0
+        },
+        {
+          "case": "interior_matches_original",
+          "particles": 100,
+          "grid": 4,
+          "coordinate_scale": 1.0,
+          "continuity_linf_relative": 6.1127842086224555e-15,
+          "charge_relative": 1.4210854715202004e-16,
+          "outer_normal_flux_absolute": 0.0,
+          "original_interior_current_relative": 0.0
+        }
+      ]
+    },
+    "direct_incident": {
+      "status": "DIRECT_INCIDENT_CPU_ARITHMETIC_PASSED_NATIVE_CUDA_GATE_REQUIRED",
+      "random_history_tests": [
+        {
+          "tick": 0,
+          "E_relative": 0.0,
+          "B_relative": 0.0
+        },
+        {
+          "tick": 1,
+          "E_relative": 4.1539646155568267e-16,
+          "B_relative": 2.396499386891747e-16
+        },
+        {
+          "tick": 6,
+          "E_relative": 1.406466505203539e-16,
+          "B_relative": 5.950874959273086e-16
+        },
+        {
+          "tick": 14,
+          "E_relative": 2.4613163841061924e-16,
+          "B_relative": 4.962805532048459e-16
+        }
+      ],
+      "point_current_Faraday_relative": 5.955252545296956e-11,
+      "scope": "Independent vector source sum, charge/current terms, zero prehistory, ring wrap and Faraday sign. Not a coupled PIC qualification or proof that corrected RF boundary accuracy passes."
+    },
+    "EM_feedback": {
+      "status": "NATIVE_KERNEL_ARITHMETIC_CPU_PASSED_CUDA_GATE_REQUIRED",
+      "tests": [
+        {
+          "mode": "SI",
+          "E_relative": 2.182962331335848e-15,
+          "B_relative": 2.1597579630960244e-15,
+          "all_interval_relative": 2.082461662233846e-15,
+          "idempotent_max_absolute": 0.0,
+          "replay_nodes": 12,
+          "scored_nodes": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "history_nodes": 8,
+          "zero_prehistory": true,
+          "skipped_node_guard": true
+        },
+        {
+          "mode": "LHQCD",
+          "E_relative": 2.599189917885511e-15,
+          "B_relative": 2.627861100835978e-15,
+          "all_interval_relative": 2.665227065072529e-15,
+          "idempotent_max_absolute": 0.0,
+          "replay_nodes": 12,
+          "scored_nodes": [
+            1,
+            3,
+            5,
+            7,
+            9,
+            11
+          ],
+          "history_nodes": 8,
+          "zero_prehistory": true,
+          "skipped_node_guard": true
+        }
+      ],
+      "fixture_sha256": "fe4d6c6a7deb3e89dc53d3a8af772c6ef4f239a10b58d10e5dc5f3120e7f2c96",
+      "source_sha256": {
+        "magnetic_feedback.py": "e83c05c24e5f989738d5b38d5785cc8f9fe5d50aac45110eff6ea3586fb1fbc9",
+        "feedback_reference.py": "11a4e6385558b35927a0ced1004b229d6e368286ee718ebda802cd49b319434f",
+        "two_arm_model.py": "49d23ca47e122984d7f933c424ca3958425f7a8cc2a612954b306bdd623b401f",
+        "electric_magnetic_sources.py": "38dbdb009e380d20e3bb7290ff390f3e5a3e39a3841bbe04a1bc45ad81920c12",
+        "actual_geometry.npz": "4331642f047383ad36c26b0b08e56a05d26024ae80a0625e731652aca03a1c92",
+        "../../EMsolver/cuda_functions.py": "e6652bfab451ea23da62db57aff40264632eff99a1c0aae9c53ee25d6892d59c"
+      },
+      "scope": "Driven two-arm example: qualify feedback cpu. Physical discretization and numerical expressions are retained from the executed campaign; only imports, paths and release verification are reorganized."
+    },
+    "sphere": {
+      "status": "CPU_QUALIFICATION_PASSED_NATIVE_CUDA_GATE_REQUIRED",
+      "boundary_revision": "normalized-mixed-hermite-mot-v2",
+      "theta": 0.6,
+      "ridge_rel": 0.0001,
+      "magnetic_weight": 97.7310864525766,
+      "native_CUDA_tested": false,
+      "original_PIC_and_plasma_sources_preserved": true,
+      "delay": {
+        "max_delay_over_dt": 0.7499009446557854,
+        "magnetic_weight": 97.7310864525766
+      },
+      "spectrum": {
+        "spectral_radius": 1.000000000000002,
+        "growth_tolerance": 1e-08,
+        "modes_above_1_plus_tolerance": 0
+      },
+      "arbitrary_history_operator_E_B_relative": [
+        6.940995857506558e-16,
+        1.0422568210491058e-15
+      ],
+      "frozen_incident_replay": {
+        "samples": 87,
+        "finite": true,
+        "max_K_coeff_norm": 0.056468420168491434,
+        "collocation_Et_relative": 0.0034431948280327276,
+        "collocation_Bn_relative": 2.5215072699714485,
+        "collocation_Bn_over_full_incident_B": 0.0004910271393424036,
+        "scope": "Boundary response to old incident records only, not a new coupled PIC or WarpX comparison."
+      }
+    }
+  },
+  "SCUFF_MAS_periodic_recomputation": {
+    "periodic_solver": "direct regularized recurrence, no transient truncation",
+    "fixed_point_residual": 4.424763236283273e-09,
+    "E_offset": 0.018629272805291273,
+    "B_offset": 0.011188083973771195,
+    "E_probes": 0.015885569511793984,
+    "B_probes": 0.009838467658372423,
+    "scope": "CPU recomputation of the MAS periodic response; archived actual SCUFF reference; no new GPU/PIC/SIE solve",
+    "maximum_metric_difference_from_archive": 0.0
+  },
+  "figures": {
+    "figure1_geometry.pdf": "content identical",
+    "figure2_workflow.pdf": "content identical",
+    "figure3_performance.pdf": "content identical",
+    "figure4_static_getdp.pdf": "content identical",
+    "figure5_scuff_twoarm.pdf": "content identical",
+    "figure6_warpx_sphere.pdf": "content identical",
+    "figure7_rf_accuracy_stability.pdf": "content identical"
+  },
+  "WarpX_inputs": "Both fine96 inputs byte-identical to executed references",
+  "GPU": "No new native GPU execution during directory reorganization. Existing native/particle records retain their original hashes; relocated drivers require fresh native gates for any new run.",
+  "public_repository_updated": false,
+  "new_Mendeley_version_published": false
+}

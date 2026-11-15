@@ -1,0 +1,234 @@
+{
+  "parent": {
+    "source": "Actually completed native WarpX 26.11 CPU references; no synthetic substitution.",
+    "case_file_sha256": "06c8ad6726d77297192812a067677b4e9660c3c3f69d12a67c4c1a576e1dd5b6",
+    "checks": {
+      "warpx_fine96_metal": {
+        "last_time_s": 6.31191831806791e-09,
+        "sample_count": 4371,
+        "complete_to_common_end": true,
+        "particle_counts_unchanged": true,
+        "particle_bounding_box_min_radius_m": 0.0159189598021286,
+        "minimum_distance_to_electron_bounding_box_m_per_probe": [
+          0.0009189598021286001,
+          0.017026381141623075,
+          0.0309189598021286,
+          0.0110112566303382,
+          0.0
+        ],
+        "initial_state_prepended": false,
+        "finite": true,
+        "execution": {
+          "exit_code": 0,
+          "wall_s": 1251.2235572999343,
+          "command": [
+            "C:\\Users\\ahs\\Documents\\Codex\\2026-10-24\\cpc-ms-ref-no-comphy-d\\work\\warpx_comparison\\warpx\\build\\bin\\warpx.3d.NOMPI.OMP.DP.PDP.EB.exe",
+            "inputs"
+          ],
+          "omp_num_threads": 6,
+          "executable_sha256": "21f5015901d052872e7e6708258822bb51ef0c8e1400746b5071e61e655cdeb7",
+          "input_sha256": "8570bb630c9b1b40302d16d9dd916fef85a26c07ca835e616e12fc014bb3cef8",
+          "smoke_only": false,
+          "normal_exit_marker": true
+        },
+        "max_abs_charge_on_eb_C": 1.35919875005851e-14,
+        "max_abs_charge_on_eb_over_one_species_charge": 3.939353384848784e-05,
+        "physical_qualification_passed": true
+      },
+      "warpx_fine96_no_metal": {
+        "last_time_s": 6.31191831806791e-09,
+        "sample_count": 4371,
+        "complete_to_common_end": true,
+        "particle_counts_unchanged": true,
+        "particle_bounding_box_min_radius_m": 0.0159258733732637,
+        "minimum_distance_to_electron_bounding_box_m_per_probe": [
+          0.0009258733732637019,
+          0.017032736051688657,
+          0.0309258733732637,
+          0.01101145080456708,
+          0.0
+        ],
+        "initial_state_prepended": false,
+        "finite": true,
+        "execution": {
+          "exit_code": 0,
+          "wall_s": 1133.9072921997868,
+          "command": [
+            "C:\\Users\\ahs\\Documents\\Codex\\2026-10-24\\cpc-ms-ref-no-comphy-d\\work\\warpx_comparison\\warpx\\build\\bin\\warpx.3d.NOMPI.OMP.DP.PDP.EB.exe",
+            "inputs"
+          ],
+          "omp_num_threads": 6,
+          "executable_sha256": "21f5015901d052872e7e6708258822bb51ef0c8e1400746b5071e61e655cdeb7",
+          "input_sha256": "29e88f920c393cbef3fe5391cee934505884cae6fd928b2c2e6b18d1e392f0c7",
+          "smoke_only": false,
+          "normal_exit_marker": true
+        },
+        "physical_qualification_passed": true
+      },
+      "warpx_n64_metal": {
+        "last_time_s": 6.31119613061764e-09,
+        "sample_count": 2914,
+        "complete_to_common_end": true,
+        "particle_counts_unchanged": true,
+        "particle_bounding_box_min_radius_m": 0.015376419844055,
+        "minimum_distance_to_electron_bounding_box_m_per_probe": [
+          0.0003764198440550006,
+          0.016504178499656765,
+          0.030376419844055,
+          0.01099552855705021,
+          0.0
+        ],
+        "initial_state_prepended": false,
+        "finite": true,
+        "execution": {
+          "exit_code": 0,
+          "wall_s": 377.62303039990366,
+          "command": [
+            "C:\\Users\\ahs\\Documents\\Codex\\2026-10-24\\cpc-ms-ref-no-comphy-d\\work\\warpx_comparison\\warpx\\build\\bin\\warpx.3d.NOMPI.OMP.DP.PDP.EB.exe",
+            "inputs"
+          ],
+          "omp_num_threads": 6,
+          "executable_sha256": "21f5015901d052872e7e6708258822bb51ef0c8e1400746b5071e61e655cdeb7",
+          "input_sha256": "00e7b874e6453e5ee60599c88aa8aa95693ebcab9bb03036576e558d29fa1403",
+          "smoke_only": false,
+          "normal_exit_marker": true
+        },
+        "max_abs_charge_on_eb_C": 1.88252453221387e-14,
+        "max_abs_charge_on_eb_over_one_species_charge": 5.4561037432666465e-05,
+        "physical_qualification_passed": true
+      },
+      "warpx_n64_no_metal": {
+        "last_time_s": 6.31119613061764e-09,
+        "sample_count": 2914,
+        "complete_to_common_end": true,
+        "particle_counts_unchanged": true,
+        "particle_bounding_box_min_radius_m": 0.0154439487527825,
+        "minimum_distance_to_electron_bounding_box_m_per_probe": [
+          0.00044394875278250083,
+          0.016565290642409043,
+          0.0304439487527825,
+          0.01098922107004595,
+          0.0
+        ],
+        "initial_state_prepended": false,
+        "finite": true,
+        "execution": {
+          "exit_code": 0,
+          "wall_s": 324.27352830022573,
+          "command": [
+            "C:\\Users\\ahs\\Documents\\Codex\\2026-10-24\\cpc-ms-ref-no-comphy-d\\work\\warpx_comparison\\warpx\\build\\bin\\warpx.3d.NOMPI.OMP.DP.PDP.EB.exe",
+            "inputs"
+          ],
+          "omp_num_threads": 6,
+          "executable_sha256": "21f5015901d052872e7e6708258822bb51ef0c8e1400746b5071e61e655cdeb7",
+          "input_sha256": "7ed7652130668d868b9cf481e2754fbe80caf45b5f47741fb5f38696593340a7",
+          "smoke_only": false,
+          "normal_exit_marker": true
+        },
+        "physical_qualification_passed": true
+      },
+      "warpx_n96_metal": {
+        "last_time_s": 6.31119613061764e-09,
+        "sample_count": 2914,
+        "complete_to_common_end": true,
+        "particle_counts_unchanged": true,
+        "particle_bounding_box_min_radius_m": 0.0153768682401905,
+        "minimum_distance_to_electron_bounding_box_m_per_probe": [
+          0.0003768682401905001,
+          0.01650465243646123,
+          0.0303768682401905,
+          0.01099563394742976,
+          0.0
+        ],
+        "initial_state_prepended": false,
+        "finite": true,
+        "execution": {
+          "exit_code": 0,
+          "wall_s": 772.9803796997294,
+          "command": [
+            "C:\\Users\\ahs\\Documents\\Codex\\2026-10-24\\cpc-ms-ref-no-comphy-d\\work\\warpx_comparison\\warpx\\build\\bin\\warpx.3d.NOMPI.OMP.DP.PDP.EB.exe",
+            "inputs"
+          ],
+          "omp_num_threads": 6,
+          "executable_sha256": "21f5015901d052872e7e6708258822bb51ef0c8e1400746b5071e61e655cdeb7",
+          "input_sha256": "3220bba3d749ddc38f55ae9e5a2eb0a0752d3c9e90297d14fbfa66e98f79b349",
+          "smoke_only": false,
+          "normal_exit_marker": true
+        },
+        "max_abs_charge_on_eb_C": 1.88210653267965e-14,
+        "max_abs_charge_on_eb_over_one_species_charge": 5.454892259015411e-05,
+        "physical_qualification_passed": true
+      }
+    }
+  },
+  "cube8": {
+    "metal": {
+      "last_time_s": 6.31191831806791e-09,
+      "sample_count": 4371,
+      "complete_to_common_end": true,
+      "particle_counts_unchanged": true,
+      "particle_bounding_box_min_radius_m": 0.0153331073863966,
+      "minimum_distance_to_electron_bounding_box_m_per_probe": [
+        0.00033310738639660137,
+        0.01642979785973834,
+        0.0303331073863966,
+        0.01090203995149919,
+        0.0
+      ],
+      "initial_state_prepended": false,
+      "finite": true,
+      "execution": {
+        "exit_code": 0,
+        "smoke_only": false,
+        "normal_exit_marker": true,
+        "wall_s": 1085.7084955000319,
+        "omp_num_threads": 6,
+        "command": [
+          "C:\\Users\\ahs\\Documents\\Codex\\2026-10-24\\cpc-ms-ref-no-comphy-d\\work\\warpx_comparison\\warpx\\build\\bin\\warpx.3d.NOMPI.OMP.DP.PDP.EB.exe",
+          "inputs"
+        ],
+        "executable_sha256": "21f5015901d052872e7e6708258822bb51ef0c8e1400746b5071e61e655cdeb7",
+        "input_sha256": "0485fcd0cee862ae199f5d2b070073ace7b0670a4de188b0f5de648de7c44512",
+        "case_file_sha256": "c6dcfac705ed94e314ad15f7a56bd6d1f6f3291a7f1abc3653cb4a06b0f095f9",
+        "particle_file_sha256": "6aa8fa81c8d0467e064f9c38a155bf2de2e6e1f6c2453535778d3afd2a68d476",
+        "numerical_policy": "Same explicit cube8 coordinates, weight/8, physical species q,m unchanged; Esirkepov retained."
+      },
+      "max_abs_charge_on_eb_C": 1.35903851908081e-14,
+      "max_abs_charge_on_eb_over_one_species_charge": 3.938888988862301e-05,
+      "physical_qualification_passed": true
+    },
+    "no_metal": {
+      "last_time_s": 6.31191831806791e-09,
+      "sample_count": 4371,
+      "complete_to_common_end": true,
+      "particle_counts_unchanged": true,
+      "particle_bounding_box_min_radius_m": 0.0154256590462397,
+      "minimum_distance_to_electron_bounding_box_m_per_probe": [
+        0.0004256590462397014,
+        0.01651626666650274,
+        0.0304256590462397,
+        0.010902212092782911,
+        0.0
+      ],
+      "initial_state_prepended": false,
+      "finite": true,
+      "execution": {
+        "exit_code": 0,
+        "smoke_only": false,
+        "normal_exit_marker": true,
+        "wall_s": 10911.906084999908,
+        "omp_num_threads": 6,
+        "command": [
+          "C:\\Users\\ahs\\Documents\\Codex\\2026-10-24\\cpc-ms-ref-no-comphy-d\\work\\warpx_comparison\\warpx\\build\\bin\\warpx.3d.NOMPI.OMP.DP.PDP.EB.exe",
+          "inputs"
+        ],
+        "executable_sha256": "21f5015901d052872e7e6708258822bb51ef0c8e1400746b5071e61e655cdeb7",
+        "input_sha256": "d8db7b19e5c3c3c3bd52021715e821eb03ed10917f710f376beba4675c63d9d2",
+        "case_file_sha256": "c6dcfac705ed94e314ad15f7a56bd6d1f6f3291a7f1abc3653cb4a06b0f095f9",
+        "particle_file_sha256": "6aa8fa81c8d0467e064f9c38a155bf2de2e6e1f6c2453535778d3afd2a68d476",
+        "numerical_policy": "Same explicit cube8 coordinates, weight/8, physical species q,m unchanged; Esirkepov retained."
+      },
+      "physical_qualification_passed": true
+    }
+  }
+}

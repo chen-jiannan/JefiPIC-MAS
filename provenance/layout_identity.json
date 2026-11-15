@@ -1,0 +1,8 @@
+{
+  "preparation_date": "2026-11-15",
+  "software_name": "JefiPIC-MAS",
+  "semantic_release_number": null,
+  "change": "Shared source; descriptive imports; logical examples/data directories. No physics or numerical strategy change.",
+  "native_GPU_rerun_this_reorganization": false,
+  "published_dataset_2_status": "User clicked Publish; public visibility was not independently confirmed."
+}

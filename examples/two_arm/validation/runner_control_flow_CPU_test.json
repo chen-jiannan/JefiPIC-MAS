@@ -1,0 +1,25 @@
+{
+  "scope": "Mock ONLY process orchestration: failure stops full run and always returns ZIP.\n\nThese tests do not execute CUDA or advance particles. Synthetic success reports\nremain in this work directory and are never shipped as physical-run evidence.\n",
+  "native_CUDA_executed": false,
+  "particles_advanced": false,
+  "tests": [
+    {
+      "scenario": "native_failure",
+      "full_stage_calls": 0,
+      "archive_created": true,
+      "expected_control_flow": true
+    },
+    {
+      "scenario": "native_pass",
+      "full_stage_calls": 1,
+      "archive_created": true,
+      "expected_control_flow": true
+    },
+    {
+      "scenario": "replay_only",
+      "full_stage_calls": 0,
+      "archive_created": true,
+      "expected_control_flow": true
+    }
+  ]
+}

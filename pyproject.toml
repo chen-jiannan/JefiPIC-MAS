@@ -1,0 +1,5 @@
+[tool.jefipic-mas]
+distribution = "current manuscript implementation"
+python = ">=3.9"
+license = "Apache-2.0"
+entrypoint = "run.py"

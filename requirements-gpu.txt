@@ -1,0 +1,4 @@
+# Install requirements-cpu.txt first.
+# Install exactly one CuPy wheel matching local CUDA, for example:
+# python -m pip install cupy-cuda12x
+# Reference solvers are installed separately.

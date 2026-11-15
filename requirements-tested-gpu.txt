@@ -1,0 +1,8 @@
+# Recorded component environment; not a universal lockfile.
+# The wheel below is only for a compatible CUDA 12 environment.
+numpy==1.26.4
+scipy==1.13.1
+numba==0.60.0
+cupy-cuda12x==13.6.0
+# Python 3.9.21; GPU NVIDIA A800 80GB PCIe.
+# Plotting additionally requires Matplotlib.

@@ -1,0 +1,651 @@
+{
+  "status": "qualified",
+  "backend": "article-compatible-EM-hermite-native-v5-20261115",
+  "theta": 0.6,
+  "settings": {
+    "mode": "formal",
+    "total_length_m": 0.06,
+    "sources_per_arm": 996,
+    "n_phi": 72,
+    "n_cyl": 96,
+    "n_hemi": 24,
+    "cycles": 12.0,
+    "analysis_start_cycles": 0.75,
+    "particles_per_species": 24000,
+    "grid_n": 17,
+    "diag_stride": 20,
+    "holdout_points_target": 2048,
+    "seed": 101,
+    "base_sources_per_arm": 900,
+    "feed_cap_extra_sources_per_arm": 96,
+    "magnetic_sources_per_arm": 332
+  },
+  "magnetic_weight": 702.9771963636638,
+  "magnetic_weight_source": "frozen area-weighted Et/full-B input energy from separate 64-node source calibration, no fit to boundary residuals",
+  "geometry_fingerprint": "0608e90263adbc26866e7692109bb8cf3e95313af726ce86451f03d69a5b6564",
+  "steps_requested": 4001,
+  "steps_completed": 4001,
+  "full_two_way": true,
+  "deposition": "native unsplit first-order charge-conserving face currents",
+  "drive": "original curl-free localized E_z(z,t); external B=0; same feed in PIC and PEC RHS",
+  "all_states_finite": true,
+  "coefficient_closure_max_relative": 8.962281265293104e-15,
+  "homogeneous_tail_growth": 0.9995723353740977,
+  "two_way_execution_valid": true,
+  "precision_qualified": true,
+  "qualification_stop": null,
+  "source_continuity_max_relative": 5.411101485616866e-14,
+  "source_continuity_valid_steps": 4000,
+  "n_electric_sources": 1992,
+  "n_magnetic_sources": 664,
+  "total_dofs": 5976,
+  "magnetic_test_rank": 1981,
+  "n_collocation": 3984,
+  "independent_windows": [
+    {
+      "cycles": [
+        0.75,
+        4.0
+      ],
+      "Et_regions": {
+        "global": {
+          "region": "global",
+          "residual_rms_V_per_m": 0.06275543964387859,
+          "incident_rms_V_per_m": 13.329308722259881,
+          "incident_ratio": 1.0,
+          "local_rel": 0.004708079087333112,
+          "global_norm": 0.004708079087333112,
+          "gate_metric": "local_rel",
+          "gate_value": 0.004708079087333112,
+          "passed_5pct": true,
+          "sample_count_accumulated": 13824
+        },
+        "feed_rounded": {
+          "region": "feed_rounded",
+          "residual_rms_V_per_m": 0.061292780112910616,
+          "incident_rms_V_per_m": 24.30114191414624,
+          "incident_ratio": 1.8231359495457893,
+          "local_rel": 0.0025222181052006742,
+          "global_norm": 0.004598346500186613,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0025222181052006742,
+          "passed_5pct": true,
+          "sample_count_accumulated": 46332
+        },
+        "feed_tips": {
+          "region": "feed_tips",
+          "residual_rms_V_per_m": 0.04793835399654712,
+          "incident_rms_V_per_m": 27.489251725573933,
+          "incident_ratio": 2.062316381018846,
+          "local_rel": 0.0017438944673764576,
+          "global_norm": 0.0035964621268386033,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0017438944673764576,
+          "passed_5pct": true,
+          "sample_count_accumulated": 30510
+        },
+        "feed_transition": {
+          "region": "feed_transition",
+          "residual_rms_V_per_m": 0.0735209825511104,
+          "incident_rms_V_per_m": 20.56263063378775,
+          "incident_ratio": 1.5426629439115818,
+          "local_rel": 0.0035754657981505273,
+          "global_norm": 0.005515738594030066,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0035754657981505273,
+          "passed_5pct": true,
+          "sample_count_accumulated": 34128
+        },
+        "outer_rounded": {
+          "region": "outer_rounded",
+          "residual_rms_V_per_m": 0.13035343265869057,
+          "incident_rms_V_per_m": 10.248279776102933,
+          "incident_ratio": 0.7688530582976412,
+          "local_rel": 0.012719542743422201,
+          "global_norm": 0.009779459338427728,
+          "gate_metric": "local_rel",
+          "gate_value": 0.012719542743422201,
+          "passed_5pct": true,
+          "sample_count_accumulated": 34776
+        },
+        "outer_tips": {
+          "region": "outer_tips",
+          "residual_rms_V_per_m": 0.12048076054849578,
+          "incident_rms_V_per_m": 10.533416914292248,
+          "incident_ratio": 0.7902448006700822,
+          "local_rel": 0.011437956128464039,
+          "global_norm": 0.00903878536081121,
+          "gate_metric": "local_rel",
+          "gate_value": 0.011437956128464039,
+          "passed_5pct": true,
+          "sample_count_accumulated": 26028
+        },
+        "all_transition": {
+          "region": "all_transition",
+          "residual_rms_V_per_m": 0.09567644670421935,
+          "incident_rms_V_per_m": 17.53305073220699,
+          "incident_ratio": 1.31537584563008,
+          "local_rel": 0.005456919515350993,
+          "global_norm": 0.007177900122040099,
+          "gate_metric": "local_rel",
+          "gate_value": 0.005456919515350993,
+          "passed_5pct": true,
+          "sample_count_accumulated": 54108
+        },
+        "side_mid": {
+          "region": "side_mid",
+          "residual_rms_V_per_m": 0.011570954521414475,
+          "incident_rms_V_per_m": 9.53068842860679,
+          "incident_ratio": 0.7150174571837012,
+          "local_rel": 0.0012140733177976666,
+          "global_norm": 0.0008680836165262672,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0012140733177976666,
+          "passed_5pct": true,
+          "sample_count_accumulated": 22464
+        }
+      },
+      "worst": {
+        "region": "outer_rounded",
+        "residual_rms_V_per_m": 0.13035343265869057,
+        "incident_rms_V_per_m": 10.248279776102933,
+        "incident_ratio": 0.7688530582976412,
+        "local_rel": 0.012719542743422201,
+        "global_norm": 0.009779459338427728,
+        "gate_metric": "local_rel",
+        "gate_value": 0.012719542743422201,
+        "passed_5pct": true,
+        "sample_count_accumulated": 34776
+      },
+      "Bn_over_full_B": 0.0016100315051714332,
+      "passed": true
+    },
+    {
+      "cycles": [
+        4.0,
+        8.0
+      ],
+      "Et_regions": {
+        "global": {
+          "region": "global",
+          "residual_rms_V_per_m": 0.0743558860393736,
+          "incident_rms_V_per_m": 10.792869423074078,
+          "incident_ratio": 1.0,
+          "local_rel": 0.006889352879634412,
+          "global_norm": 0.006889352879634412,
+          "gate_metric": "local_rel",
+          "gate_value": 0.006889352879634412,
+          "passed_5pct": true,
+          "sample_count_accumulated": 17152
+        },
+        "feed_rounded": {
+          "region": "feed_rounded",
+          "residual_rms_V_per_m": 0.052777995943936014,
+          "incident_rms_V_per_m": 13.668901033877017,
+          "incident_ratio": 1.2664751604104716,
+          "local_rel": 0.0038611733169426703,
+          "global_norm": 0.0048900800959476,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0038611733169426703,
+          "passed_5pct": true,
+          "sample_count_accumulated": 57486
+        },
+        "feed_tips": {
+          "region": "feed_tips",
+          "residual_rms_V_per_m": 0.0363014551825631,
+          "incident_rms_V_per_m": 15.44128641673078,
+          "incident_ratio": 1.430693341264636,
+          "local_rel": 0.0023509346438409517,
+          "global_norm": 0.0033634665406915986,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0023509346438409517,
+          "passed_5pct": true,
+          "sample_count_accumulated": 37855
+        },
+        "feed_transition": {
+          "region": "feed_transition",
+          "residual_rms_V_per_m": 0.0658035861017441,
+          "incident_rms_V_per_m": 11.589702600932204,
+          "incident_ratio": 1.0738295949504009,
+          "local_rel": 0.005677763128835701,
+          "global_norm": 0.0060969500808619615,
+          "gate_metric": "local_rel",
+          "gate_value": 0.005677763128835701,
+          "passed_5pct": true,
+          "sample_count_accumulated": 42344
+        },
+        "outer_rounded": {
+          "region": "outer_rounded",
+          "residual_rms_V_per_m": 0.16135542241384548,
+          "incident_rms_V_per_m": 12.210840970948931,
+          "incident_ratio": 1.1313804042549955,
+          "local_rel": 0.013214112180948845,
+          "global_norm": 0.014950187581152763,
+          "gate_metric": "local_rel",
+          "gate_value": 0.013214112180948845,
+          "passed_5pct": true,
+          "sample_count_accumulated": 43148
+        },
+        "outer_tips": {
+          "region": "outer_tips",
+          "residual_rms_V_per_m": 0.14531213046242622,
+          "incident_rms_V_per_m": 12.490445888412058,
+          "incident_ratio": 1.1572868529020401,
+          "local_rel": 0.011633862534662493,
+          "global_norm": 0.013463716159834509,
+          "gate_metric": "local_rel",
+          "gate_value": 0.011633862534662493,
+          "passed_5pct": true,
+          "sample_count_accumulated": 32294
+        },
+        "all_transition": {
+          "region": "all_transition",
+          "residual_rms_V_per_m": 0.10998284350468954,
+          "incident_rms_V_per_m": 11.981919854131238,
+          "incident_ratio": 1.1101700006223636,
+          "local_rel": 0.009179066864378051,
+          "global_norm": 0.010190324666539297,
+          "gate_metric": "local_rel",
+          "gate_value": 0.009179066864378051,
+          "passed_5pct": true,
+          "sample_count_accumulated": 67134
+        },
+        "side_mid": {
+          "region": "side_mid",
+          "residual_rms_V_per_m": 0.013324325954997348,
+          "incident_rms_V_per_m": 9.645939011901264,
+          "incident_ratio": 0.8937325778517443,
+          "local_rel": 0.0013813404727686595,
+          "global_norm": 0.0012345489816184812,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0013813404727686595,
+          "passed_5pct": true,
+          "sample_count_accumulated": 27872
+        }
+      },
+      "worst": {
+        "region": "outer_rounded",
+        "residual_rms_V_per_m": 0.16135542241384548,
+        "incident_rms_V_per_m": 12.210840970948931,
+        "incident_ratio": 1.1313804042549955,
+        "local_rel": 0.013214112180948845,
+        "global_norm": 0.014950187581152763,
+        "gate_metric": "local_rel",
+        "gate_value": 0.013214112180948845,
+        "passed_5pct": true,
+        "sample_count_accumulated": 43148
+      },
+      "Bn_over_full_B": 0.0013578905130691057,
+      "passed": true
+    },
+    {
+      "cycles": [
+        8.0,
+        12.01
+      ],
+      "Et_regions": {
+        "global": {
+          "region": "global",
+          "residual_rms_V_per_m": 0.07374739262141095,
+          "incident_rms_V_per_m": 11.309376157908547,
+          "incident_ratio": 1.0,
+          "local_rel": 0.006520907218197004,
+          "global_norm": 0.006520907218197004,
+          "gate_metric": "local_rel",
+          "gate_value": 0.006520907218197004,
+          "passed_5pct": true,
+          "sample_count_accumulated": 17152
+        },
+        "feed_rounded": {
+          "region": "feed_rounded",
+          "residual_rms_V_per_m": 0.05264723699456126,
+          "incident_rms_V_per_m": 14.946307456661097,
+          "incident_ratio": 1.3215854922474461,
+          "local_rel": 0.003522424327695604,
+          "global_norm": 0.004655184889021974,
+          "gate_metric": "local_rel",
+          "gate_value": 0.003522424327695604,
+          "passed_5pct": true,
+          "sample_count_accumulated": 57486
+        },
+        "feed_tips": {
+          "region": "feed_tips",
+          "residual_rms_V_per_m": 0.03507686749910144,
+          "incident_rms_V_per_m": 16.879860300518153,
+          "incident_ratio": 1.4925545021079005,
+          "local_rel": 0.002078030675290879,
+          "global_norm": 0.0031015740399237225,
+          "gate_metric": "local_rel",
+          "gate_value": 0.002078030675290879,
+          "passed_5pct": true,
+          "sample_count_accumulated": 37855
+        },
+        "feed_transition": {
+          "region": "feed_transition",
+          "residual_rms_V_per_m": 0.06692616953767488,
+          "incident_rms_V_per_m": 12.673995012579796,
+          "incident_ratio": 1.1206626108830047,
+          "local_rel": 0.005280589859097004,
+          "global_norm": 0.005917759618497967,
+          "gate_metric": "local_rel",
+          "gate_value": 0.005280589859097004,
+          "passed_5pct": true,
+          "sample_count_accumulated": 42344
+        },
+        "outer_rounded": {
+          "region": "outer_rounded",
+          "residual_rms_V_per_m": 0.15646826270770756,
+          "incident_rms_V_per_m": 10.463175754027976,
+          "incident_ratio": 0.925177092700305,
+          "local_rel": 0.014954184693635913,
+          "global_norm": 0.013835269118561476,
+          "gate_metric": "local_rel",
+          "gate_value": 0.014954184693635913,
+          "passed_5pct": true,
+          "sample_count_accumulated": 43148
+        },
+        "outer_tips": {
+          "region": "outer_tips",
+          "residual_rms_V_per_m": 0.1321009904944352,
+          "incident_rms_V_per_m": 10.661462683369077,
+          "incident_ratio": 0.9427100606175886,
+          "local_rel": 0.012390512860913621,
+          "global_norm": 0.01168066113019489,
+          "gate_metric": "local_rel",
+          "gate_value": 0.012390512860913621,
+          "passed_5pct": true,
+          "sample_count_accumulated": 32294
+        },
+        "all_transition": {
+          "region": "all_transition",
+          "residual_rms_V_per_m": 0.1142256258119401,
+          "incident_rms_V_per_m": 12.040500372690817,
+          "incident_ratio": 1.0646476166831713,
+          "local_rel": 0.009486783960491909,
+          "global_norm": 0.010100081933525849,
+          "gate_metric": "local_rel",
+          "gate_value": 0.009486783960491909,
+          "passed_5pct": true,
+          "sample_count_accumulated": 67134
+        },
+        "side_mid": {
+          "region": "side_mid",
+          "residual_rms_V_per_m": 0.014055008068200106,
+          "incident_rms_V_per_m": 10.553728826473428,
+          "incident_ratio": 0.9331839952191614,
+          "local_rel": 0.0013317575521690419,
+          "global_norm": 0.0012427748331963972,
+          "gate_metric": "local_rel",
+          "gate_value": 0.0013317575521690419,
+          "passed_5pct": true,
+          "sample_count_accumulated": 27872
+        }
+      },
+      "worst": {
+        "region": "outer_rounded",
+        "residual_rms_V_per_m": 0.15646826270770756,
+        "incident_rms_V_per_m": 10.463175754027976,
+        "incident_ratio": 0.925177092700305,
+        "local_rel": 0.014954184693635913,
+        "global_norm": 0.013835269118561476,
+        "gate_metric": "local_rel",
+        "gate_value": 0.014954184693635913,
+        "passed_5pct": true,
+        "sample_count_accumulated": 43148
+      },
+      "Bn_over_full_B": 0.0011532266063615628,
+      "passed": true
+    }
+  ],
+  "late_window_precision_qualified": true,
+  "native_gate_report": "/home/zhangjunjie/cjn/JefiPIC/JefiPIC-MAS-CPC-review/CPC_article_compatible_GPU_20261115/compatible_return_20261115_131122_714744/gpu_feedback/report.json",
+  "initial_position_fingerprint": "3d71248d0aae7a082bfb883613516f748805fedab7d47ff8d850a44d5f0b94dd",
+  "incident_interface": "direct retarded rho/face-J at actual PEC points, no E/B grid interpolation",
+  "source_boundary": "reflected CIC shape at the unchanged physical reflective box",
+  "mixed_operator_setup_s": 29.891639652079903,
+  "elapsed_until_main_loop_end_s": 1855.8002664569067,
+  "elapsed_scope": "includes setup; synchronized profile if enabled; homogeneous tail excluded; not repeated wall throughput",
+  "boundary_Et_collocation": 0.003489719044129358,
+  "boundary_Et_holdout": {
+    "global": {
+      "region": "global",
+      "residual_rms_V_per_m": 0.0709916879103552,
+      "incident_rms_V_per_m": 11.752818299139577,
+      "incident_ratio": 1.0,
+      "local_rel": 0.006040396958706705,
+      "global_norm": 0.006040396958706705,
+      "gate_metric": "local_rel",
+      "gate_value": 0.006040396958706705,
+      "passed_5pct": true,
+      "sample_count_accumulated": 48128
+    },
+    "feed_rounded": {
+      "region": "feed_rounded",
+      "residual_rms_V_per_m": 0.05531356978043136,
+      "incident_rms_V_per_m": 17.7714406569053,
+      "incident_ratio": 1.512100349429068,
+      "local_rel": 0.0031124977906019473,
+      "global_norm": 0.004706408996766407,
+      "gate_metric": "local_rel",
+      "gate_value": 0.0031124977906019473,
+      "passed_5pct": true,
+      "sample_count_accumulated": 161304
+    },
+    "feed_tips": {
+      "region": "feed_tips",
+      "residual_rms_V_per_m": 0.03960072299598053,
+      "incident_rms_V_per_m": 20.089018055710078,
+      "incident_ratio": 1.7092936812594808,
+      "local_rel": 0.0019712622531455424,
+      "global_norm": 0.0033694661134070028,
+      "gate_metric": "local_rel",
+      "gate_value": 0.0019712622531455424,
+      "passed_5pct": true,
+      "sample_count_accumulated": 106220
+    },
+    "feed_transition": {
+      "region": "feed_transition",
+      "residual_rms_V_per_m": 0.06849856726351936,
+      "incident_rms_V_per_m": 15.052058050511409,
+      "incident_ratio": 1.280719029886931,
+      "local_rel": 0.004550777510533986,
+      "global_norm": 0.00582826735852235,
+      "gate_metric": "local_rel",
+      "gate_value": 0.004550777510533986,
+      "passed_5pct": true,
+      "sample_count_accumulated": 118816
+    },
+    "outer_rounded": {
+      "region": "outer_rounded",
+      "residual_rms_V_per_m": 0.15127591287758113,
+      "incident_rms_V_per_m": 11.05992158438896,
+      "incident_ratio": 0.9410442076857988,
+      "local_rel": 0.013677846784294253,
+      "global_norm": 0.012871458489973935,
+      "gate_metric": "local_rel",
+      "gate_value": 0.013677846784294253,
+      "passed_5pct": true,
+      "sample_count_accumulated": 121072
+    },
+    "outer_tips": {
+      "region": "outer_tips",
+      "residual_rms_V_per_m": 0.13384224525018798,
+      "incident_rms_V_per_m": 11.312740595718413,
+      "incident_ratio": 0.9625555596776832,
+      "local_rel": 0.011831107070628306,
+      "global_norm": 0.011388097887975224,
+      "gate_metric": "local_rel",
+      "gate_value": 0.011831107070628306,
+      "passed_5pct": true,
+      "sample_count_accumulated": 90616
+    },
+    "all_transition": {
+      "region": "all_transition",
+      "residual_rms_V_per_m": 0.10765746152570868,
+      "incident_rms_V_per_m": 13.824932841217445,
+      "incident_ratio": 1.1763078854226452,
+      "local_rel": 0.007787195985845252,
+      "global_norm": 0.009160140043481339,
+      "gate_metric": "local_rel",
+      "gate_value": 0.007787195985845252,
+      "passed_5pct": true,
+      "sample_count_accumulated": 188376
+    },
+    "side_mid": {
+      "region": "side_mid",
+      "residual_rms_V_per_m": 0.013119807709689551,
+      "incident_rms_V_per_m": 9.94707655081017,
+      "incident_ratio": 0.8463567033567085,
+      "local_rel": 0.0013189611684069093,
+      "global_norm": 0.0011163116263483842,
+      "gate_metric": "local_rel",
+      "gate_value": 0.0013189611684069093,
+      "passed_5pct": true,
+      "sample_count_accumulated": 78208
+    }
+  },
+  "worst_Et_holdout": {
+    "region": "outer_rounded",
+    "residual_rms_V_per_m": 0.15127591287758113,
+    "incident_rms_V_per_m": 11.05992158438896,
+    "incident_ratio": 0.9410442076857988,
+    "local_rel": 0.013677846784294253,
+    "global_norm": 0.012871458489973935,
+    "gate_metric": "local_rel",
+    "gate_value": 0.013677846784294253,
+    "passed_5pct": true,
+    "sample_count_accumulated": 121072
+  },
+  "projected_Bn_collocation_over_area_weighted_full_B": 6.06000134035635e-06,
+  "boundary_Bn_holdout_over_incident_full_B": 0.0013093650039860726,
+  "magnetic_metric_note": "Only holdout Bn is the full, unprojected physical residual divided by full incident B. Collocation Bn is a projected area-weighted internal diagnostic and is not an acceptance substitute. Vacuum B=0 has no relative B metric.",
+  "surface_absorption_counts": [
+    440,
+    0
+  ],
+  "response": {
+    "num_samples": 3751,
+    "current_fit_condition_number": 3.470884716475801,
+    "polarization_fit_condition_number": 3.470884716475801,
+    "frequencies": {
+      "3MHz": {
+        "current_moment_vector_A_m": [
+          [
+            -1.664804910546927e-11,
+            -9.642426002910664e-13
+          ],
+          [
+            -6.065985526935552e-12,
+            -3.2651385064073648e-12
+          ],
+          [
+            -8.213293108498616e-10,
+            5.188785794652417e-10
+          ]
+        ],
+        "current_moment_norm_A_m": 9.716698830887295e-10,
+        "axial_current_moment_A_m": 9.71502350531884e-10,
+        "polarization_moment_vector_C_m": [
+          [
+            -5.742782696258444e-20,
+            7.761954565243759e-19
+          ],
+          [
+            -2.243448915922502e-19,
+            4.29863419990651e-19
+          ],
+          [
+            2.5656992023436665e-17,
+            4.5128701507692846e-17
+          ]
+        ],
+        "polarization_moment_norm_C_m": 5.192034119681225e-17,
+        "axial_polarization_moment_C_m": 5.1912242674162435e-17,
+        "continuity_harmonic_ratio_abs_iwD_over_M": 1.0072263034293103
+      },
+      "6MHz": {
+        "current_moment_vector_A_m": [
+          [
+            2.45325216514221e-11,
+            -1.408810911315666e-11
+          ],
+          [
+            -1.7725034453183176e-11,
+            1.726044523467921e-11
+          ],
+          [
+            -2.729627859448148e-11,
+            -1.722752813206954e-10
+          ]
+        ],
+        "current_moment_norm_A_m": 1.7842723624004234e-10,
+        "axial_current_moment_A_m": 1.7442436578423408e-10,
+        "polarization_moment_vector_C_m": [
+          [
+            -3.732692236521942e-19,
+            -7.024520403264503e-19
+          ],
+          [
+            4.592339311553408e-19,
+            4.979855964923508e-19
+          ],
+          [
+            -4.5053558715115705e-18,
+            5.79248106404113e-19
+          ]
+        ],
+        "polarization_moment_norm_C_m": 4.6610529001352765e-18,
+        "axial_polarization_moment_C_m": 4.542439861763338e-18,
+        "continuity_harmonic_ratio_abs_iwD_over_M": 0.9817776754934789
+      },
+      "9MHz": {
+        "current_moment_vector_A_m": [
+          [
+            1.0427738665567785e-12,
+            -1.7863679848392578e-11
+          ],
+          [
+            4.3840290448723635e-13,
+            -6.6723609627701934e-12
+          ],
+          [
+            2.1857815883932703e-10,
+            1.6328079684025126e-11
+          ]
+        ],
+        "current_moment_norm_A_m": 2.2001801912739955e-10,
+        "axial_current_moment_A_m": 2.1918717505309918e-10,
+        "polarization_moment_vector_C_m": [
+          [
+            -3.189996059158939e-19,
+            -5.418955789193127e-20
+          ],
+          [
+            -9.693593481051148e-20,
+            2.8486266289069433e-20
+          ],
+          [
+            9.490498751446732e-19,
+            -3.3017683817258977e-18
+          ]
+        ],
+        "polarization_moment_norm_C_m": 3.4521406998644583e-18,
+        "axial_polarization_moment_C_m": 3.435457773292662e-18,
+        "continuity_harmonic_ratio_abs_iwD_over_M": 0.8863226609596668
+      }
+    }
+  },
+  "response_scope": "Electric auxiliary moments only, not port impedance or plasma/vacuum ratio. Magnetic auxiliary moment is saved separately; neither is asserted to be the total physical conductor moment.",
+  "harmonic_fit": {
+    "samples": 188,
+    "fit_start_s": 2.5e-07,
+    "frequencies_Hz": [
+      3000000.0,
+      6000000.0,
+      9000000.0,
+      15000000.0
+    ],
+    "normal_matrix_condition": 176.51160387149824
+  },
+  "smoke_only": false
+}

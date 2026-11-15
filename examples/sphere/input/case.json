@@ -1,0 +1,70 @@
+{
+  "schema": 3,
+  "radius_m": 0.01,
+  "cloud_radius_m": 0.009000000000000001,
+  "cloud_center_m": [
+    0,
+    0,
+    0.025
+  ],
+  "n0_m3": 705989680780806.8,
+  "omega_p_rad_s": 1498962290.0,
+  "period_s": 4.191690043903364e-09,
+  "particles_per_species": 42168,
+  "macro_weight": 51069.85538055605,
+  "electron_mass_kg": 9.1093837139e-31,
+  "ion_mass_kg": 2.67619508152e-26,
+  "particle_loading": "Deterministic paired quiet Cartesian lattice clipped to a sphere",
+  "lattice_spacing_m": 0.0004166666666666667,
+  "represented_volume_over_sphere_volume": 0.9989255937516436,
+  "charge_C": 1.602176634e-19,
+  "c_m_s": 299792458.0,
+  "epsilon0_F_m": 8.8541878128e-12,
+  "particle_temperature_eV": 0.0,
+  "pulse_duration_s": 2.095845021951682e-09,
+  "drive_displacement_scale_over_R": 0.003,
+  "force_equivalent_E_V_m": 383.24921301881494,
+  "stop_time_s": 6.311032681149038e-09,
+  "jefipic_dt_s": 7.338410094359346e-11,
+  "jefipic_steps": 86,
+  "base_box_halfwidth_m": 0.04,
+  "probes_m": [
+    [
+      0.0,
+      0.0,
+      0.015
+    ],
+    [
+      0.015,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -0.015
+    ],
+    [
+      0.02,
+      0.0,
+      0.02
+    ],
+    [
+      0.0,
+      0.0,
+      0.025
+    ]
+  ],
+  "primary_field_probe_indices": [
+    1,
+    2,
+    3
+  ],
+  "primary_field_probe_rule": "At least 0.5R from the PEC and the initial plasma-cloud boundary; selected before JefiPIC results or fine96-reference results. All five probes are retained for audit.",
+  "driving_definition": "Prescribed NON-electromagnetic body force F_s=q_s*E0*sin(pi*t/Tpulse)^2*zhat for 0<t<Tpulse; zero otherwise. It is not part of the Maxwell fields and is not applied to the conductor.",
+  "initial_state": "E=B=rho=J=P=K=0; coincident, resting electron/ion pairs; zero prehistory.",
+  "conductor": "Isolated initially neutral PEC sphere, no prescribed potential, no collection events permitted.",
+  "field_boundary": "Outgoing free-space; WarpX finite PML approximates it; check box extension.",
+  "numerical_policy": "Different discretizations and timesteps are permitted; no fitted gain, phase, time shift, or frequency.",
+  "particle_file_sha256": "4d15ba6cdf3eddff0b8f98dac700d1aa9a190f87e98cea0c5b455b76222bce89"
+}

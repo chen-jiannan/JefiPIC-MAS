@@ -1,0 +1,30 @@
+{
+  "method": "GetDP_P2",
+  "h_over_R": 0.2,
+  "outer_radius_over_R": 8.0,
+  "trial": 1,
+  "n_mesh_nodes": 13706,
+  "unknowns": 12136,
+  "mesh_wall_s": 0.3583587999455631,
+  "process_solve_and_query_wall_s": 1.4286746000871062,
+  "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+  "metrics": {
+    "1.05": {
+      "E_rel_l2": 0.023645047811658416,
+      "Phi_rel_l2": 0.020569797573910992
+    },
+    "1.10": {
+      "E_rel_l2": 0.023709687758456954,
+      "Phi_rel_l2": 0.009723084912452138
+    },
+    "2.00": {
+      "E_rel_l2": 0.009093050187983542,
+      "Phi_rel_l2": 0.0005561412430840245
+    }
+  },
+  "dipole_rel_error": 0.0007357871237409346,
+  "linear_residual_norms": [
+    5.158720114636e-05,
+    1.19659172462e-19
+  ]
+}

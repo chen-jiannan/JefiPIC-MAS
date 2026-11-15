@@ -1,0 +1,722 @@
+[
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.4,
+    "outer_radius_over_R": 8.0,
+    "trial": 0,
+    "n_mesh_nodes": 5941,
+    "unknowns": 5551,
+    "mesh_wall_s": 0.2504227003082633,
+    "process_solve_and_query_wall_s": 0.522987499833107,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.08593421516137242,
+        "Phi_rel_l2": 0.0881822686355161
+      },
+      "1.10": {
+        "E_rel_l2": 0.07400557643782389,
+        "Phi_rel_l2": 0.06558233488383569
+      },
+      "2.00": {
+        "E_rel_l2": 0.018706275939693685,
+        "Phi_rel_l2": 0.002159410794424904
+      }
+    },
+    "dipole_rel_error": 0.009997112686160612,
+    "linear_residual_norms": [
+      5.825531648601e-05,
+      8.829181261892e-20
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.4,
+    "outer_radius_over_R": 8.0,
+    "trial": 1,
+    "n_mesh_nodes": 5941,
+    "unknowns": 5551,
+    "mesh_wall_s": 0.2504227003082633,
+    "process_solve_and_query_wall_s": 0.5250359000638127,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.08593421516137242,
+        "Phi_rel_l2": 0.0881822686355161
+      },
+      "1.10": {
+        "E_rel_l2": 0.07400557643782389,
+        "Phi_rel_l2": 0.06558233488383569
+      },
+      "2.00": {
+        "E_rel_l2": 0.018706275939693685,
+        "Phi_rel_l2": 0.002159410794424904
+      }
+    },
+    "dipole_rel_error": 0.009997112686160612,
+    "linear_residual_norms": [
+      5.825531648601e-05,
+      8.829181261892e-20
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.4,
+    "outer_radius_over_R": 8.0,
+    "trial": 2,
+    "n_mesh_nodes": 5941,
+    "unknowns": 5551,
+    "mesh_wall_s": 0.2504227003082633,
+    "process_solve_and_query_wall_s": 0.5206923997029662,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.08593421516137242,
+        "Phi_rel_l2": 0.0881822686355161
+      },
+      "1.10": {
+        "E_rel_l2": 0.07400557643782389,
+        "Phi_rel_l2": 0.06558233488383569
+      },
+      "2.00": {
+        "E_rel_l2": 0.018706275939693685,
+        "Phi_rel_l2": 0.002159410794424904
+      }
+    },
+    "dipole_rel_error": 0.009997112686160612,
+    "linear_residual_norms": [
+      5.825531648601e-05,
+      8.829181261892e-20
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.2,
+    "outer_radius_over_R": 8.0,
+    "trial": 0,
+    "n_mesh_nodes": 13706,
+    "unknowns": 12136,
+    "mesh_wall_s": 0.3583587999455631,
+    "process_solve_and_query_wall_s": 1.4411447001621127,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.023645047811658416,
+        "Phi_rel_l2": 0.020569797573910992
+      },
+      "1.10": {
+        "E_rel_l2": 0.023709687758456954,
+        "Phi_rel_l2": 0.009723084912452138
+      },
+      "2.00": {
+        "E_rel_l2": 0.009093050187983542,
+        "Phi_rel_l2": 0.0005561412430840245
+      }
+    },
+    "dipole_rel_error": 0.0007357871237409346,
+    "linear_residual_norms": [
+      5.158720114636e-05,
+      1.19659172462e-19
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.2,
+    "outer_radius_over_R": 8.0,
+    "trial": 1,
+    "n_mesh_nodes": 13706,
+    "unknowns": 12136,
+    "mesh_wall_s": 0.3583587999455631,
+    "process_solve_and_query_wall_s": 1.4286746000871062,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.023645047811658416,
+        "Phi_rel_l2": 0.020569797573910992
+      },
+      "1.10": {
+        "E_rel_l2": 0.023709687758456954,
+        "Phi_rel_l2": 0.009723084912452138
+      },
+      "2.00": {
+        "E_rel_l2": 0.009093050187983542,
+        "Phi_rel_l2": 0.0005561412430840245
+      }
+    },
+    "dipole_rel_error": 0.0007357871237409346,
+    "linear_residual_norms": [
+      5.158720114636e-05,
+      1.19659172462e-19
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.2,
+    "outer_radius_over_R": 8.0,
+    "trial": 2,
+    "n_mesh_nodes": 13706,
+    "unknowns": 12136,
+    "mesh_wall_s": 0.3583587999455631,
+    "process_solve_and_query_wall_s": 1.4235230996273458,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.023645047811658416,
+        "Phi_rel_l2": 0.020569797573910992
+      },
+      "1.10": {
+        "E_rel_l2": 0.023709687758456954,
+        "Phi_rel_l2": 0.009723084912452138
+      },
+      "2.00": {
+        "E_rel_l2": 0.009093050187983542,
+        "Phi_rel_l2": 0.0005561412430840245
+      }
+    },
+    "dipole_rel_error": 0.0007357871237409346,
+    "linear_residual_norms": [
+      5.158720114636e-05,
+      1.19659172462e-19
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.1,
+    "outer_radius_over_R": 8.0,
+    "trial": 0,
+    "n_mesh_nodes": 36213,
+    "unknowns": 30119,
+    "mesh_wall_s": 0.7807459002360702,
+    "process_solve_and_query_wall_s": 5.099872900173068,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.007622763293601833,
+        "Phi_rel_l2": 0.002860507092263041
+      },
+      "1.10": {
+        "E_rel_l2": 0.008318641080127866,
+        "Phi_rel_l2": 0.001319687003880115
+      },
+      "2.00": {
+        "E_rel_l2": 0.006085191099538791,
+        "Phi_rel_l2": 0.00028321933034314685
+      }
+    },
+    "dipole_rel_error": 0.00021210076243615076,
+    "linear_residual_norms": [
+      5.20077391306e-05,
+      1.542418526869e-19
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.1,
+    "outer_radius_over_R": 8.0,
+    "trial": 1,
+    "n_mesh_nodes": 36213,
+    "unknowns": 30119,
+    "mesh_wall_s": 0.7807459002360702,
+    "process_solve_and_query_wall_s": 5.080784100107849,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.007622763293601833,
+        "Phi_rel_l2": 0.002860507092263041
+      },
+      "1.10": {
+        "E_rel_l2": 0.008318641080127866,
+        "Phi_rel_l2": 0.001319687003880115
+      },
+      "2.00": {
+        "E_rel_l2": 0.006085191099538791,
+        "Phi_rel_l2": 0.00028321933034314685
+      }
+    },
+    "dipole_rel_error": 0.00021210076243615076,
+    "linear_residual_norms": [
+      5.20077391306e-05,
+      1.542418526869e-19
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.1,
+    "outer_radius_over_R": 8.0,
+    "trial": 2,
+    "n_mesh_nodes": 36213,
+    "unknowns": 30119,
+    "mesh_wall_s": 0.7807459002360702,
+    "process_solve_and_query_wall_s": 5.1155801001004875,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.007622763293601833,
+        "Phi_rel_l2": 0.002860507092263041
+      },
+      "1.10": {
+        "E_rel_l2": 0.008318641080127866,
+        "Phi_rel_l2": 0.001319687003880115
+      },
+      "2.00": {
+        "E_rel_l2": 0.006085191099538791,
+        "Phi_rel_l2": 0.00028321933034314685
+      }
+    },
+    "dipole_rel_error": 0.00021210076243615076,
+    "linear_residual_norms": [
+      5.20077391306e-05,
+      1.542418526869e-19
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.05,
+    "outer_radius_over_R": 8.0,
+    "trial": 0,
+    "n_mesh_nodes": 108623,
+    "unknowns": 84449,
+    "mesh_wall_s": 2.8422866999171674,
+    "process_solve_and_query_wall_s": 21.264736299868673,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.002373466549899446,
+        "Phi_rel_l2": 0.0004981486056782396
+      },
+      "1.10": {
+        "E_rel_l2": 0.0035329881148433917,
+        "Phi_rel_l2": 0.0003153732222214048
+      },
+      "2.00": {
+        "E_rel_l2": 0.004732895224179795,
+        "Phi_rel_l2": 0.00020312379847176352
+      }
+    },
+    "dipole_rel_error": 0.00030951479456325774,
+    "linear_residual_norms": [
+      5.201885966145e-05,
+      1.93703378139e-19
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.05,
+    "outer_radius_over_R": 8.0,
+    "trial": 1,
+    "n_mesh_nodes": 108623,
+    "unknowns": 84449,
+    "mesh_wall_s": 2.8422866999171674,
+    "process_solve_and_query_wall_s": 21.2617665999569,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.002373466549899446,
+        "Phi_rel_l2": 0.0004981486056782396
+      },
+      "1.10": {
+        "E_rel_l2": 0.0035329881148433917,
+        "Phi_rel_l2": 0.0003153732222214048
+      },
+      "2.00": {
+        "E_rel_l2": 0.004732895224179795,
+        "Phi_rel_l2": 0.00020312379847176352
+      }
+    },
+    "dipole_rel_error": 0.00030951479456325774,
+    "linear_residual_norms": [
+      5.201885966145e-05,
+      1.93703378139e-19
+    ]
+  },
+  {
+    "method": "GetDP_P2",
+    "h_over_R": 0.05,
+    "outer_radius_over_R": 8.0,
+    "trial": 2,
+    "n_mesh_nodes": 108623,
+    "unknowns": 84449,
+    "mesh_wall_s": 2.8422866999171674,
+    "process_solve_and_query_wall_s": 21.425700400024652,
+    "process_scope": "GetDP process: imports/native startup, mesh read, preassembly, matrix assembly, sparse solve, save, common field/potential queries; mesh generation separate.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.002373466549899446,
+        "Phi_rel_l2": 0.0004981486056782396
+      },
+      "1.10": {
+        "E_rel_l2": 0.0035329881148433917,
+        "Phi_rel_l2": 0.0003153732222214048
+      },
+      "2.00": {
+        "E_rel_l2": 0.004732895224179795,
+        "Phi_rel_l2": 0.00020312379847176352
+      }
+    },
+    "dipole_rel_error": 0.00030951479456325774,
+    "linear_residual_norms": [
+      5.201885966145e-05,
+      1.93703378139e-19
+    ]
+  },
+  {
+    "method": "MAS",
+    "n_sources": 48,
+    "unknowns": 49,
+    "solve_case_arrays_wall_s": 0.0009119999594986439,
+    "query_wall_s": 0.010873899795114994,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.01693165624928527,
+        "Phi_rel_l2": 0.05307841423971144
+      },
+      "1.10": {
+        "E_rel_l2": 0.01214106200994539,
+        "Phi_rel_l2": 0.02367950324332001
+      },
+      "2.00": {
+        "E_rel_l2": 0.0012255249413183622,
+        "Phi_rel_l2": 0.000993103936978793
+      }
+    },
+    "dipole_rel_error": 0.006931567429525334,
+    "net_charge_C": -5.9164567891575885e-31,
+    "floating_potential_V": -5.814496915124942e-19,
+    "KKT_condition": 330.9817160357922,
+    "potential_matrix_condition": 119.28767657591791,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 0,
+    "process_solve_and_query_wall_s": 1.5806384002789855
+  },
+  {
+    "method": "MAS",
+    "n_sources": 48,
+    "unknowns": 49,
+    "solve_case_arrays_wall_s": 0.0009271996095776558,
+    "query_wall_s": 0.010541500058025122,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.01693165624928527,
+        "Phi_rel_l2": 0.05307841423971144
+      },
+      "1.10": {
+        "E_rel_l2": 0.01214106200994539,
+        "Phi_rel_l2": 0.02367950324332001
+      },
+      "2.00": {
+        "E_rel_l2": 0.0012255249413183622,
+        "Phi_rel_l2": 0.000993103936978793
+      }
+    },
+    "dipole_rel_error": 0.006931567429525334,
+    "net_charge_C": -5.9164567891575885e-31,
+    "floating_potential_V": -5.814496915124942e-19,
+    "KKT_condition": 330.9817160357922,
+    "potential_matrix_condition": 119.28767657591791,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 1,
+    "process_solve_and_query_wall_s": 1.204413500148803
+  },
+  {
+    "method": "MAS",
+    "n_sources": 48,
+    "unknowns": 49,
+    "solve_case_arrays_wall_s": 0.0009702998213469982,
+    "query_wall_s": 0.01028560008853674,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.01693165624928527,
+        "Phi_rel_l2": 0.05307841423971144
+      },
+      "1.10": {
+        "E_rel_l2": 0.01214106200994539,
+        "Phi_rel_l2": 0.02367950324332001
+      },
+      "2.00": {
+        "E_rel_l2": 0.0012255249413183622,
+        "Phi_rel_l2": 0.000993103936978793
+      }
+    },
+    "dipole_rel_error": 0.006931567429525334,
+    "net_charge_C": -5.9164567891575885e-31,
+    "floating_potential_V": -5.814496915124942e-19,
+    "KKT_condition": 330.9817160357922,
+    "potential_matrix_condition": 119.28767657591791,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 2,
+    "process_solve_and_query_wall_s": 1.2010877998545766
+  },
+  {
+    "method": "MAS",
+    "n_sources": 96,
+    "unknowns": 97,
+    "solve_case_arrays_wall_s": 0.0018547000363469124,
+    "query_wall_s": 0.02037449972704053,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.0025050367960857104,
+        "Phi_rel_l2": 0.005307252295111459
+      },
+      "1.10": {
+        "E_rel_l2": 0.0016125261469012266,
+        "Phi_rel_l2": 0.002217784133849608
+      },
+      "2.00": {
+        "E_rel_l2": 0.00010602233031269295,
+        "Phi_rel_l2": 8.554966129835592e-05
+      }
+    },
+    "dipole_rel_error": 0.0005963366606872607,
+    "net_charge_C": 9.860761315262648e-32,
+    "floating_potential_V": 1.2550554137507175e-19,
+    "KKT_condition": 1225.2341189852327,
+    "potential_matrix_condition": 799.5546482501571,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 0,
+    "process_solve_and_query_wall_s": 1.2178674996830523
+  },
+  {
+    "method": "MAS",
+    "n_sources": 96,
+    "unknowns": 97,
+    "solve_case_arrays_wall_s": 0.0019936002790927887,
+    "query_wall_s": 0.02263709995895624,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.0025050367960857104,
+        "Phi_rel_l2": 0.005307252295111459
+      },
+      "1.10": {
+        "E_rel_l2": 0.0016125261469012266,
+        "Phi_rel_l2": 0.002217784133849608
+      },
+      "2.00": {
+        "E_rel_l2": 0.00010602233031269295,
+        "Phi_rel_l2": 8.554966129835592e-05
+      }
+    },
+    "dipole_rel_error": 0.0005963366606872607,
+    "net_charge_C": 9.860761315262648e-32,
+    "floating_potential_V": 1.2550554137507175e-19,
+    "KKT_condition": 1225.2341189852327,
+    "potential_matrix_condition": 799.5546482501571,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 1,
+    "process_solve_and_query_wall_s": 1.2302979002706707
+  },
+  {
+    "method": "MAS",
+    "n_sources": 96,
+    "unknowns": 97,
+    "solve_case_arrays_wall_s": 0.001810200046747923,
+    "query_wall_s": 0.020707800053060055,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.0025050367960857104,
+        "Phi_rel_l2": 0.005307252295111459
+      },
+      "1.10": {
+        "E_rel_l2": 0.0016125261469012266,
+        "Phi_rel_l2": 0.002217784133849608
+      },
+      "2.00": {
+        "E_rel_l2": 0.00010602233031269295,
+        "Phi_rel_l2": 8.554966129835592e-05
+      }
+    },
+    "dipole_rel_error": 0.0005963366606872607,
+    "net_charge_C": 9.860761315262648e-32,
+    "floating_potential_V": 1.2550554137507175e-19,
+    "KKT_condition": 1225.2341189852327,
+    "potential_matrix_condition": 799.5546482501571,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 2,
+    "process_solve_and_query_wall_s": 1.206147300079465
+  },
+  {
+    "method": "MAS",
+    "n_sources": 192,
+    "unknowns": 193,
+    "solve_case_arrays_wall_s": 0.00636729970574379,
+    "query_wall_s": 0.0448338002897799,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.00022350146632362522,
+        "Phi_rel_l2": 0.00030689072487251004
+      },
+      "1.10": {
+        "E_rel_l2": 0.00012562445297376049,
+        "Phi_rel_l2": 0.00011135242507926885
+      },
+      "2.00": {
+        "E_rel_l2": 4.435165182866304e-06,
+        "Phi_rel_l2": 3.5022978028607106e-06
+      }
+    },
+    "dipole_rel_error": 2.4278434955152787e-05,
+    "net_charge_C": 3.944304526105059e-31,
+    "floating_potential_V": -3.8773182522332486e-19,
+    "KKT_condition": 9167.4919455876,
+    "potential_matrix_condition": 8978.603923734458,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 0,
+    "process_solve_and_query_wall_s": 1.2709609000012279
+  },
+  {
+    "method": "MAS",
+    "n_sources": 192,
+    "unknowns": 193,
+    "solve_case_arrays_wall_s": 0.006512499880045652,
+    "query_wall_s": 0.04459299985319376,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.00022350146632362522,
+        "Phi_rel_l2": 0.00030689072487251004
+      },
+      "1.10": {
+        "E_rel_l2": 0.00012562445297376049,
+        "Phi_rel_l2": 0.00011135242507926885
+      },
+      "2.00": {
+        "E_rel_l2": 4.435165182866304e-06,
+        "Phi_rel_l2": 3.5022978028607106e-06
+      }
+    },
+    "dipole_rel_error": 2.4278434955152787e-05,
+    "net_charge_C": 3.944304526105059e-31,
+    "floating_potential_V": -3.8773182522332486e-19,
+    "KKT_condition": 9167.4919455876,
+    "potential_matrix_condition": 8978.603923734458,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 1,
+    "process_solve_and_query_wall_s": 1.2503301999531686
+  },
+  {
+    "method": "MAS",
+    "n_sources": 192,
+    "unknowns": 193,
+    "solve_case_arrays_wall_s": 0.006167000159621239,
+    "query_wall_s": 0.046181699726730585,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 0.00022350146632362522,
+        "Phi_rel_l2": 0.00030689072487251004
+      },
+      "1.10": {
+        "E_rel_l2": 0.00012562445297376049,
+        "Phi_rel_l2": 0.00011135242507926885
+      },
+      "2.00": {
+        "E_rel_l2": 4.435165182866304e-06,
+        "Phi_rel_l2": 3.5022978028607106e-06
+      }
+    },
+    "dipole_rel_error": 2.4278434955152787e-05,
+    "net_charge_C": 3.944304526105059e-31,
+    "floating_potential_V": -3.8773182522332486e-19,
+    "KKT_condition": 9167.4919455876,
+    "potential_matrix_condition": 8978.603923734458,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 2,
+    "process_solve_and_query_wall_s": 1.2331019998528063
+  },
+  {
+    "method": "MAS",
+    "n_sources": 320,
+    "unknowns": 321,
+    "solve_case_arrays_wall_s": 0.018659499939531088,
+    "query_wall_s": 0.07551009999588132,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 2.37569869613977e-05,
+        "Phi_rel_l2": 2.4194207891422412e-05
+      },
+      "1.10": {
+        "E_rel_l2": 1.1600660334698773e-05,
+        "Phi_rel_l2": 7.573114158233231e-06
+      },
+      "2.00": {
+        "E_rel_l2": 2.434411192387869e-07,
+        "Phi_rel_l2": 1.844440780967833e-07
+      }
+    },
+    "dipole_rel_error": 1.2642094066631734e-06,
+    "net_charge_C": 0.0,
+    "floating_potential_V": -2.215602938232016e-19,
+    "KKT_condition": 68227.09913973075,
+    "potential_matrix_condition": 67373.15207096816,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 0,
+    "process_solve_and_query_wall_s": 1.2811680003069341
+  },
+  {
+    "method": "MAS",
+    "n_sources": 320,
+    "unknowns": 321,
+    "solve_case_arrays_wall_s": 0.01788810035213828,
+    "query_wall_s": 0.07437990000471473,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 2.37569869613977e-05,
+        "Phi_rel_l2": 2.4194207891422412e-05
+      },
+      "1.10": {
+        "E_rel_l2": 1.1600660334698773e-05,
+        "Phi_rel_l2": 7.573114158233231e-06
+      },
+      "2.00": {
+        "E_rel_l2": 2.434411192387869e-07,
+        "Phi_rel_l2": 1.844440780967833e-07
+      }
+    },
+    "dipole_rel_error": 1.2642094066631734e-06,
+    "net_charge_C": 0.0,
+    "floating_potential_V": -2.215602938232016e-19,
+    "KKT_condition": 68227.09913973075,
+    "potential_matrix_condition": 67373.15207096816,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 1,
+    "process_solve_and_query_wall_s": 1.2918684002943337
+  },
+  {
+    "method": "MAS",
+    "n_sources": 320,
+    "unknowns": 321,
+    "solve_case_arrays_wall_s": 0.01954280026257038,
+    "query_wall_s": 0.07532739965245128,
+    "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+    "metrics": {
+      "1.05": {
+        "E_rel_l2": 2.37569869613977e-05,
+        "Phi_rel_l2": 2.4194207891422412e-05
+      },
+      "1.10": {
+        "E_rel_l2": 1.1600660334698773e-05,
+        "Phi_rel_l2": 7.573114158233231e-06
+      },
+      "2.00": {
+        "E_rel_l2": 2.434411192387869e-07,
+        "Phi_rel_l2": 1.844440780967833e-07
+      }
+    },
+    "dipole_rel_error": 1.2642094066631734e-06,
+    "net_charge_C": 0.0,
+    "floating_potential_V": -2.215602938232016e-19,
+    "KKT_condition": 68227.09913973075,
+    "potential_matrix_condition": 67373.15207096816,
+    "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "trial": 2,
+    "process_solve_and_query_wall_s": 1.281324100214988
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "method": "MAS",
+  "n_sources": 320,
+  "unknowns": 321,
+  "solve_case_arrays_wall_s": 0.018659499939531088,
+  "query_wall_s": 0.07551009999588132,
+  "timed_scope": "Unmodified solve_case_arrays includes geometry, matrix, linear solve, and two condition-number diagnostics; query uses common independent probes.",
+  "metrics": {
+    "1.05": {
+      "E_rel_l2": 2.37569869613977e-05,
+      "Phi_rel_l2": 2.4194207891422412e-05
+    },
+    "1.10": {
+      "E_rel_l2": 1.1600660334698773e-05,
+      "Phi_rel_l2": 7.573114158233231e-06
+    },
+    "2.00": {
+      "E_rel_l2": 2.434411192387869e-07,
+      "Phi_rel_l2": 1.844440780967833e-07
+    }
+  },
+  "dipole_rel_error": 1.2642094066631734e-06,
+  "net_charge_C": 0.0,
+  "floating_potential_V": -2.215602938232016e-19,
+  "KKT_condition": 68227.09913973075,
+  "potential_matrix_condition": 67373.15207096816,
+  "source_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb"
+}

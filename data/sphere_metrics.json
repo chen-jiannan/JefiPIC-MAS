@@ -1,0 +1,345 @@
+{
+  "status": "GPU_COMPLETE_MATCHED_WARPX_COMPARISON_DONE",
+  "zip_sha256": "f35ff28c6c8318ea944755743fedd60afc09173b5ae9a5266b519a23bc82def0",
+  "case_sha256": "06c8ad6726d77297192812a067677b4e9660c3c3f69d12a67c4c1a576e1dd5b6",
+  "reference": "Actually completed WarpX fine96 unsplit Esirkepov; raw field series identical to frozen fourway reference",
+  "metric": "sqrt(integral sum|J-W|^2 dt / integral sum|W|^2 dt), common 345 nodes, no fitted gain/phase/time shift",
+  "primary_E_probe_indices": [
+    1,
+    2,
+    3
+  ],
+  "B_offaxis_probe_indices": [
+    1,
+    3
+  ],
+  "comparisons": {
+    "metal_E_selected": {
+      "vector_time_L2_relative_per_probe": [
+        0.04358691250919957,
+        0.04389630021102309,
+        0.06778202083324536
+      ],
+      "vector_time_RMS_difference_V_m": [
+        0.5006913817964597,
+        0.5151137758425733,
+        1.2096254985479755
+      ],
+      "vector_time_L2_relative_all_probes": 0.058010917437850015
+    },
+    "metal_B_selected": {
+      "vector_time_L2_relative_per_probe": [
+        0.04317926815895079,
+        0.052830955053602975
+      ],
+      "vector_time_RMS_difference_T": [
+        6.92478820722894e-11,
+        1.807782028270731e-10
+      ],
+      "vector_time_L2_relative_all_probes": 0.05122714123102241
+    },
+    "metal_E_all": {
+      "vector_time_L2_relative_per_probe": [
+        0.4983579080047659,
+        0.04358691250919957,
+        0.04389630021102309,
+        0.06778202083324535,
+        0.04239491907585055
+      ],
+      "vector_time_RMS_difference_V_m": [
+        183.21161957206235,
+        0.5006913817964597,
+        0.5151137758425732,
+        1.2096254985479757,
+        8.020818457832483
+      ],
+      "vector_time_L2_relative_all_probes": 0.44279837652709864
+    },
+    "no_metal_E_selected": {
+      "vector_time_L2_relative_per_probe": [
+        0.03842122516331892,
+        0.042328447502541375,
+        0.06132338290179221
+      ],
+      "vector_time_RMS_difference_V_m": [
+        0.41727781131644726,
+        0.20021956682911413,
+        1.161395693883039
+      ],
+      "vector_time_L2_relative_all_probes": 0.055967065479151736
+    },
+    "no_metal_B_selected": {
+      "vector_time_L2_relative_per_probe": [
+        0.06446535982853228,
+        0.05345905058652511
+      ],
+      "vector_time_RMS_difference_T": [
+        5.467136078080949e-11,
+        1.7153524975304135e-10
+      ],
+      "vector_time_L2_relative_all_probes": 0.054245891986577845
+    },
+    "no_metal_E_all": {
+      "vector_time_L2_relative_per_probe": [
+        0.5010809955341179,
+        0.0384212251633189,
+        0.04232844750254135,
+        0.06132338290179224,
+        0.04179704459339432
+      ],
+      "vector_time_RMS_difference_V_m": [
+        170.39345442774592,
+        0.4172778113164472,
+        0.20021956682911407,
+        1.1613956938830394,
+        8.017865640382016
+      ],
+      "vector_time_L2_relative_all_probes": 0.4362095195454773
+    },
+    "conductor_delta_E_primary": {
+      "vector_time_L2_relative_per_probe": [
+        0.048481509920901486,
+        0.044994782354760544,
+        0.06245232412748898
+      ],
+      "vector_time_RMS_difference_V_m": [
+        0.2713403489013654,
+        0.315473341177983,
+        0.1031590428528558
+      ],
+      "vector_time_L2_relative_all_probes": 0.0469970992124654
+    },
+    "electron_motion": {
+      "vector_time_L2_relative_per_probe": [
+        0.030245144455126178
+      ],
+      "vector_time_RMS_difference_m_s": [
+        1238.4214103644456
+      ],
+      "vector_time_L2_relative_all_probes": 0.030245144455126178
+    },
+    "particle_feedback": {
+      "vector_time_L2_relative_per_probe": [
+        0.07609011703866106
+      ],
+      "vector_time_RMS_difference_m_s": [
+        68.00299111243051
+      ],
+      "vector_time_L2_relative_all_probes": 0.07609011703866106
+    }
+  },
+  "checks": {
+    "metal": {
+      "all_arrays_finite": true,
+      "samples": 87,
+      "final_time_s": 6.311032681149038e-09,
+      "particle_counts_preserved": true,
+      "no_collection_or_outer_crossing": true,
+      "kernel_and_case_hashes_match": true,
+      "minimum_particle_clearance_from_PEC_m": 0.005672054057245893,
+      "continuity_relative": 1.388416167366426e-13,
+      "max_timing_closure": 3.0635692463006253e-15,
+      "old_vs_new_E_relative": 1.0119239872499773e-06,
+      "old_vs_new_B_offaxis_relative": 0.00015964731547927892
+    },
+    "no_metal": {
+      "all_arrays_finite": true,
+      "samples": 87,
+      "final_time_s": 6.311032681149038e-09,
+      "particle_counts_preserved": true,
+      "no_collection_or_outer_crossing": true,
+      "kernel_and_case_hashes_match": true,
+      "minimum_particle_clearance_from_PEC_m": 0.005722764035798704,
+      "continuity_relative": 1.396993743666467e-13,
+      "max_timing_closure": 0.0,
+      "old_vs_new_E_relative": 2.4110903772384258e-15,
+      "old_vs_new_B_offaxis_relative": 2.48165070773934e-15
+    },
+    "cpu": {
+      "status": "CPU_QUALIFICATION_PASSED_NATIVE_CUDA_GATE_REQUIRED",
+      "boundary_revision": "normalized-mixed-hermite-mot-v2",
+      "theta": 0.6,
+      "ridge_rel": 0.0001,
+      "magnetic_weight": 97.7310864525766,
+      "native_CUDA_tested": false,
+      "original_PIC_and_plasma_sources_preserved": true,
+      "delay": {
+        "max_delay_over_dt": 0.7499009446557854,
+        "magnetic_weight": 97.7310864525766
+      },
+      "spectrum": {
+        "spectral_radius": 1.000000000000003,
+        "growth_tolerance": 1e-08,
+        "modes_above_1_plus_tolerance": 0
+      },
+      "arbitrary_history_operator_E_B_relative": [
+        6.907603374437383e-16,
+        1.0238247349441517e-15
+      ],
+      "frozen_incident_replay": {
+        "samples": 87,
+        "finite": true,
+        "max_K_coeff_norm": 0.05646842016311157,
+        "collocation_Et_relative": 0.003443194828032411,
+        "collocation_Bn_relative": 2.5215072699762553,
+        "collocation_Bn_over_full_incident_B": 0.00049102713934334,
+        "scope": "Boundary response to old incident records only, not a new coupled PIC or WarpX comparison."
+      }
+    },
+    "CUDA": {
+      "status": "NATIVE_CUDA_QUALIFICATION_PASSED",
+      "revision": "normalized-mixed-hermite-mot-v2",
+      "native_CUDA": true,
+      "device": "NVIDIA H100 80GB HBM3",
+      "cupy_version": "13.6.0",
+      "visible_devices": "GPU-afc40fcf-3e50-8388-a0e5-29cbbd9fd57c",
+      "routes": [
+        {
+          "route": "two_pass",
+          "samples": 45,
+          "history_nodes": 8,
+          "E_relative": 6.417393313171005e-16,
+          "B_relative": 5.103497909810691e-16,
+          "B_sampler_relative": 1.2245252758548766e-16
+        },
+        {
+          "route": "direct",
+          "samples": 45,
+          "history_nodes": 8,
+          "E_relative": 6.417393313171005e-16,
+          "B_relative": 5.103497909810691e-16,
+          "B_sampler_relative": 1.2245252758548766e-16
+        },
+        {
+          "route": "legacy_default",
+          "samples": 45,
+          "history_nodes": 8,
+          "E_relative": 7.130797653576371e-16,
+          "B_relative": 5.828018508154101e-16,
+          "B_sampler_relative": 1.0538152276650179e-22
+        }
+      ],
+      "scope": "Actual original plasma kernels with zero plasma sources, new point history kernel, solver dispatch/scaling, direct/two-pass routes, ring wrap, legacy default, and B sampler. Not full coupled accuracy."
+    }
+  },
+  "old_parent_CC": {
+    "E_all_probes": {
+      "vector_time_L2_relative_per_probe": [
+        0.4983573377672924,
+        0.04358750261403998,
+        0.043884924120842723,
+        0.06778236001463317,
+        0.04239480331664321
+      ],
+      "vector_time_RMS_difference_V_m": [
+        183.21140993531455,
+        0.5006981604460803,
+        0.5149802798363275,
+        1.2096315515167468,
+        8.020796557010234
+      ],
+      "vector_time_L2_relative_all_probes": 0.4427978677847784
+    },
+    "E_primary": {
+      "vector_time_L2_relative_per_probe": [
+        0.043587502614039965,
+        0.043884924120842723,
+        0.0677823600146332
+      ],
+      "vector_time_RMS_difference_V_m": [
+        0.5006981604460803,
+        0.5149802798363277,
+        1.2096315515167468
+      ],
+      "vector_time_L2_relative_all_probes": 0.05800921624319993
+    },
+    "B_offaxis": {
+      "vector_time_L2_relative_per_probe": [
+        0.04316752379292552,
+        0.052829792458737854
+      ],
+      "vector_time_RMS_difference_T": [
+        6.922904728170108e-11,
+        1.8077422463265813e-10
+      ],
+      "vector_time_L2_relative_all_probes": 0.051224375506666774
+    },
+    "electron_motion": {
+      "vector_time_L2_relative_per_probe": [
+        0.03024535635508089
+      ],
+      "vector_time_RMS_difference_m_s": [
+        1238.4300868460923
+      ],
+      "vector_time_L2_relative_all_probes": 0.03024535635508089
+    },
+    "no_metal_E_all": {
+      "vector_time_L2_relative_per_probe": [
+        0.5010809955341182,
+        0.038421225163319105,
+        0.04232844750254142,
+        0.061323382901792026,
+        0.04179704459339395
+      ],
+      "vector_time_RMS_difference_V_m": [
+        170.39345442774604,
+        0.41727781131644937,
+        0.20021956682911443,
+        1.1613956938830354,
+        8.017865640381947
+      ],
+      "vector_time_L2_relative_all_probes": 0.4362095195454776
+    },
+    "no_metal_E_primary": {
+      "vector_time_L2_relative_per_probe": [
+        0.03842122516331909,
+        0.042328447502541444,
+        0.06132338290179203
+      ],
+      "vector_time_RMS_difference_V_m": [
+        0.4172778113164492,
+        0.20021956682911446,
+        1.1613956938830357
+      ],
+      "vector_time_L2_relative_all_probes": 0.05596706547915163
+    },
+    "conductor_E": {
+      "vector_time_L2_relative_per_probe": [
+        0.04846429788674281,
+        0.04497556925237875,
+        0.06244230710485213
+      ],
+      "vector_time_RMS_difference_V_m": [
+        0.2712440169314755,
+        0.31533863174534277,
+        0.1031424966877308
+      ],
+      "vector_time_L2_relative_all_probes": 0.046979111954122625
+    },
+    "particle_feedback": {
+      "vector_time_L2_relative_per_probe": [
+        0.07607543048073775
+      ],
+      "vector_time_RMS_difference_m_s": [
+        67.98986549366688
+      ],
+      "vector_time_L2_relative_all_probes": 0.07607543048073775
+    }
+  },
+  "live_boundary": {
+    "holdout_time_L2_rel": 0.002253368649796173,
+    "holdout_Bn_over_incident_B": 0.001156865831420623,
+    "collocation_time_L2_rel": 0.003443194319871985,
+    "collocation_Bn_over_incident_B": 0.0004910271541946911,
+    "boundary_theta": 0.6,
+    "boundary_ridge_rel": 0.0001,
+    "magnetic_weight": 97.7310864525766
+  },
+  "caveats": [
+    "P0 near-cloud electric discrepancy remains ~50% in metal AND no-metal cases; cannot claim all-probe ~6% accuracy.",
+    "No full closed-system analytic solution; WarpX is a cross-code reference, not exact truth.",
+    "Sphere theta=.6 and twoarm theta=.5 are distinct declared settings of the shared consistent Hermite backend.",
+    "Shared GPU accuracy run timings are not performance results.",
+    "Original article RF/PIC runs and MAS performance measurements must be version-consistent with any claimed new baseline."
+  ]
+}

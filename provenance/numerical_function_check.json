@@ -1,0 +1,246 @@
+[
+  {
+    "path": "EMsolver/cuda_functions.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 20
+  },
+  {
+    "path": "EMsolver/mas_dipole_basis.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 9
+  },
+  {
+    "path": "EMsolver/mas_integration.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 61
+  },
+  {
+    "path": "EMsolver/mas_mixed_mot.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 10
+  },
+  {
+    "path": "EMsolver/mas_preprocessor.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 44
+  },
+  {
+    "path": "EMsolver/mesh_guidance.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 3
+  },
+  {
+    "path": "EMsolver/perf_diagnostics.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 18
+  },
+  {
+    "path": "EMsolver/preprocessing.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 0
+  },
+  {
+    "path": "EMsolver/region_distance.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 4
+  },
+  {
+    "path": "EMsolver/revision_profile.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 9
+  },
+  {
+    "path": "EMsolver/solver.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 39
+  },
+  {
+    "path": "EMsolver/tdie_integration.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 0
+  },
+  {
+    "path": "EMsolver/__init__.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 1
+  },
+  {
+    "path": "Particle_transport/cuda_kernels.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 9
+  },
+  {
+    "path": "Particle_transport/fast_deposition.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 15
+  },
+  {
+    "path": "Particle_transport/main.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 58
+  },
+  {
+    "path": "Particle_transport/__init__.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 0
+  },
+  {
+    "path": "RBG_Maxwell/__init__.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 0
+  },
+  {
+    "path": "RBG_Maxwell/Plasma/utils.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 2
+  },
+  {
+    "path": "RBG_Maxwell/Plasma/__init__.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 0
+  },
+  {
+    "path": "RBG_Maxwell/Unit_conversion/main.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 2
+  },
+  {
+    "path": "RBG_Maxwell/Unit_conversion/__init__.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 0
+  },
+  {
+    "path": "support/_case_common.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 87
+  },
+  {
+    "path": "support/retarded_history.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 25
+  },
+  {
+    "path": "support/plasma_setup.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 35
+  },
+  {
+    "path": "support/drive_and_surface_diagnostics.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 13
+  },
+  {
+    "path": "support/harmonic_helpers.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 28
+  },
+  {
+    "path": "support/surface_geometry.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 44
+  },
+  {
+    "path": "support/capsule_geometry.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 15
+  },
+  {
+    "path": "support/field_normalization.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 19
+  },
+  {
+    "path": "support/feed_region_geometry.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 10
+  },
+  {
+    "path": "support/static_sphere.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 25
+  },
+  {
+    "path": "support/create_dipole_stl.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 7
+  },
+  {
+    "path": "examples/two_arm/two_arm_model.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 17
+  },
+  {
+    "path": "examples/two_arm/mixed_boundary.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 5
+  },
+  {
+    "path": "examples/two_arm/incident_fields.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 5
+  },
+  {
+    "path": "examples/two_arm/electric_magnetic_sources.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 4
+  },
+  {
+    "path": "examples/two_arm/reflecting_sources.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 10
+  },
+  {
+    "path": "examples/two_arm/campaign_tools.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 7
+  },
+  {
+    "path": "examples/two_arm/feedback_reference.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 6
+  },
+  {
+    "path": "examples/two_arm/magnetic_feedback.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 6
+  },
+  {
+    "path": "examples/two_arm/qualify_direct_incident_cpu.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 2
+  },
+  {
+    "path": "examples/two_arm/qualify_feedback_cpu.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 1
+  },
+  {
+    "path": "examples/two_arm/qualify_reflective_cic_fix.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 1
+  },
+  {
+    "path": "examples/two_arm/run_simulation.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 2
+  },
+  {
+    "path": "examples/two_arm/run.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 1
+  },
+  {
+    "path": "examples/two_arm/validate_direct_gpu.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 1
+  },
+  {
+    "path": "examples/two_arm/validate_feedback_gpu.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 2
+  },
+  {
+    "path": "examples/two_arm/validate_operator_cpu.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 1
+  },
+  {
+    "path": "examples/sphere/campaign_tools.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 7
+  },
+  {
+    "path": "examples/sphere/boundary.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 6
+  },
+  {
+    "path": "examples/sphere/sphere_geometry.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 20
+  },
+  {
+    "path": "examples/sphere/qualify_cpu.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 1
+  },
+  {
+    "path": "examples/sphere/simulate.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 8
+  },
+  {
+    "path": "examples/sphere/run.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 2
+  },
+  {
+    "path": "examples/sphere/validate_gpu.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 2
+  },
+  {
+    "path": "scripts/plot_figures.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 3
+  },
+  {
+    "path": "scripts/prepare_warpx_inputs.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 0
+  },
+  {
+    "path": "scripts/reproduce_scuff_mas.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 0
+  },
+  {
+    "path": "scripts/warpx_inputs.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 1
+  },
+  {
+    "path": "support/field_test_sources.py",
+    "function_bodies_equal_after_import_and_resource_path_normalization": 5
+  }
+]

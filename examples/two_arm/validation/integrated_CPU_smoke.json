@@ -1,0 +1,208 @@
+{
+  "status": "smoke_only",
+  "backend": "article-compatible-EM-hermite-native-v5-20261115",
+  "theta": 0.6,
+  "settings": {
+    "mode": "formal",
+    "total_length_m": 0.06,
+    "sources_per_arm": 996,
+    "n_phi": 72,
+    "n_cyl": 96,
+    "n_hemi": 24,
+    "cycles": 0.009,
+    "analysis_start_cycles": 0.0,
+    "particles_per_species": 200,
+    "grid_n": 7,
+    "diag_stride": 1,
+    "holdout_points_target": 2048,
+    "seed": 101,
+    "base_sources_per_arm": 900,
+    "feed_cap_extra_sources_per_arm": 96
+  },
+  "magnetic_weight": 702.9771963636638,
+  "magnetic_weight_source": "same frozen article Et/full-B reference; smoke/control only",
+  "geometry_fingerprint": "0608e90263adbc26866e7692109bb8cf3e95313af726ce86451f03d69a5b6564",
+  "steps_requested": 4,
+  "steps_completed": 4,
+  "full_two_way": false,
+  "deposition": "native unsplit first-order charge-conserving face currents",
+  "drive": "original curl-free localized E_z(z,t); external B=0; same feed in PIC and PEC RHS",
+  "all_states_finite": true,
+  "coefficient_closure_max_relative": 9.063491210228491e-17,
+  "homogeneous_tail_growth": 0.998940750790714,
+  "two_way_execution_valid": true,
+  "precision_qualified": true,
+  "qualification_stop": null,
+  "source_continuity_max_relative": 0.0,
+  "source_continuity_valid_steps": 0,
+  "n_electric_sources": 1992,
+  "n_magnetic_sources": 664,
+  "total_dofs": 5976,
+  "magnetic_test_rank": 1981,
+  "n_collocation": 3984,
+  "independent_windows": [
+    {
+      "cycles": [
+        0.75,
+        4.0
+      ],
+      "Et_regions": {},
+      "worst": null,
+      "Bn_over_full_B": null,
+      "passed": false
+    },
+    {
+      "cycles": [
+        4.0,
+        8.0
+      ],
+      "Et_regions": {},
+      "worst": null,
+      "Bn_over_full_B": null,
+      "passed": false
+    },
+    {
+      "cycles": [
+        8.0,
+        12.01
+      ],
+      "Et_regions": {},
+      "worst": null,
+      "Bn_over_full_B": null,
+      "passed": false
+    }
+  ],
+  "late_window_precision_qualified": true,
+  "native_gate_report": null,
+  "initial_position_fingerprint": null,
+  "incident_interface": "direct retarded rho/face-J at actual PEC points, no E/B grid interpolation",
+  "source_boundary": "reflected CIC shape at the unchanged physical reflective box",
+  "mixed_operator_setup_s": 32.97089450000203,
+  "elapsed_until_main_loop_end_s": 45.36982100000023,
+  "elapsed_scope": "includes setup; synchronized profile if enabled; homogeneous tail excluded; not repeated wall throughput",
+  "boundary_Et_collocation": 0.002973613885346028,
+  "boundary_Et_holdout": {
+    "global": {
+      "region": "global",
+      "residual_rms_V_per_m": 3.106955915857928e-07,
+      "incident_rms_V_per_m": 9.265507046795508e-05,
+      "incident_ratio": 1.0,
+      "local_rel": 0.003353249746793376,
+      "global_norm": 0.003353249746793376,
+      "gate_metric": "local_rel",
+      "gate_value": 0.003353249746793376,
+      "passed_5pct": true,
+      "sample_count_accumulated": 1024
+    },
+    "feed_rounded": {
+      "region": "feed_rounded",
+      "residual_rms_V_per_m": 5.661079073942808e-07,
+      "incident_rms_V_per_m": 0.0002277029205261252,
+      "incident_ratio": 2.457533293926711,
+      "local_rel": 0.0024861688470496765,
+      "global_norm": 0.006109842715947965,
+      "gate_metric": "local_rel",
+      "gate_value": 0.0024861688470496765,
+      "passed_5pct": true,
+      "sample_count_accumulated": 3432
+    },
+    "feed_tips": {
+      "region": "feed_tips",
+      "residual_rms_V_per_m": 2.6917554643708385e-07,
+      "incident_rms_V_per_m": 0.00021213343414955575,
+      "incident_ratio": 2.2894962259288603,
+      "local_rel": 0.0012688973217079632,
+      "global_norm": 0.0029051356291416204,
+      "gate_metric": "local_rel",
+      "gate_value": 0.0012688973217079632,
+      "passed_5pct": true,
+      "sample_count_accumulated": 2260
+    },
+    "feed_transition": {
+      "region": "feed_transition",
+      "residual_rms_V_per_m": 7.442026890893386e-07,
+      "incident_rms_V_per_m": 0.000249413724999098,
+      "incident_ratio": 2.6918518731833267,
+      "local_rel": 0.0029838080847075675,
+      "global_norm": 0.00803196938203962,
+      "gate_metric": "local_rel",
+      "gate_value": 0.0029838080847075675,
+      "passed_5pct": true,
+      "sample_count_accumulated": 2528
+    },
+    "outer_rounded": {
+      "region": "outer_rounded",
+      "residual_rms_V_per_m": 1.5793421144447259e-07,
+      "incident_rms_V_per_m": 2.444651431266418e-16,
+      "incident_ratio": 2.638443227035163e-12,
+      "local_rel": 646039797.0219294,
+      "global_norm": 0.0017045393268476808,
+      "gate_metric": "global_norm",
+      "gate_value": 0.0017045393268476808,
+      "passed_5pct": true,
+      "sample_count_accumulated": 2576
+    },
+    "outer_tips": {
+      "region": "outer_tips",
+      "residual_rms_V_per_m": 8.311100191153368e-08,
+      "incident_rms_V_per_m": 1.5516254566303895e-16,
+      "incident_ratio": 1.6746255210793044e-12,
+      "local_rel": 535638298.25287175,
+      "global_norm": 0.0008969935643217472,
+      "gate_metric": "global_norm",
+      "gate_value": 0.0008969935643217472,
+      "passed_5pct": true,
+      "sample_count_accumulated": 1928
+    },
+    "all_transition": {
+      "region": "all_transition",
+      "residual_rms_V_per_m": 6.04680818207228e-07,
+      "incident_rms_V_per_m": 0.00019808200667146688,
+      "incident_ratio": 2.137843138762426,
+      "local_rel": 0.003052679182567724,
+      "global_norm": 0.006526149245295301,
+      "gate_metric": "local_rel",
+      "gate_value": 0.003052679182567724,
+      "passed_5pct": true,
+      "sample_count_accumulated": 4008
+    },
+    "side_mid": {
+      "region": "side_mid",
+      "residual_rms_V_per_m": 3.649209026423781e-08,
+      "incident_rms_V_per_m": 1.6059081048212663e-05,
+      "incident_ratio": 0.17332112497574242,
+      "local_rel": 0.002272364785673667,
+      "global_norm": 0.0003938488210082218,
+      "gate_metric": "global_norm",
+      "gate_value": 0.0003938488210082218,
+      "passed_5pct": true,
+      "sample_count_accumulated": 1664
+    }
+  },
+  "worst_Et_holdout": {
+    "region": "global",
+    "residual_rms_V_per_m": 3.106955915857928e-07,
+    "incident_rms_V_per_m": 9.265507046795508e-05,
+    "incident_ratio": 1.0,
+    "local_rel": 0.003353249746793376,
+    "global_norm": 0.003353249746793376,
+    "gate_metric": "local_rel",
+    "gate_value": 0.003353249746793376,
+    "passed_5pct": true,
+    "sample_count_accumulated": 1024
+  },
+  "projected_Bn_collocation_over_area_weighted_full_B": null,
+  "boundary_Bn_holdout_over_incident_full_B": null,
+  "magnetic_metric_note": "Only holdout Bn is the full, unprojected physical residual divided by full incident B. Collocation Bn is a projected area-weighted internal diagnostic and is not an acceptance substitute. Vacuum B=0 has no relative B metric.",
+  "surface_absorption_counts": [
+    0,
+    0
+  ],
+  "response": null,
+  "response_scope": "Electric auxiliary moments only, not port impedance or plasma/vacuum ratio. Magnetic auxiliary moment is saved separately; neither is asserted to be the total physical conductor moment.",
+  "harmonic_fit": {
+    "samples": 4,
+    "status": "insufficient_samples_smoke_only"
+  },
+  "smoke_only": true
+}

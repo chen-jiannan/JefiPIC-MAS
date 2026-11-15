@@ -1,0 +1,9 @@
+.git/
+.venv/
+__pycache__/
+*.py[cod]
+outputs/
+examples/two_arm/compatible_return_*/
+examples/two_arm/compatible_return_*.zip
+examples/sphere/sphere_mixed_return_*/
+examples/sphere/sphere_mixed_return_*.zip

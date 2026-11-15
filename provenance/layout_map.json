@@ -1,0 +1,499 @@
+[
+  {
+    "executed_path": "augmented_RF/code/EMsolver/cuda_functions.py",
+    "current_path": "EMsolver/cuda_functions.py",
+    "executed_sha256": "e6652bfab451ea23da62db57aff40264632eff99a1c0aae9c53ee25d6892d59c",
+    "current_sha256": "e6652bfab451ea23da62db57aff40264632eff99a1c0aae9c53ee25d6892d59c",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/mas_dipole_basis.py",
+    "current_path": "EMsolver/mas_dipole_basis.py",
+    "executed_sha256": "bc47ae6138bf0ef9e0eac775d454e7991afd6a89a5b7f0c8369a9450ca7dc7c2",
+    "current_sha256": "bc47ae6138bf0ef9e0eac775d454e7991afd6a89a5b7f0c8369a9450ca7dc7c2",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/mas_integration.py",
+    "current_path": "EMsolver/mas_integration.py",
+    "executed_sha256": "92fc782bb430c29f66f0787c384237d77f5c6eb3d626781de2f4947a73bdf5ea",
+    "current_sha256": "92fc782bb430c29f66f0787c384237d77f5c6eb3d626781de2f4947a73bdf5ea",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/mas_mixed_mot.py",
+    "current_path": "EMsolver/mas_mixed_mot.py",
+    "executed_sha256": "4b2e753a7a7ab1c12a94a90c227d241b59c3c4a8e9f42ea1e4de4b990f273372",
+    "current_sha256": "14f9ccb5aebd47717c2d26c3d4a239975b9d7735ec4c2b41712a1b318b81fb49",
+    "change": "module docstring only; executable AST identical"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/mas_preprocessor.py",
+    "current_path": "EMsolver/mas_preprocessor.py",
+    "executed_sha256": "88775ce4e2fb3f1f67c8084fe04235e373ed529d38a53dbf9448c29043ed8734",
+    "current_sha256": "88775ce4e2fb3f1f67c8084fe04235e373ed529d38a53dbf9448c29043ed8734",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/mesh_guidance.py",
+    "current_path": "EMsolver/mesh_guidance.py",
+    "executed_sha256": "6703a1f7f306e8cd706b38b02f54be6471f668ade74d8c93f6ccebb2b677452c",
+    "current_sha256": "6703a1f7f306e8cd706b38b02f54be6471f668ade74d8c93f6ccebb2b677452c",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/perf_diagnostics.py",
+    "current_path": "EMsolver/perf_diagnostics.py",
+    "executed_sha256": "c099403a18cac2c9a86eb0a67129714469381ab99cc52fc9dafbab8d834bf2f7",
+    "current_sha256": "c099403a18cac2c9a86eb0a67129714469381ab99cc52fc9dafbab8d834bf2f7",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/preprocessing.py",
+    "current_path": "EMsolver/preprocessing.py",
+    "executed_sha256": "6ef3e64718d1df34d610ff0c2fc01d87ac6db2572540cfceb8acb49d6a762fe3",
+    "current_sha256": "6ef3e64718d1df34d610ff0c2fc01d87ac6db2572540cfceb8acb49d6a762fe3",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/region_distance.py",
+    "current_path": "EMsolver/region_distance.py",
+    "executed_sha256": "ea9db9a860319c22205c7540075283ddbd07320faeb6a41415719590c19226fe",
+    "current_sha256": "ea9db9a860319c22205c7540075283ddbd07320faeb6a41415719590c19226fe",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/revision_profile.py",
+    "current_path": "EMsolver/revision_profile.py",
+    "executed_sha256": "ebd707b94bb1f7c2408cbcdacf0986cfc380df4aa81e89eec2b092e6e4c012c7",
+    "current_sha256": "ebd707b94bb1f7c2408cbcdacf0986cfc380df4aa81e89eec2b092e6e4c012c7",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/solver.py",
+    "current_path": "EMsolver/solver.py",
+    "executed_sha256": "12b8fe409b3462ef78e0a11ab71b1f18be3df1bb767972926ac5483f91656554",
+    "current_sha256": "12b8fe409b3462ef78e0a11ab71b1f18be3df1bb767972926ac5483f91656554",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/tdie_integration.py",
+    "current_path": "EMsolver/tdie_integration.py",
+    "executed_sha256": "240595b98c8e4a97d471ca31ad8dff78752b1671f0059e9e849c56a2ea16d30e",
+    "current_sha256": "240595b98c8e4a97d471ca31ad8dff78752b1671f0059e9e849c56a2ea16d30e",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/EMsolver/__init__.py",
+    "current_path": "EMsolver/__init__.py",
+    "executed_sha256": "eb6f5d3713a09cdd61eaceb537fd5c052cf7a129ce90a80d6d04a30c01405483",
+    "current_sha256": "eb6f5d3713a09cdd61eaceb537fd5c052cf7a129ce90a80d6d04a30c01405483",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/Particle_transport/cuda_kernels.py",
+    "current_path": "Particle_transport/cuda_kernels.py",
+    "executed_sha256": "b8a5c2fc508db3a81a7624dc0b32d2eccad96375685c4b5735be572021ff5984",
+    "current_sha256": "b8a5c2fc508db3a81a7624dc0b32d2eccad96375685c4b5735be572021ff5984",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/Particle_transport/fast_deposition.py",
+    "current_path": "Particle_transport/fast_deposition.py",
+    "executed_sha256": "6d572b7e095d1f2f6ef558dacf5360092200a29bbb1a9d7102940af2dc1d03db",
+    "current_sha256": "6d572b7e095d1f2f6ef558dacf5360092200a29bbb1a9d7102940af2dc1d03db",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/Particle_transport/main.py",
+    "current_path": "Particle_transport/main.py",
+    "executed_sha256": "c42cebcbc06005e1437c1451e058af2f62106f84f56c2f1ee014d193d6df6f96",
+    "current_sha256": "c42cebcbc06005e1437c1451e058af2f62106f84f56c2f1ee014d193d6df6f96",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/Particle_transport/__init__.py",
+    "current_path": "Particle_transport/__init__.py",
+    "executed_sha256": "19243e27fe7513e6374bcdb8967a19d76388b0e7f18775e182228464427d59b6",
+    "current_sha256": "19243e27fe7513e6374bcdb8967a19d76388b0e7f18775e182228464427d59b6",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/RBG_Maxwell/__init__.py",
+    "current_path": "RBG_Maxwell/__init__.py",
+    "executed_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "current_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/RBG_Maxwell/Plasma/utils.py",
+    "current_path": "RBG_Maxwell/Plasma/utils.py",
+    "executed_sha256": "2feb930976103ef77b3c0fe9037f99535c31754eaed9bc64b1199b37771403a3",
+    "current_sha256": "2feb930976103ef77b3c0fe9037f99535c31754eaed9bc64b1199b37771403a3",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/RBG_Maxwell/Plasma/__init__.py",
+    "current_path": "RBG_Maxwell/Plasma/__init__.py",
+    "executed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/RBG_Maxwell/Unit_conversion/main.py",
+    "current_path": "RBG_Maxwell/Unit_conversion/main.py",
+    "executed_sha256": "e99fb77e833b0e98597cb2e6ab7359746c92c896db3554b0ca4410a7adf747e0",
+    "current_sha256": "e99fb77e833b0e98597cb2e6ab7359746c92c896db3554b0ca4410a7adf747e0",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/RBG_Maxwell/Unit_conversion/__init__.py",
+    "current_path": "RBG_Maxwell/Unit_conversion/__init__.py",
+    "executed_sha256": "c8e1cd666fd98cf2364f2c24c805534e3e4968d82157b8d011c24b214690a900",
+    "current_sha256": "c8e1cd666fd98cf2364f2c24c805534e3e4968d82157b8d011c24b214690a900",
+    "change": "byte-identical shared core"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/_jefipic_mas_case_common.py",
+    "current_path": "support/_case_common.py",
+    "executed_sha256": "9908b44d1cb7ccef69694bf512afe608486b006bb1e3ed06a59b441f3181b0fd",
+    "current_sha256": "8b1be4442d4997873e2a15863e3db1f0f2c123e39ea9dd444a07cdb2d6de989e",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/step4c3_v2_retarded_mot_broadband_replay.py",
+    "current_path": "support/retarded_history.py",
+    "executed_sha256": "628488f9163ac35230a3b5aaec51ce12871d355b2df31a74f8da382417cd6a91",
+    "current_sha256": "24431c0a08e90739738034bb856e9a4ea827a744a6aaf8c6f1eb7ce93a867751",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/step4c3_one_way_broadband_pic_to_implicit_mas.py",
+    "current_path": "support/plasma_setup.py",
+    "executed_sha256": "d232cbb3cad7fdf75f068ee86921d4e2345352a9785ea3302b30ca3a7cb8bc09",
+    "current_sha256": "4b1a33e9ceebdc5f88ae1b3b5a0833485042f837e95f4125d51e83f1f0d8ca44",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/step4d_a_two_way_retarded_mot_closure_full_em_atomic.py",
+    "current_path": "support/drive_and_surface_diagnostics.py",
+    "executed_sha256": "e0f86996a89f236c49a9735c00d2c48e2b23dc5cb209cb3dbd50cfa4f9995ae8",
+    "current_sha256": "28cd18c08da711989fe255964f27037a5693093aea31f46056a598980e9d3215",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/step4c2_v4_retarded_frequency_regression.py",
+    "current_path": "support/harmonic_helpers.py",
+    "executed_sha256": "3623805a1fb9a7efb7964d4fd28824ac105241b8eb82ad37a4f32c26b9497480",
+    "current_sha256": "993ef4b47c1e3044913733a1d9179a0f6e8f38a2804dbd1abe60f65f3114e816",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/step2kd1_coherent_closed_auxiliary_surface.py",
+    "current_path": "support/surface_geometry.py",
+    "executed_sha256": "a5b99e5e3b6da43b537a469a2fcef06ed8b725e1743f3db3095e7de4778ebf15",
+    "current_sha256": "d1a59b5e49fe2154dbb0eeebf8fba9c7858c7131f26f66b51811006a237dd617",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/step2ma_smooth_capsule_acceptance.py",
+    "current_path": "support/capsule_geometry.py",
+    "executed_sha256": "4a8eeb0d27d4035bee94d389da9e6ffa5ea5490eda6b2f6ee5c7b576252287f5",
+    "current_sha256": "6b5d5dff1ce1089d0572e9680a97405cf8f6bd9ad443bea23b43a425a0a0ad78",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/step2mb1_incident_normalization_feed_localization.py",
+    "current_path": "support/field_normalization.py",
+    "executed_sha256": "b5cdf445a67bd77ce88baee5543eb5874a794d37ad000db89448e2d982b8bdd0",
+    "current_sha256": "1d0c7a65a80b59ba0780d77ad361eba7945589154c31194da3bef431fae12b45",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/step4c3_v2a_feed_transition_residual_diagnostic.py",
+    "current_path": "support/feed_region_geometry.py",
+    "executed_sha256": "16b0b1751140e59f9ea8d4d64020805810d385d683d2a42ac37fd1fd55a125b4",
+    "current_sha256": "ddb66aad780f948e6322c3f56d53db1616292b7b009a4df5c7f20125d95e7a83",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/case2_sphere_uniform_field_induced_charge_test.py",
+    "current_path": "support/static_sphere.py",
+    "executed_sha256": "54b0546be50de8cfb030ddf96708ddfc975b31a6fb14afababad0dab9d047eeb",
+    "current_sha256": "bd91ee52f8616a2c7afd0f2936a51bf662fd34ffe067fcc6aebec3eb5a1107c1",
+    "change": "module/import renaming, helper-path relocation and docstring only"
+  },
+  {
+    "executed_path": "augmented_RF/code/examples/stl_mas_demo/create_dipole_stl.py",
+    "current_path": "support/create_dipole_stl.py",
+    "executed_sha256": "6d9fd9a79b48735bbc6c41d09253daa2944f0b920b40a019c3f1c4d1dd0d5711",
+    "current_sha256": "6d9fd9a79b48735bbc6c41d09253daa2944f0b920b40a019c3f1c4d1dd0d5711",
+    "change": "byte-identical geometry helper"
+  },
+  {
+    "executed_path": "augmented_RF/article_backend.py",
+    "current_path": "examples/two_arm/two_arm_model.py",
+    "executed_sha256": "d03279c5354fce72f034b6cbaaeee23daabee7e42a22095de9a5b1192e38f372",
+    "current_sha256": "49d23ca47e122984d7f933c424ca3958425f7a8cc2a612954b306bdd623b401f",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/article_compatible_mixed_cpu.py",
+    "current_path": "examples/two_arm/mixed_boundary.py",
+    "executed_sha256": "ab3b3caf07b1610baaf1c09e185ee9750aa8c406b775db642c757ed716a82598",
+    "current_sha256": "9f1345c78290e7d841f2add3a1c2911b2720c5f4e35165e71d780405d3e1abab",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/article_direct_incident.py",
+    "current_path": "examples/two_arm/incident_fields.py",
+    "executed_sha256": "df7ee0248aed0826f819a696f02a48c167e3a90931114e45fa419bd17267891f",
+    "current_sha256": "21845d317f5e4715dfaa6d5d5c2be511534f22abc8c19e68de10d786f0a6efff",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/article_em_augmented_cpu.py",
+    "current_path": "examples/two_arm/electric_magnetic_sources.py",
+    "executed_sha256": "ef8b71cc02edabddd04a58725252e37433d1ea8f67a38171a8c25ad4a6d52b00",
+    "current_sha256": "38dbdb009e380d20e3bb7290ff390f3e5a3e39a3841bbe04a1bc45ad81920c12",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/article_reflective_cc.py",
+    "current_path": "examples/two_arm/reflecting_sources.py",
+    "executed_sha256": "4d3fc543085156c621c7de365fa50ec42862fa495e4307e2711bdfdd14df253b",
+    "current_sha256": "7dd1db0254c757571c8960333615f1514f5c93db21204a7714fc5c8f825fcd00",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/campaign_tools.py",
+    "current_path": "examples/two_arm/campaign_tools.py",
+    "executed_sha256": "d49991831d379091950eb38c2c09b9da722b8ea4ad0a9c1e5d79768371141e57",
+    "current_sha256": "f7960fd3db73ed14b29ee3cc6a5027958a347e070cee96bb5b8a27d4f3800595",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/feedback_reference.py",
+    "current_path": "examples/two_arm/feedback_reference.py",
+    "executed_sha256": "9c729f3c26e636d74b59e5327f596af9561a5a96f1119f4066f846a70c6d7eb8",
+    "current_sha256": "11a4e6385558b35927a0ced1004b229d6e368286ee718ebda802cd49b319434f",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/magnetic_feedback.py",
+    "current_path": "examples/two_arm/magnetic_feedback.py",
+    "executed_sha256": "7385a7409c4b37887a07fad7a3262c517c60627f7dcfcc4c397d25ecddf5f879",
+    "current_sha256": "e83c05c24e5f989738d5b38d5785cc8f9fe5d50aac45110eff6ea3586fb1fbc9",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/qualify_direct_incident_cpu.py",
+    "current_path": "examples/two_arm/qualify_direct_incident_cpu.py",
+    "executed_sha256": "390f099528b27e3d1a6a9252afe8a8f229981f415f614ba781dc8d6d68f7433b",
+    "current_sha256": "0a5451124346466ad358fc9a0ac984345b4ff644ce66440aed9d34f21bda2f91",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/qualify_feedback_cpu.py",
+    "current_path": "examples/two_arm/qualify_feedback_cpu.py",
+    "executed_sha256": "91f7c113be8b0d503ed51c2f8dd28f14ad09407ece2aad25a944160f509e79d9",
+    "current_sha256": "44feccf4312d2d43301d7d56cc9802771bca7aec6ddbbda4c2969b7178d590dd",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/qualify_reflective_cic_fix.py",
+    "current_path": "examples/two_arm/qualify_reflective_cic_fix.py",
+    "executed_sha256": "fda8acb061170b341511e48e047546b8f856c3ea5728c45904d0c8e56c9b5481",
+    "current_sha256": "77a0577153cc05a61c7ac25457fc3b9dfc3154cfb4d5218e1927c75c654aed37",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/run_article.py",
+    "current_path": "examples/two_arm/run_simulation.py",
+    "executed_sha256": "20bece872040eea8bb8400c6b663bf1d27e54d7adc64ba93d25697c7a2c0d44f",
+    "current_sha256": "5fe15d342bb86424fc75db7f891f9fc41657b4eecb0c2df12fe4424d06fa7a30",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/run_full.py",
+    "current_path": "examples/two_arm/run.py",
+    "executed_sha256": "1f1ed20d0ea6da0fb1ccaf0a733bdd632c7d68bf6e75773e25e041b16f19b3e1",
+    "current_sha256": "80afba690fb1282a5f92f776824255df4894799b8c9f7ce02140fe8e00639fae",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/validate_direct_gpu.py",
+    "current_path": "examples/two_arm/validate_direct_gpu.py",
+    "executed_sha256": "df1e101e7ae26527b228b13124a546f995f6639132ecd2a61a654f5bc39629b6",
+    "current_sha256": "80fea164d07a8c9a2f5070030b42c0e1a0b2c5cd7dab731b4abefb5123cd62f8",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/validate_feedback_gpu.py",
+    "current_path": "examples/two_arm/validate_feedback_gpu.py",
+    "executed_sha256": "abfc33adb8cae86d8cdb62c5ba2e1708dbd16ca83848c9dbf1c1dc34e8385e19",
+    "current_sha256": "a090dcabc9434fbf498427eb4dd24738f551ce3cb792026d2e590219a31baf40",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/validate_operator_cpu.py",
+    "current_path": "examples/two_arm/validate_operator_cpu.py",
+    "executed_sha256": "a8e968fb7e83e8d49c9b14dfa5fea55edcf2aac72c29cab56fc99e93094fdf82",
+    "current_sha256": "e7862543b83222dbbdfa96f02773605fc51f3a190eef5b91a733fcdfc7a764f5",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "augmented_RF/calibration.json",
+    "current_path": "examples/two_arm/calibration.json",
+    "executed_sha256": "f34ae1df3ac3eff5d40fd4ba1893a53ee93cf635933a3e3e38b130b89555144a",
+    "current_sha256": "f34ae1df3ac3eff5d40fd4ba1893a53ee93cf635933a3e3e38b130b89555144a",
+    "change": "byte-identical physical data or scoped record"
+  },
+  {
+    "executed_path": "augmented_RF/geometry_provenance.json",
+    "current_path": "examples/two_arm/geometry_provenance.json",
+    "executed_sha256": "f34936b779b61bf88bb355ccc4cce0fbb848f39c4fd16f81512fd8d2ea929f2e",
+    "current_sha256": "f34936b779b61bf88bb355ccc4cce0fbb848f39c4fd16f81512fd8d2ea929f2e",
+    "change": "byte-identical physical data or scoped record"
+  },
+  {
+    "executed_path": "augmented_RF/actual_geometry.npz",
+    "current_path": "examples/two_arm/actual_geometry.npz",
+    "executed_sha256": "4331642f047383ad36c26b0b08e56a05d26024ae80a0625e731652aca03a1c92",
+    "current_sha256": "4331642f047383ad36c26b0b08e56a05d26024ae80a0625e731652aca03a1c92",
+    "change": "byte-identical input/fixture"
+  },
+  {
+    "executed_path": "sphere_CC/campaign_tools.py",
+    "current_path": "examples/sphere/campaign_tools.py",
+    "executed_sha256": "e9767412dc8bc1894fa7168cbd49dc3d112f29c220003c1c765cf741e0de5dc9",
+    "current_sha256": "321bee3fd4c874283f51236fe9d83621bfdd36a415cdd7218de56582704c3707",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "sphere_CC/comparison_boundary.py",
+    "current_path": "examples/sphere/boundary.py",
+    "executed_sha256": "90d5ca41664d28afdef1867d67f5736c765b6ccee7356badaf4ce602d815ec28",
+    "current_sha256": "c8e9ac1408ff8020e80e0d11b6a4e9e51257c81c6d142428afdacc79ecd5119d",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "sphere_CC/legacy_boundary_geometry.py",
+    "current_path": "examples/sphere/sphere_geometry.py",
+    "executed_sha256": "5939f60b2d9487b7f699de5960bcd9cba07086d28334d46027ef77de24cec9b5",
+    "current_sha256": "0f17cfda22f535a37f125a65f0f5f5cd9234254f9a98f4e24d15f28226f73e39",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "sphere_CC/qualify_cpu.py",
+    "current_path": "examples/sphere/qualify_cpu.py",
+    "executed_sha256": "268db4663099c7bf28427b5eb1eadccdde9a69014a2d28af385875a61926ce20",
+    "current_sha256": "e7a5f2b07a7b826707b6880cb123a06150528b2e5c57c81c579c9c8fda5ea374",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "sphere_CC/run_jefipic.py",
+    "current_path": "examples/sphere/simulate.py",
+    "executed_sha256": "8c8dbffe481200ee2f07b07471fae14a0c3982d20e996a02c49ddc49b4eb2137",
+    "current_sha256": "1865381b25ea2898cdc16c4f14e2f7e4f55736d288a830e2e0bf0a9e87a1eb0b",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "sphere_CC/run_sphere.py",
+    "current_path": "examples/sphere/run.py",
+    "executed_sha256": "3e01381b54c78646fdcb3cb2887558c71d1706672342b9bdb74cb3a6f9862506",
+    "current_sha256": "82b758b2c5e80d6716912ec4e1e9d01d74dcfa2f5f368bc77fab383264bd6193",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "sphere_CC/validate_gpu.py",
+    "current_path": "examples/sphere/validate_gpu.py",
+    "executed_sha256": "b231fbc9f236474e3a1406daade11581db4f6cf554a382933491045cb66bcffe",
+    "current_sha256": "267f86baf93a105a0d1ffdd2645451d32886e7499853b4f1f6d6246f395e891b",
+    "change": "imports, paths, module names, docstring and verification scaffolding only"
+  },
+  {
+    "executed_path": "sphere_CC/calibration.json",
+    "current_path": "examples/sphere/calibration.json",
+    "executed_sha256": "193c4cd2051f2d91219df6daa6e3eabdc02e9b67dc58442ae925fa1494290493",
+    "current_sha256": "193c4cd2051f2d91219df6daa6e3eabdc02e9b67dc58442ae925fa1494290493",
+    "change": "byte-identical physical data or scoped record"
+  },
+  {
+    "executed_path": "sphere_CC/revision_status.json",
+    "current_path": "examples/sphere/revision_status.json",
+    "executed_sha256": "b1efefd804d6811e8d417af78de68b9724e5babfa1f08174b2dcbf6e86273716",
+    "current_sha256": "b1efefd804d6811e8d417af78de68b9724e5babfa1f08174b2dcbf6e86273716",
+    "change": "byte-identical physical data or scoped record"
+  },
+  {
+    "executed_path": "sphere_CC/source_preservation.json",
+    "current_path": "examples/sphere/source_preservation.json",
+    "executed_sha256": "04319634e69cd5cb59c399748315083c2cc4a2cd94e34c05ca1c5c13c3063f4c",
+    "current_sha256": "4e46a5440a31b0c40f34e79fa884ee644a49258975866dd431653a2e0aaf610b",
+    "change": "byte-identical critical PIC/plasma source hashes; relocated helper is covered by the module mapping"
+  },
+  {
+    "executed_path": "sphere_CC/calibration_incident.npz",
+    "current_path": "examples/sphere/calibration_incident.npz",
+    "executed_sha256": "c2e3627de7ae441b9ed3e415948b10c47d7556b5a9266902e06f8927a43d696a",
+    "current_sha256": "c2e3627de7ae441b9ed3e415948b10c47d7556b5a9266902e06f8927a43d696a",
+    "change": "byte-identical input/fixture"
+  },
+  {
+    "executed_path": "sphere_CC/case/case.json",
+    "current_path": "examples/sphere/input/case.json",
+    "executed_sha256": "06c8ad6726d77297192812a067677b4e9660c3c3f69d12a67c4c1a576e1dd5b6",
+    "current_sha256": "06c8ad6726d77297192812a067677b4e9660c3c3f69d12a67c4c1a576e1dd5b6",
+    "change": "byte-identical physical input"
+  },
+  {
+    "executed_path": "sphere_CC/case/particles.npz",
+    "current_path": "examples/sphere/input/particles.npz",
+    "executed_sha256": "4d15ba6cdf3eddff0b8f98dac700d1aa9a190f87e98cea0c5b455b76222bce89",
+    "current_sha256": "4d15ba6cdf3eddff0b8f98dac700d1aa9a190f87e98cea0c5b455b76222bce89",
+    "change": "byte-identical physical input"
+  },
+  {
+    "executed_path": "sphere_CC/case/cpu_validation.json",
+    "current_path": "examples/sphere/input/cpu_validation.json",
+    "executed_sha256": "314f56baaf06b22e959138156d1e2ec03fc8ce3cd78310ae024c41e699c401c7",
+    "current_sha256": "314f56baaf06b22e959138156d1e2ec03fc8ce3cd78310ae024c41e699c401c7",
+    "change": "byte-identical physical input"
+  },
+  {
+    "executed_path": "plot_figures.py",
+    "current_path": "scripts/plot_figures.py",
+    "executed_sha256": "45acef6f55a1d5ebb2353f0fe31acee2086253a6a399c121381148c7d39405d0",
+    "current_sha256": "5e537cee8fa08613f4dc6ecb4d5527254eadc26b8babb025f4cd10d3852074a2",
+    "change": "module/import names and output/input paths only"
+  },
+  {
+    "executed_path": "prepare_warpx_inputs.py",
+    "current_path": "scripts/prepare_warpx_inputs.py",
+    "executed_sha256": "eea3c2f0b0e065fbfbde3e18c9b75bc0896f33c80d751ea53a5954dd5affe75e",
+    "current_sha256": "2327d1a516155ad8a2f226b53548676778292bcc7f21e6b6db7c53617ce6bc33",
+    "change": "module/import names and output/input paths only"
+  },
+  {
+    "executed_path": "reproduce_scuff_mas.py",
+    "current_path": "scripts/reproduce_scuff_mas.py",
+    "executed_sha256": "48bfa899ea66decd8486d5d371cbf2261eb7996eb3b6453fbf1d5e9d647aea53",
+    "current_sha256": "50bb0277219ee4789a6407780b1bbfb4c8d6841af1f4ec6407b0b6ca2eebb758",
+    "change": "module/import names and output/input paths only"
+  },
+  {
+    "executed_path": "warpx_inputs.py",
+    "current_path": "scripts/warpx_inputs.py",
+    "executed_sha256": "db7a9c2d8a2d4b81694befb89c688f0bf007c523e58d01835ae64c2fc9b7870b",
+    "current_sha256": "db7a9c2d8a2d4b81694befb89c688f0bf007c523e58d01835ae64c2fc9b7870b",
+    "change": "module/import names and output/input paths only"
+  },
+  {
+    "executed_path": "augmented_RF/code/article_cases/step1d_full_em_coincident_atomic_observation_parity.py",
+    "current_path": "support/field_test_sources.py",
+    "executed_sha256": "06ef9993cc9c4e63f85d98583e645d8edf83eb577e84b95584253b370890ec32",
+    "current_sha256": "4da619745f25c47971f7c7cb3ac5c73f638376a9d8dc151ee94593a21d48c1a8",
+    "change": "docstring only; numerical source histories unchanged"
+  }
+]

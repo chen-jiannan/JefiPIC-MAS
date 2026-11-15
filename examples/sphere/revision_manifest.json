@@ -1,0 +1,260 @@
+{
+  "path_base": "repository_root",
+  "files": [
+    {
+      "path": "EMsolver/__init__.py",
+      "bytes": 1414,
+      "sha256": "eb6f5d3713a09cdd61eaceb537fd5c052cf7a129ce90a80d6d04a30c01405483"
+    },
+    {
+      "path": "EMsolver/cuda_functions.py",
+      "bytes": 70823,
+      "sha256": "e6652bfab451ea23da62db57aff40264632eff99a1c0aae9c53ee25d6892d59c"
+    },
+    {
+      "path": "EMsolver/mas_dipole_basis.py",
+      "bytes": 11888,
+      "sha256": "bc47ae6138bf0ef9e0eac775d454e7991afd6a89a5b7f0c8369a9450ca7dc7c2"
+    },
+    {
+      "path": "EMsolver/mas_integration.py",
+      "bytes": 67809,
+      "sha256": "92fc782bb430c29f66f0787c384237d77f5c6eb3d626781de2f4947a73bdf5ea"
+    },
+    {
+      "path": "EMsolver/mas_mixed_mot.py",
+      "bytes": 6769,
+      "sha256": "14f9ccb5aebd47717c2d26c3d4a239975b9d7735ec4c2b41712a1b318b81fb49"
+    },
+    {
+      "path": "EMsolver/mas_preprocessor.py",
+      "bytes": 78663,
+      "sha256": "88775ce4e2fb3f1f67c8084fe04235e373ed529d38a53dbf9448c29043ed8734"
+    },
+    {
+      "path": "EMsolver/mesh_guidance.py",
+      "bytes": 11487,
+      "sha256": "6703a1f7f306e8cd706b38b02f54be6471f668ade74d8c93f6ccebb2b677452c"
+    },
+    {
+      "path": "EMsolver/perf_diagnostics.py",
+      "bytes": 4824,
+      "sha256": "c099403a18cac2c9a86eb0a67129714469381ab99cc52fc9dafbab8d834bf2f7"
+    },
+    {
+      "path": "EMsolver/preprocessing.py",
+      "bytes": 499,
+      "sha256": "6ef3e64718d1df34d610ff0c2fc01d87ac6db2572540cfceb8acb49d6a762fe3"
+    },
+    {
+      "path": "EMsolver/region_distance.py",
+      "bytes": 4339,
+      "sha256": "ea9db9a860319c22205c7540075283ddbd07320faeb6a41415719590c19226fe"
+    },
+    {
+      "path": "EMsolver/revision_profile.py",
+      "bytes": 4547,
+      "sha256": "ebd707b94bb1f7c2408cbcdacf0986cfc380df4aa81e89eec2b092e6e4c012c7"
+    },
+    {
+      "path": "EMsolver/solver.py",
+      "bytes": 51180,
+      "sha256": "12b8fe409b3462ef78e0a11ab71b1f18be3df1bb767972926ac5483f91656554"
+    },
+    {
+      "path": "EMsolver/tdie_integration.py",
+      "bytes": 668,
+      "sha256": "240595b98c8e4a97d471ca31ad8dff78752b1671f0059e9e849c56a2ea16d30e"
+    },
+    {
+      "path": "Particle_transport/__init__.py",
+      "bytes": 45,
+      "sha256": "19243e27fe7513e6374bcdb8967a19d76388b0e7f18775e182228464427d59b6"
+    },
+    {
+      "path": "Particle_transport/cuda_kernels.py",
+      "bytes": 19376,
+      "sha256": "b8a5c2fc508db3a81a7624dc0b32d2eccad96375685c4b5735be572021ff5984"
+    },
+    {
+      "path": "Particle_transport/fast_deposition.py",
+      "bytes": 24395,
+      "sha256": "6d572b7e095d1f2f6ef558dacf5360092200a29bbb1a9d7102940af2dc1d03db"
+    },
+    {
+      "path": "Particle_transport/main.py",
+      "bytes": 57069,
+      "sha256": "c42cebcbc06005e1437c1451e058af2f62106f84f56c2f1ee014d193d6df6f96"
+    },
+    {
+      "path": "RBG_Maxwell/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "RBG_Maxwell/Plasma/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "RBG_Maxwell/Plasma/utils.py",
+      "bytes": 10756,
+      "sha256": "2feb930976103ef77b3c0fe9037f99535c31754eaed9bc64b1199b37771403a3"
+    },
+    {
+      "path": "RBG_Maxwell/Unit_conversion/__init__.py",
+      "bytes": 18,
+      "sha256": "c8e1cd666fd98cf2364f2c24c805534e3e4968d82157b8d011c24b214690a900"
+    },
+    {
+      "path": "RBG_Maxwell/Unit_conversion/main.py",
+      "bytes": 6606,
+      "sha256": "e99fb77e833b0e98597cb2e6ab7359746c92c896db3554b0ca4410a7adf747e0"
+    },
+    {
+      "path": "support/_case_common.py",
+      "bytes": 103849,
+      "sha256": "8b1be4442d4997873e2a15863e3db1f0f2c123e39ea9dd444a07cdb2d6de989e"
+    },
+    {
+      "path": "support/capsule_geometry.py",
+      "bytes": 20419,
+      "sha256": "6b5d5dff1ce1089d0572e9680a97405cf8f6bd9ad443bea23b43a425a0a0ad78"
+    },
+    {
+      "path": "support/create_dipole_stl.py",
+      "bytes": 5573,
+      "sha256": "6d9fd9a79b48735bbc6c41d09253daa2944f0b920b40a019c3f1c4d1dd0d5711"
+    },
+    {
+      "path": "support/drive_and_surface_diagnostics.py",
+      "bytes": 36877,
+      "sha256": "28cd18c08da711989fe255964f27037a5693093aea31f46056a598980e9d3215"
+    },
+    {
+      "path": "support/feed_region_geometry.py",
+      "bytes": 30938,
+      "sha256": "ddb66aad780f948e6322c3f56d53db1616292b7b009a4df5c7f20125d95e7a83"
+    },
+    {
+      "path": "support/field_normalization.py",
+      "bytes": 25014,
+      "sha256": "1d0c7a65a80b59ba0780d77ad361eba7945589154c31194da3bef431fae12b45"
+    },
+    {
+      "path": "support/field_test_sources.py",
+      "bytes": 5837,
+      "sha256": "4da619745f25c47971f7c7cb3ac5c73f638376a9d8dc151ee94593a21d48c1a8"
+    },
+    {
+      "path": "support/harmonic_helpers.py",
+      "bytes": 18769,
+      "sha256": "993ef4b47c1e3044913733a1d9179a0f6e8f38a2804dbd1abe60f65f3114e816"
+    },
+    {
+      "path": "support/plasma_setup.py",
+      "bytes": 52213,
+      "sha256": "4b1a33e9ceebdc5f88ae1b3b5a0833485042f837e95f4125d51e83f1f0d8ca44"
+    },
+    {
+      "path": "support/retarded_history.py",
+      "bytes": 30476,
+      "sha256": "24431c0a08e90739738034bb856e9a4ea827a744a6aaf8c6f1eb7ce93a867751"
+    },
+    {
+      "path": "support/static_sphere.py",
+      "bytes": 25636,
+      "sha256": "bd91ee52f8616a2c7afd0f2936a51bf662fd34ffe067fcc6aebec3eb5a1107c1"
+    },
+    {
+      "path": "support/surface_geometry.py",
+      "bytes": 48882,
+      "sha256": "d1a59b5e49fe2154dbb0eeebf8fba9c7858c7131f26f66b51811006a237dd617"
+    },
+    {
+      "path": "examples/sphere/boundary.py",
+      "bytes": 1864,
+      "sha256": "c8e9ac1408ff8020e80e0d11b6a4e9e51257c81c6d142428afdacc79ecd5119d"
+    },
+    {
+      "path": "examples/sphere/calibration.json",
+      "bytes": 699,
+      "sha256": "193c4cd2051f2d91219df6daa6e3eabdc02e9b67dc58442ae925fa1494290493"
+    },
+    {
+      "path": "examples/sphere/calibration_incident.npz",
+      "bytes": 1849681,
+      "sha256": "c2e3627de7ae441b9ed3e415948b10c47d7556b5a9266902e06f8927a43d696a"
+    },
+    {
+      "path": "examples/sphere/campaign_tools.py",
+      "bytes": 6531,
+      "sha256": "321bee3fd4c874283f51236fe9d83621bfdd36a415cdd7218de56582704c3707"
+    },
+    {
+      "path": "examples/sphere/input/case.json",
+      "bytes": 2301,
+      "sha256": "06c8ad6726d77297192812a067677b4e9660c3c3f69d12a67c4c1a576e1dd5b6"
+    },
+    {
+      "path": "examples/sphere/input/cpu_validation.json",
+      "bytes": 268,
+      "sha256": "314f56baaf06b22e959138156d1e2ec03fc8ce3cd78310ae024c41e699c401c7"
+    },
+    {
+      "path": "examples/sphere/input/particles.npz",
+      "bytes": 112949,
+      "sha256": "4d15ba6cdf3eddff0b8f98dac700d1aa9a190f87e98cea0c5b455b76222bce89"
+    },
+    {
+      "path": "examples/sphere/qualify_cpu.py",
+      "bytes": 4535,
+      "sha256": "e7a5f2b07a7b826707b6880cb123a06150528b2e5c57c81c579c9c8fda5ea374"
+    },
+    {
+      "path": "examples/sphere/revision_status.json",
+      "bytes": 578,
+      "sha256": "b1efefd804d6811e8d417af78de68b9724e5babfa1f08174b2dcbf6e86273716"
+    },
+    {
+      "path": "examples/sphere/run.py",
+      "bytes": 4726,
+      "sha256": "82b758b2c5e80d6716912ec4e1e9d01d74dcfa2f5f368bc77fab383264bd6193"
+    },
+    {
+      "path": "examples/sphere/simulate.py",
+      "bytes": 18155,
+      "sha256": "1865381b25ea2898cdc16c4f14e2f7e4f55736d288a830e2e0bf0a9e87a1eb0b"
+    },
+    {
+      "path": "examples/sphere/source_preservation.json",
+      "bytes": 407,
+      "sha256": "4e46a5440a31b0c40f34e79fa884ee644a49258975866dd431653a2e0aaf610b"
+    },
+    {
+      "path": "examples/sphere/sphere_geometry.py",
+      "bytes": 9168,
+      "sha256": "0f17cfda22f535a37f125a65f0f5f5cd9234254f9a98f4e24d15f28226f73e39"
+    },
+    {
+      "path": "examples/sphere/validate_gpu.py",
+      "bytes": 5605,
+      "sha256": "267f86baf93a105a0d1ffdd2645451d32886e7499853b4f1f6d6246f395e891b"
+    },
+    {
+      "path": "examples/sphere/validation/backend_compatibility.json",
+      "bytes": 242,
+      "sha256": "07c141730aba40c5bcf5fdc78595f3c908f193ecf5d5aa6ead1226f18161eaa6"
+    },
+    {
+      "path": "examples/sphere/validation/cpu_qualification.json",
+      "bytes": 1056,
+      "sha256": "e5002f7e84036cfe2283b4337c1027f368e8269051a83372c7e8f97028b6d687"
+    },
+    {
+      "path": "examples/sphere/validation/gpu_replay_fixture.npz",
+      "bytes": 277866,
+      "sha256": "3ed6dd5a7ad629cfc4c93c211cdafc4e74ad3f08fe7475568c899a9bc1830f0a"
+    }
+  ]
+}

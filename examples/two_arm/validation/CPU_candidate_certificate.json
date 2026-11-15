@@ -1,0 +1,70 @@
+{
+  "status": "SCOPED_CPU_CANDIDATE_PASSED_NATIVE_AND_FULL_NEW_PIC_NOT_VALIDATED",
+  "checks": {
+    "input_reconstruction": true,
+    "original_failure_reproduced": true,
+    "real_1621_node_EB": true,
+    "physical_4001_node_EB": true,
+    "late_windows": true,
+    "actual_state_tail": true,
+    "control_state_tail": true,
+    "random_initial_state": true,
+    "SCUFF_vector_EB": true,
+    "independent_source_formulas": true,
+    "periodic_equation": true
+  },
+  "native_CUDA_feedback_for_new_magnetic_sources_validated": false,
+  "new_self_consistent_4001_node_PIC_trajectory_validated": false,
+  "configuration": {
+    "theta": 0.6,
+    "ridge_rel": 0.0001,
+    "electric_sources": 1992,
+    "electric_dofs": 3984,
+    "magnetic_sources": 664,
+    "magnetic_dofs": 1992,
+    "physical_collocation_points": 3984,
+    "independent_holdout_points": 2020,
+    "magnetic_spatial_resolution_cutoff": 0.0001,
+    "magnetic_weight": 702.9771963636638
+  },
+  "actual_returned_trajectory": {
+    "nodes": 1621,
+    "global_Et": 0.007378968346269265,
+    "worst_Et": 0.020524147924245898,
+    "Bn_over_full_B": 0.0018678509976762455,
+    "scope": "Frozen existing plasma incident history; no particle advancement or modified feedback trajectory"
+  },
+  "controlled_4001_nodes": {
+    "nodes": 4001,
+    "global_Et": 0.0034536337992088547,
+    "worst_Et": 0.020767826835182385,
+    "Bn_over_full_B": 0.013617349610198256,
+    "scope": "Same geometry, causal analytic RF electric dipole plus ramped DC magnetic dipole, amplitudes fixed from incident data; no plasma/PIC"
+  },
+  "SCUFF": {
+    "periodic_solver": "direct regularized recurrence, no transient truncation",
+    "fixed_point_residual": 4.424763236283273e-09,
+    "E_offset": 0.018629272805291273,
+    "B_offset": 0.011188083973771195,
+    "E_probes": 0.015885569511793984,
+    "B_probes": 0.009838467658372423
+  },
+  "stability": {
+    "real_tail": {
+      "steps": 500,
+      "last100_median_growth": 0.9992248523952403,
+      "final_norm": 0.18291718435955767,
+      "max_norm": 0.6340311128570948
+    },
+    "control_tail_growth": 0.9921858461419599,
+    "random_power": {
+      "steps": 1000,
+      "power_steps": 500,
+      "last100_median_growth": 0.9996801267269939,
+      "final_norm": 0.7234592006582041,
+      "max_free_norm": 0.9979085344443791
+    }
+  },
+  "baseline_reproduction_worst_Et_absolute_difference": 1.6535881802726138e-08,
+  "scope_note": "CPU boundary-component qualification only, not an independent full PIC accuracy comparison, native CUDA qualification, new performance benchmark or universal stability proof."
+}

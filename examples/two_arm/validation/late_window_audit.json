@@ -1,0 +1,106 @@
+{
+  "scope": "Independent complete-field, late-window audit of the CPU candidate.\n\nUses the UNPROJECTED Et and Bn fields on the original holdout set.\nThe source trajectory remains the returned 1621 nodes; the 4001-node\ncontrolled incident field is a separate, explicitly labelled physics test.\n",
+  "cases": {
+    "returned_trajectory": {
+      "all": {
+        "samples": 69,
+        "global_Et": 0.007378968346269557,
+        "worst_Et": 0.02052414792424606,
+        "worst_region": "outer_rounded",
+        "Bn_over_full_B": 0.0018678509976762438
+      },
+      "windows": [
+        {
+          "cycle_range": [
+            1,
+            2
+          ],
+          "samples": 17,
+          "global_Et": 0.007028314954046617,
+          "worst_Et": 0.019344507871552445,
+          "worst_region": "outer_rounded",
+          "Bn_over_full_B": 0.00271661669289512
+        },
+        {
+          "cycle_range": [
+            2,
+            3
+          ],
+          "samples": 16,
+          "global_Et": 0.008256808846248683,
+          "worst_Et": 0.01942593913924492,
+          "worst_region": "outer_rounded",
+          "Bn_over_full_B": 0.0020947658394185713
+        },
+        {
+          "cycle_range": [
+            3,
+            4
+          ],
+          "samples": 17,
+          "global_Et": 0.007323945619432059,
+          "worst_Et": 0.02401427348939647,
+          "worst_region": "outer_rounded",
+          "Bn_over_full_B": 0.0017407770706138132
+        },
+        {
+          "cycle_range": [
+            4,
+            4.861
+          ],
+          "samples": 15,
+          "global_Et": 0.007021474800757254,
+          "worst_Et": 0.019962395397352437,
+          "worst_region": "outer_rounded",
+          "Bn_over_full_B": 0.0016692994298752833
+        }
+      ],
+      "all_windows_below_5pct": true
+    },
+    "physical_RF_plus_DC_4001": {
+      "all": {
+        "samples": 184,
+        "global_Et": 0.0034536337992088825,
+        "worst_Et": 0.0207678268351823,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013617349610198276
+      },
+      "windows": [
+        {
+          "cycle_range": [
+            1,
+            4
+          ],
+          "samples": 50,
+          "global_Et": 0.0034371543210994387,
+          "worst_Et": 0.02076862932287305,
+          "worst_region": "all_transition",
+          "Bn_over_full_B": 0.01365052806075817
+        },
+        {
+          "cycle_range": [
+            4,
+            8
+          ],
+          "samples": 67,
+          "global_Et": 0.0034600250846713583,
+          "worst_Et": 0.020767427078969537,
+          "worst_region": "all_transition",
+          "Bn_over_full_B": 0.013604708003857203
+        },
+        {
+          "cycle_range": [
+            8,
+            12.001
+          ],
+          "samples": 67,
+          "global_Et": 0.0034594393908684486,
+          "worst_Et": 0.020767630700356966,
+          "worst_region": "all_transition",
+          "Bn_over_full_B": 0.013605157825902247
+        }
+      ],
+      "all_windows_below_5pct": true
+    }
+  }
+}

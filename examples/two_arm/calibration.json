@@ -1,0 +1,23 @@
+{
+  "status": "SOURCE_REFERENCE_RECORDED",
+  "steps": 64,
+  "beta": 702.9771963636638,
+  "reference_start_node": 12,
+  "beta_rule": "Frozen area-weighted incident tangential E / (c * FULL incident vector B) on native source nodes 12..63. Matches the full-B denominator of the predeclared surface magnetic metric. No boundary residual used in the scale.",
+  "source_continuity_max_relative": 5.411101485616866e-14,
+  "initial_position_fingerprint": "3d71248d0aae7a082bfb883613516f748805fedab7d47ff8d850a44d5f0b94dd",
+  "surface_events": [
+    4,
+    0
+  ],
+  "scope": "Reference normalization/source qualification only; not final self-consistent experiment or performance sample. Node zero is deposited before the first push; future full run restarts same seed and initial library.",
+  "rule": "Frozen area-weighted incident tangential E / (c * FULL incident vector B) on native source nodes 12..63. Matches the full-B denominator of the predeclared surface magnetic metric. No boundary residual used in the scale.",
+  "source_record": "article_direct_return_20261114_225907_707061",
+  "reference_nodes": [
+    12,
+    63
+  ],
+  "reference_kind": "Separate corrected one-way incident source record, evaluated at enriched collocation points before coupled feedback; restart exact initial particles for the full run.",
+  "reference_base_geometry_fingerprint": "0cf4be9664b22e91feb7504bb0af4baefea3b96a201188e9bb815d6016b3235d",
+  "boundary_electric_geometry_fingerprint": "0608e90263adbc26866e7692109bb8cf3e95313af726ce86451f03d69a5b6564"
+}

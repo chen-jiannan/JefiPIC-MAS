@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and the actual archived dataset version used."
+title: "JefiPIC-MAS"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/chen-jiannan/JefiPIC-MAS"
+authors:
+  - family-names: Chen
+    given-names: Jian-Nan
+    orcid: "https://orcid.org/0000-0003-4449-9125"
+  - family-names: Wang
+    given-names: Hong-Guang
+    orcid: "https://orcid.org/0000-0001-8994-4523"
+  - family-names: Li
+    given-names: Yong-Dong
+    orcid: "https://orcid.org/0000-0001-8756-0438"

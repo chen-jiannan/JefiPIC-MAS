@@ -1,0 +1,12 @@
+{
+  "version": "normalized-mixed-hermite-mot-v2",
+  "CPU_qualified": true,
+  "native_CUDA_gate": "runs on user server before coupled calculation",
+  "WarpX_reference": "reuse existing unsplit Esirkepov physical case; result comparison pending",
+  "old_SCuff_twoarm": "no rerun required; same matrices at theta=.5; weak-Bn guard inactive",
+  "rejected_candidates": {
+    "sphere_theta_0p5_spectral_radius": 1.0195009328305984,
+    "near_zero_Bn_normalization": "rejected due 100% Et replay residual"
+  },
+  "physics_change": "none; boundary numerical algorithm only"
+}

@@ -1,0 +1,1415 @@
+{
+  "scope": "Causal RF electric dipole + ramp-to-DC magnetic dipole, for CPU diagnosis.\n\nThe analytic incident fields satisfy the same retarded dipole equations.\nNo particle feedback or future PIC trajectory is asserted by this control.\n",
+  "steps": 4001,
+  "dt_s": 1e-09,
+  "electric_amplitude_scale": 0.0006013431246852517,
+  "magnetic_amplitude_scale": 5.489791931446431,
+  "scales_source": "Native incident Et RMS and finite-window mean Bn only; no residual-based scale adjustment.",
+  "independent_surface": {
+    "regions": {
+      "global": {
+        "region": "global",
+        "residual_rms_V_per_m": 0.04157098468097284,
+        "incident_rms_V_per_m": 12.036882627942708,
+        "incident_ratio": 1.0,
+        "local_rel": 0.0034536337992088547,
+        "global_norm": 0.0034536337992088547,
+        "gate_metric": "local_rel",
+        "gate_value": 0.0034536337992088547,
+        "passed_5pct": true,
+        "sample_count_accumulated": 47104
+      },
+      "feed_rounded": {
+        "region": "feed_rounded",
+        "residual_rms_V_per_m": 0.02080960116924044,
+        "incident_rms_V_per_m": 2.680400167559649,
+        "incident_ratio": 0.2226822550663827,
+        "local_rel": 0.007763617321433909,
+        "global_norm": 0.0017288198126093324,
+        "gate_metric": "local_rel",
+        "gate_value": 0.007763617321433909,
+        "passed_5pct": true,
+        "sample_count_accumulated": 157872
+      },
+      "feed_tips": {
+        "region": "feed_tips",
+        "residual_rms_V_per_m": 0.011965210141616186,
+        "incident_rms_V_per_m": 2.357280758553954,
+        "incident_ratio": 0.19583814442800215,
+        "local_rel": 0.005075852801240401,
+        "global_norm": 0.000994045593984597,
+        "gate_metric": "global_norm",
+        "gate_value": 0.000994045593984597,
+        "passed_5pct": true,
+        "sample_count_accumulated": 103960
+      },
+      "feed_transition": {
+        "region": "feed_transition",
+        "residual_rms_V_per_m": 0.027541073386014723,
+        "incident_rms_V_per_m": 3.0641173333384177,
+        "incident_ratio": 0.2545607054625009,
+        "local_rel": 0.008988256776710364,
+        "global_norm": 0.002288056985957495,
+        "gate_metric": "local_rel",
+        "gate_value": 0.008988256776710364,
+        "passed_5pct": true,
+        "sample_count_accumulated": 116288
+      },
+      "outer_rounded": {
+        "region": "outer_rounded",
+        "residual_rms_V_per_m": 0.05848485232686435,
+        "incident_rms_V_per_m": 0.6661572020500868,
+        "incident_ratio": 0.05534300056259197,
+        "local_rel": 0.08779437067838984,
+        "global_norm": 0.004858803905846537,
+        "gate_metric": "global_norm",
+        "gate_value": 0.004858803905846537,
+        "passed_5pct": true,
+        "sample_count_accumulated": 118496
+      },
+      "outer_tips": {
+        "region": "outer_tips",
+        "residual_rms_V_per_m": 0.03321238183043687,
+        "incident_rms_V_per_m": 0.6562659776722073,
+        "incident_ratio": 0.054521257534632404,
+        "local_rel": 0.05060811158951446,
+        "global_norm": 0.002759217885313333,
+        "gate_metric": "global_norm",
+        "gate_value": 0.002759217885313333,
+        "passed_5pct": true,
+        "sample_count_accumulated": 88688
+      },
+      "all_transition": {
+        "region": "all_transition",
+        "residual_rms_V_per_m": 0.051283795069214634,
+        "incident_rms_V_per_m": 2.469386685290332,
+        "incident_ratio": 0.20515167935241294,
+        "local_rel": 0.020767826835182385,
+        "global_norm": 0.004260554551737773,
+        "gate_metric": "local_rel",
+        "gate_value": 0.020767826835182385,
+        "passed_5pct": true,
+        "sample_count_accumulated": 184368
+      },
+      "side_mid": {
+        "region": "side_mid",
+        "residual_rms_V_per_m": 0.030204795594356584,
+        "incident_rms_V_per_m": 15.103498521272682,
+        "incident_ratio": 1.2547682808014642,
+        "local_rel": 0.001999854242499797,
+        "global_norm": 0.0025093536697149846,
+        "gate_metric": "local_rel",
+        "gate_value": 0.001999854242499797,
+        "passed_5pct": true,
+        "sample_count_accumulated": 76544
+      }
+    },
+    "worst": {
+      "region": "all_transition",
+      "residual_rms_V_per_m": 0.051283795069214634,
+      "incident_rms_V_per_m": 2.469386685290332,
+      "incident_ratio": 0.20515167935241294,
+      "local_rel": 0.020767826835182385,
+      "global_norm": 0.004260554551737773,
+      "gate_metric": "local_rel",
+      "gate_value": 0.020767826835182385,
+      "passed_5pct": true,
+      "sample_count_accumulated": 184368
+    },
+    "Bn_over_full_B": 0.013617349610198256,
+    "samples": 184,
+    "timeline": [
+      {
+        "step": 340,
+        "global_Et": 0.002934532021647151,
+        "worst_Et": 0.02067548742827586,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.009774878347674314
+      },
+      {
+        "step": 360,
+        "global_Et": 0.0028916943021304866,
+        "worst_Et": 0.02072046149776323,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.009572293044018198
+      },
+      {
+        "step": 380,
+        "global_Et": 0.002893756539045569,
+        "worst_Et": 0.020778064549941678,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.009543565636884589
+      },
+      {
+        "step": 400,
+        "global_Et": 0.002968476033188173,
+        "worst_Et": 0.020842816119506793,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.009807732041686881
+      },
+      {
+        "step": 420,
+        "global_Et": 0.003125643305734337,
+        "worst_Et": 0.020891358279009415,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.010382939521004757
+      },
+      {
+        "step": 440,
+        "global_Et": 0.0032962054785170215,
+        "worst_Et": 0.02088767114668736,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01121745681789827
+      },
+      {
+        "step": 460,
+        "global_Et": 0.003373028078095026,
+        "worst_Et": 0.02083537012514134,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.012214996209528328
+      },
+      {
+        "step": 480,
+        "global_Et": 0.003348198472251021,
+        "worst_Et": 0.020781143368939083,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013239206505039857
+      },
+      {
+        "step": 500,
+        "global_Et": 0.0032827564589631513,
+        "worst_Et": 0.020751757666412306,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.014122731865802882
+      },
+      {
+        "step": 520,
+        "global_Et": 0.0032233219076102815,
+        "worst_Et": 0.020747124788305822,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01471115179593924
+      },
+      {
+        "step": 540,
+        "global_Et": 0.0031932797211864524,
+        "worst_Et": 0.020759801872998886,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.014933974252328541
+      },
+      {
+        "step": 560,
+        "global_Et": 0.0032042632585520935,
+        "worst_Et": 0.02078152209879136,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.014841374584610444
+      },
+      {
+        "step": 580,
+        "global_Et": 0.0032561524585481873,
+        "worst_Et": 0.020802118232927366,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.014564581002081054
+      },
+      {
+        "step": 600,
+        "global_Et": 0.003327862393653349,
+        "worst_Et": 0.020810100845798152,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.014239264206325505
+      },
+      {
+        "step": 620,
+        "global_Et": 0.003381132056087282,
+        "worst_Et": 0.020800322764378053,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013952501695582585
+      },
+      {
+        "step": 640,
+        "global_Et": 0.003390807254056846,
+        "worst_Et": 0.020780532327169327,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013729395603465642
+      },
+      {
+        "step": 660,
+        "global_Et": 0.003364193004281196,
+        "worst_Et": 0.02076377998698151,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013546987961823513
+      },
+      {
+        "step": 680,
+        "global_Et": 0.003325600438359101,
+        "worst_Et": 0.02075752994476872,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01336453462921158
+      },
+      {
+        "step": 700,
+        "global_Et": 0.0032971072610275395,
+        "worst_Et": 0.02076228378696743,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013160054970367619
+      },
+      {
+        "step": 720,
+        "global_Et": 0.00329253379839533,
+        "worst_Et": 0.020774476495351475,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.012954210537502201
+      },
+      {
+        "step": 740,
+        "global_Et": 0.0033158984515191127,
+        "worst_Et": 0.02078810053608357,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01280395953175843
+      },
+      {
+        "step": 760,
+        "global_Et": 0.0033582008272632757,
+        "worst_Et": 0.020795964151283663,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.012770906727520443
+      },
+      {
+        "step": 780,
+        "global_Et": 0.0033981732385973784,
+        "worst_Et": 0.020793238238995804,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.012887754293652288
+      },
+      {
+        "step": 800,
+        "global_Et": 0.0034152261676362178,
+        "worst_Et": 0.020781718759056437,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013140783882440447
+      },
+      {
+        "step": 820,
+        "global_Et": 0.0034049118181101886,
+        "worst_Et": 0.0207687106635082,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013471874079874428
+      },
+      {
+        "step": 840,
+        "global_Et": 0.0033789173605737566,
+        "worst_Et": 0.020761010915495075,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013797076888335893
+      },
+      {
+        "step": 860,
+        "global_Et": 0.0033538805213659487,
+        "worst_Et": 0.02076124157843342,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.014036859308105906
+      },
+      {
+        "step": 880,
+        "global_Et": 0.0033429904432518325,
+        "worst_Et": 0.020768167730847373,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.014146834904163432
+      },
+      {
+        "step": 900,
+        "global_Et": 0.0033524035434682005,
+        "worst_Et": 0.020778004214312425,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.0141318540460145
+      },
+      {
+        "step": 920,
+        "global_Et": 0.0033788630183159223,
+        "worst_Et": 0.020785623040480965,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01403449104249277
+      },
+      {
+        "step": 940,
+        "global_Et": 0.003409422184579555,
+        "worst_Et": 0.020786691570477654,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01390758584462361
+      },
+      {
+        "step": 960,
+        "global_Et": 0.003427951420215064,
+        "worst_Et": 0.020780638899634375,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01378903177582401
+      },
+      {
+        "step": 980,
+        "global_Et": 0.0034262721313019317,
+        "worst_Et": 0.020771401620617,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013690200914986841
+      },
+      {
+        "step": 1000,
+        "global_Et": 0.003408838115928578,
+        "worst_Et": 0.020764352746565913,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01359981991750741
+      },
+      {
+        "step": 1020,
+        "global_Et": 0.0033874809006765694,
+        "worst_Et": 0.02076279492294011,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013499532972684834
+      },
+      {
+        "step": 1040,
+        "global_Et": 0.003373972265324544,
+        "worst_Et": 0.02076691640559499,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013382941588763592
+      },
+      {
+        "step": 1060,
+        "global_Et": 0.0033754712234074567,
+        "worst_Et": 0.020774394971193197,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013266618229873553
+      },
+      {
+        "step": 1080,
+        "global_Et": 0.0033920116250310173,
+        "worst_Et": 0.02078138688964761,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013185349739149348
+      },
+      {
+        "step": 1100,
+        "global_Et": 0.0034156593760697076,
+        "worst_Et": 0.020784054006090586,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013174773913641238
+      },
+      {
+        "step": 1120,
+        "global_Et": 0.003433887674786975,
+        "worst_Et": 0.02078080112238706,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013252515468614848
+      },
+      {
+        "step": 1140,
+        "global_Et": 0.003437461420969626,
+        "worst_Et": 0.02077361596602166,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013407610562644952
+      },
+      {
+        "step": 1160,
+        "global_Et": 0.0034264040016954403,
+        "worst_Et": 0.02076667416573036,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013602201291761096
+      },
+      {
+        "step": 1180,
+        "global_Et": 0.003408619309645822,
+        "worst_Et": 0.0207634730703128,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013784744413704723
+      },
+      {
+        "step": 1200,
+        "global_Et": 0.003394235783307479,
+        "worst_Et": 0.020765160740728594,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01390994244409519
+      },
+      {
+        "step": 1220,
+        "global_Et": 0.003390808697147046,
+        "worst_Et": 0.020770526432174145,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013956297111369118
+      },
+      {
+        "step": 1240,
+        "global_Et": 0.003400484775807218,
+        "worst_Et": 0.020776723612885194,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013931622047626614
+      },
+      {
+        "step": 1260,
+        "global_Et": 0.0034187397062195916,
+        "worst_Et": 0.020780420445148357,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013863868078962992
+      },
+      {
+        "step": 1280,
+        "global_Et": 0.003435984731494294,
+        "worst_Et": 0.02077951190426236,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01378414781186216
+      },
+      {
+        "step": 1300,
+        "global_Et": 0.0034430581897940985,
+        "worst_Et": 0.020774592143473606,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01371215638460066
+      },
+      {
+        "step": 1320,
+        "global_Et": 0.0034371543210991963,
+        "worst_Et": 0.020768629322873097,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013650528060758145
+      },
+      {
+        "step": 1340,
+        "global_Et": 0.0034229253918644895,
+        "worst_Et": 0.020764901591785283,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013589347582802405
+      },
+      {
+        "step": 1360,
+        "global_Et": 0.0034087443764981864,
+        "worst_Et": 0.020765134456471417,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013517708425312781
+      },
+      {
+        "step": 1380,
+        "global_Et": 0.0034021508801810795,
+        "worst_Et": 0.0207689689522854,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013435705696828684
+      },
+      {
+        "step": 1400,
+        "global_Et": 0.003406720397481823,
+        "worst_Et": 0.02077436357328647,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013359265769620448
+      },
+      {
+        "step": 1420,
+        "global_Et": 0.0034204394773716617,
+        "worst_Et": 0.020778473056583632,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013314328310398518
+      },
+      {
+        "step": 1440,
+        "global_Et": 0.003436206742221395,
+        "worst_Et": 0.020779002243623907,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013323946019541615
+      },
+      {
+        "step": 1460,
+        "global_Et": 0.003445533399450203,
+        "worst_Et": 0.02077563632373798,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013395861878109776
+      },
+      {
+        "step": 1480,
+        "global_Et": 0.0034438525025870816,
+        "worst_Et": 0.02077035499067811,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013516796710828031
+      },
+      {
+        "step": 1500,
+        "global_Et": 0.0034331171155310915,
+        "worst_Et": 0.020766093025129457,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.0136559094333791
+      },
+      {
+        "step": 1520,
+        "global_Et": 0.003419872017317532,
+        "worst_Et": 0.020764941758785297,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013776200380928057
+      },
+      {
+        "step": 1540,
+        "global_Et": 0.0034113010290302754,
+        "worst_Et": 0.02076724138213769,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013849124775441063
+      },
+      {
+        "step": 1560,
+        "global_Et": 0.003411927205968549,
+        "worst_Et": 0.020771664508785516,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013865231425400094
+      },
+      {
+        "step": 1580,
+        "global_Et": 0.003421663181442986,
+        "worst_Et": 0.02077586328780436,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013835092546009642
+      },
+      {
+        "step": 1600,
+        "global_Et": 0.0034355615794273726,
+        "worst_Et": 0.02077754185697725,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013780654614979064
+      },
+      {
+        "step": 1620,
+        "global_Et": 0.0034461571287744148,
+        "worst_Et": 0.020775751106871316,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013722841355202239
+      },
+      {
+        "step": 1640,
+        "global_Et": 0.0034479083562814344,
+        "worst_Et": 0.020771571876827374,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013672315124141066
+      },
+      {
+        "step": 1660,
+        "global_Et": 0.003440568978937898,
+        "worst_Et": 0.020767418667678672,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013627410190599992
+      },
+      {
+        "step": 1680,
+        "global_Et": 0.003428829812298168,
+        "worst_Et": 0.020765495762956544,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013579409127006394
+      },
+      {
+        "step": 1700,
+        "global_Et": 0.0034192187152251845,
+        "worst_Et": 0.020766662284868537,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013521927415866207
+      },
+      {
+        "step": 1720,
+        "global_Et": 0.003416811297924856,
+        "worst_Et": 0.020770203441171888,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013458828232111817
+      },
+      {
+        "step": 1740,
+        "global_Et": 0.003423006054221277,
+        "worst_Et": 0.0207742501983656,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013405520535457195
+      },
+      {
+        "step": 1760,
+        "global_Et": 0.003434729408156583,
+        "worst_Et": 0.0207766279696382,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013382519450585918
+      },
+      {
+        "step": 1780,
+        "global_Et": 0.0034457416528334782,
+        "worst_Et": 0.0207759964987765,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.0134050547465521
+      },
+      {
+        "step": 1800,
+        "global_Et": 0.0034501405302756827,
+        "worst_Et": 0.020772719563632514,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01347449674835047
+      },
+      {
+        "step": 1820,
+        "global_Et": 0.003445971674270659,
+        "worst_Et": 0.020768673875118146,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013575841534070194
+      },
+      {
+        "step": 1840,
+        "global_Et": 0.003436122481981441,
+        "worst_Et": 0.02076604044854938,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013682491957098655
+      },
+      {
+        "step": 1860,
+        "global_Et": 0.0034262175879915804,
+        "worst_Et": 0.020766078110684708,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013766474664363587
+      },
+      {
+        "step": 1880,
+        "global_Et": 0.003421541790636245,
+        "worst_Et": 0.020768623863280558,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013809493887873458
+      },
+      {
+        "step": 1900,
+        "global_Et": 0.0034246156746299355,
+        "worst_Et": 0.020772289095361815,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013809200185573514
+      },
+      {
+        "step": 1920,
+        "global_Et": 0.0034339828311993185,
+        "worst_Et": 0.020775112615361822,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013777452474898444
+      },
+      {
+        "step": 1940,
+        "global_Et": 0.0034447205602551327,
+        "worst_Et": 0.020775534471910825,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013732163710525332
+      },
+      {
+        "step": 1960,
+        "global_Et": 0.003451036124557777,
+        "worst_Et": 0.020773325815932858,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013687810711336105
+      },
+      {
+        "step": 1980,
+        "global_Et": 0.0034497402292354997,
+        "worst_Et": 0.02076977926688378,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013649597094143645
+      },
+      {
+        "step": 2000,
+        "global_Et": 0.0034420416711005955,
+        "worst_Et": 0.02076688238412929,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013613691202449537
+      },
+      {
+        "step": 2020,
+        "global_Et": 0.003432474140728982,
+        "worst_Et": 0.020766132338549893,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013572859358598187
+      },
+      {
+        "step": 2040,
+        "global_Et": 0.0034262249663986545,
+        "worst_Et": 0.0207678243828487,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01352413478680093
+      },
+      {
+        "step": 2060,
+        "global_Et": 0.003426615168983622,
+        "worst_Et": 0.020771023191529212,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013473840168160209
+      },
+      {
+        "step": 2080,
+        "global_Et": 0.0034335598294799536,
+        "worst_Et": 0.020774032999827944,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013436611584773382
+      },
+      {
+        "step": 2100,
+        "global_Et": 0.003443463537496849,
+        "worst_Et": 0.0207752136560633,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01342877706854365
+      },
+      {
+        "step": 2120,
+        "global_Et": 0.0034509943149030778,
+        "worst_Et": 0.020773896412247715,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013459866751619223
+      },
+      {
+        "step": 2140,
+        "global_Et": 0.003452175838083415,
+        "worst_Et": 0.0207708354889706,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013526807000084589
+      },
+      {
+        "step": 2160,
+        "global_Et": 0.003446735736947663,
+        "worst_Et": 0.020767746519848532,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013613682951380707
+      },
+      {
+        "step": 2180,
+        "global_Et": 0.0034380019592506294,
+        "worst_Et": 0.020766255489043175,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01369734595911877
+      },
+      {
+        "step": 2200,
+        "global_Et": 0.0034307974958385236,
+        "worst_Et": 0.02076704760217999,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013756509085445519
+      },
+      {
+        "step": 2220,
+        "global_Et": 0.00342895214001922,
+        "worst_Et": 0.020769626804166896,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013780015366470527
+      },
+      {
+        "step": 2240,
+        "global_Et": 0.003433515002586293,
+        "worst_Et": 0.02077260841538557,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013770024480807774
+      },
+      {
+        "step": 2260,
+        "global_Et": 0.0034421682604140864,
+        "worst_Et": 0.020774382054756013,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013738663492271017
+      },
+      {
+        "step": 2280,
+        "global_Et": 0.0034502858179950944,
+        "worst_Et": 0.020773962427493464,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013700520557883584
+      },
+      {
+        "step": 2300,
+        "global_Et": 0.0034535068695310573,
+        "worst_Et": 0.02077160003089561,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013665382679300047
+      },
+      {
+        "step": 2320,
+        "global_Et": 0.0034503267114301896,
+        "worst_Et": 0.02076864809828968,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013634858056613562
+      },
+      {
+        "step": 2340,
+        "global_Et": 0.0034428247145286833,
+        "worst_Et": 0.020766721992722885,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01360416437569723
+      },
+      {
+        "step": 2360,
+        "global_Et": 0.0034352331483351733,
+        "worst_Et": 0.020766793190512056,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013567756651092208
+      },
+      {
+        "step": 2380,
+        "global_Et": 0.0034316198985066947,
+        "worst_Et": 0.020768761031503852,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013525437481919846
+      },
+      {
+        "step": 2400,
+        "global_Et": 0.0034339351379408683,
+        "worst_Et": 0.020771567582590536,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013485135191335453
+      },
+      {
+        "step": 2420,
+        "global_Et": 0.003441045241551536,
+        "worst_Et": 0.020773712689271747,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013460406426619852
+      },
+      {
+        "step": 2440,
+        "global_Et": 0.0034491860770376986,
+        "worst_Et": 0.020774015162252003,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01346396674520942
+      },
+      {
+        "step": 2460,
+        "global_Et": 0.0034539613824704674,
+        "worst_Et": 0.020772302809129787,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01350084908581163
+      },
+      {
+        "step": 2480,
+        "global_Et": 0.003452919438178894,
+        "worst_Et": 0.020769546199028065,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013564780830998218
+      },
+      {
+        "step": 2500,
+        "global_Et": 0.003446923135940586,
+        "worst_Et": 0.02076726168827225,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013639627643651238
+      },
+      {
+        "step": 2520,
+        "global_Et": 0.003439437672096818,
+        "worst_Et": 0.020766626641232876,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013705416965094783
+      },
+      {
+        "step": 2540,
+        "global_Et": 0.0034345207469354587,
+        "worst_Et": 0.02076790124712999,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01374625947838157
+      },
+      {
+        "step": 2560,
+        "global_Et": 0.003434795869526492,
+        "worst_Et": 0.020770369743593108,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013756280151907708
+      },
+      {
+        "step": 2580,
+        "global_Et": 0.0034401894413699694,
+        "worst_Et": 0.02077270935474575,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013740529858618268
+      },
+      {
+        "step": 2600,
+        "global_Et": 0.00344788008765238,
+        "worst_Et": 0.020773645567323445,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01371070639555774
+      },
+      {
+        "step": 2620,
+        "global_Et": 0.0034537216928584124,
+        "worst_Et": 0.020772658423816225,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013678443360081229
+      },
+      {
+        "step": 2640,
+        "global_Et": 0.0034546131996743583,
+        "worst_Et": 0.020770317235395283,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.0136499114527045
+      },
+      {
+        "step": 2660,
+        "global_Et": 0.00345029814936735,
+        "worst_Et": 0.020767939376190366,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01362432271443562
+      },
+      {
+        "step": 2680,
+        "global_Et": 0.003443351582699091,
+        "worst_Et": 0.020766800274093507,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013596743793665347
+      },
+      {
+        "step": 2700,
+        "global_Et": 0.003437595691094638,
+        "worst_Et": 0.020767456836696063,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013563425608378945
+      },
+      {
+        "step": 2720,
+        "global_Et": 0.0034361033686836416,
+        "worst_Et": 0.02076952438816357,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013526438388320898
+      },
+      {
+        "step": 2740,
+        "global_Et": 0.0034397139935358175,
+        "worst_Et": 0.02077189898805407,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013494654234157613
+      },
+      {
+        "step": 2760,
+        "global_Et": 0.003446568223035051,
+        "worst_Et": 0.020773299900938652,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013480260460316288
+      },
+      {
+        "step": 2780,
+        "global_Et": 0.0034529911724964,
+        "worst_Et": 0.020772949926113463,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01349269875161309
+      },
+      {
+        "step": 2800,
+        "global_Et": 0.003455525901640945,
+        "worst_Et": 0.020771045840846273,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013533334273712906
+      },
+      {
+        "step": 2820,
+        "global_Et": 0.003452951121575667,
+        "worst_Et": 0.020768655010704285,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01359362539997078
+      },
+      {
+        "step": 2840,
+        "global_Et": 0.0034468893285704576,
+        "worst_Et": 0.02076707042558632,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013657801387995964
+      },
+      {
+        "step": 2860,
+        "global_Et": 0.003440732728986122,
+        "worst_Et": 0.020767090971320037,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013708958511701345
+      },
+      {
+        "step": 2880,
+        "global_Et": 0.003437787000059394,
+        "worst_Et": 0.020768653023375928,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01373574126983024
+      },
+      {
+        "step": 2900,
+        "global_Et": 0.003439642213567684,
+        "worst_Et": 0.02077090659167013,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013736263084351987
+      },
+      {
+        "step": 2920,
+        "global_Et": 0.003445371116540522,
+        "worst_Et": 0.020772639736388234,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013717330300911568
+      },
+      {
+        "step": 2940,
+        "global_Et": 0.003451926844978458,
+        "worst_Et": 0.020772901820405795,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013689720957666022
+      },
+      {
+        "step": 2960,
+        "global_Et": 0.003455766999718165,
+        "worst_Et": 0.020771550541745325,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013662382034479413
+      },
+      {
+        "step": 2980,
+        "global_Et": 0.0034549001120310215,
+        "worst_Et": 0.020769354659064796,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013638648592959773
+      },
+      {
+        "step": 3000,
+        "global_Et": 0.003449993039784446,
+        "worst_Et": 0.02076753029279461,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013616210854887345
+      },
+      {
+        "step": 3020,
+        "global_Et": 0.0034438490665159123,
+        "worst_Et": 0.02076703853665021,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013590545137002249
+      },
+      {
+        "step": 3040,
+        "global_Et": 0.003439799349519697,
+        "worst_Et": 0.020768101568545475,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013559714088788926
+      },
+      {
+        "step": 3060,
+        "global_Et": 0.0034400111724219246,
+        "worst_Et": 0.02077013539957726,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013527604002561913
+      },
+      {
+        "step": 3080,
+        "global_Et": 0.003444420223074618,
+        "worst_Et": 0.020772052835384035,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013503474813834598
+      },
+      {
+        "step": 3100,
+        "global_Et": 0.0034507049949300712,
+        "worst_Et": 0.020772810948885792,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013497896942282147
+      },
+      {
+        "step": 3120,
+        "global_Et": 0.0034554738322116556,
+        "worst_Et": 0.02077198698722895,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01351729544284963
+      },
+      {
+        "step": 3140,
+        "global_Et": 0.003456185453648391,
+        "worst_Et": 0.02077004376787675,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013560028636693153
+      },
+      {
+        "step": 3160,
+        "global_Et": 0.0034526067657884006,
+        "worst_Et": 0.020768058125711475,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013616045625482319
+      },
+      {
+        "step": 3180,
+        "global_Et": 0.0034468374743130592,
+        "worst_Et": 0.02076708698261532,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013670428124965541
+      },
+      {
+        "step": 3200,
+        "global_Et": 0.003442043123783963,
+        "worst_Et": 0.020767605139288353,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01370927056352735
+      },
+      {
+        "step": 3220,
+        "global_Et": 0.0034407893920978035,
+        "worst_Et": 0.02076930317412866,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013725076803677294
+      },
+      {
+        "step": 3240,
+        "global_Et": 0.0034437760566478418,
+        "worst_Et": 0.020771266422926808,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013718951965673364
+      },
+      {
+        "step": 3260,
+        "global_Et": 0.003449451107424879,
+        "worst_Et": 0.020772433201623468,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013698607238060635
+      },
+      {
+        "step": 3280,
+        "global_Et": 0.0034547662726351178,
+        "worst_Et": 0.0207721606610434,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013673563352695433
+      },
+      {
+        "step": 3300,
+        "global_Et": 0.0034568577897525856,
+        "worst_Et": 0.02077060645437045,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01365033020281201
+      },
+      {
+        "step": 3320,
+        "global_Et": 0.0034546978975845393,
+        "worst_Et": 0.020768644963359534,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013630043815501954
+      },
+      {
+        "step": 3340,
+        "global_Et": 0.0034496154585648125,
+        "worst_Et": 0.020767346727616702,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013609554977802087
+      },
+      {
+        "step": 3360,
+        "global_Et": 0.0034444403895250754,
+        "worst_Et": 0.020767383371522855,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013585143825136748
+      },
+      {
+        "step": 3380,
+        "global_Et": 0.003441956168306436,
+        "worst_Et": 0.020768706811294415,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01355661661326572
+      },
+      {
+        "step": 3400,
+        "global_Et": 0.003443504744889797,
+        "worst_Et": 0.020770603434466364,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013529241452087679
+      },
+      {
+        "step": 3420,
+        "global_Et": 0.003448301768767561,
+        "worst_Et": 0.020772054760156287,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01351218613418376
+      },
+      {
+        "step": 3440,
+        "global_Et": 0.00345378805413843,
+        "worst_Et": 0.020772265622985536,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013514213077985646
+      },
+      {
+        "step": 3460,
+        "global_Et": 0.0034569974433622612,
+        "worst_Et": 0.020771117821961026,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013538973424518902
+      },
+      {
+        "step": 3480,
+        "global_Et": 0.0034562535021358345,
+        "worst_Et": 0.020769252911341244,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013582398354949187
+      },
+      {
+        "step": 3500,
+        "global_Et": 0.00345209847807486,
+        "worst_Et": 0.020767692300275004,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013633578139268717
+      },
+      {
+        "step": 3520,
+        "global_Et": 0.0034468862057367585,
+        "worst_Et": 0.02076725378130609,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.0136788461489834
+      },
+      {
+        "step": 3540,
+        "global_Et": 0.0034434421111308325,
+        "worst_Et": 0.020768135377171894,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013707204718914748
+      },
+      {
+        "step": 3560,
+        "global_Et": 0.0034436125058246725,
+        "worst_Et": 0.02076984730447675,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013714429903088288
+      },
+      {
+        "step": 3580,
+        "global_Et": 0.003447340786662665,
+        "worst_Et": 0.020771468916094972,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013703800942621601
+      },
+      {
+        "step": 3600,
+        "global_Et": 0.003452654954970656,
+        "worst_Et": 0.02077211816255739,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013683278119164016
+      },
+      {
+        "step": 3620,
+        "global_Et": 0.0034566853729704416,
+        "worst_Et": 0.020771437094204204,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013660911361958522
+      },
+      {
+        "step": 3640,
+        "global_Et": 0.003457279044245472,
+        "worst_Et": 0.020769811372712894,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.0136410369556487
+      },
+      {
+        "step": 3660,
+        "global_Et": 0.0034542245438277277,
+        "worst_Et": 0.020768145882032074,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013623146956799503
+      },
+      {
+        "step": 3680,
+        "global_Et": 0.0034492937498093483,
+        "worst_Et": 0.020767337208792813,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013603800990482862
+      },
+      {
+        "step": 3700,
+        "global_Et": 0.0034451877424916716,
+        "worst_Et": 0.02076779394043955,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013580345305605911
+      },
+      {
+        "step": 3720,
+        "global_Et": 0.0034441083335918247,
+        "worst_Et": 0.02076925405871848,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013554187164674181
+      },
+      {
+        "step": 3740,
+        "global_Et": 0.0034466554045751744,
+        "worst_Et": 0.020770934403791557,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013531551751627813
+      },
+      {
+        "step": 3760,
+        "global_Et": 0.0034514971277232365,
+        "worst_Et": 0.020771927330067507,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013521101774207624
+      },
+      {
+        "step": 3780,
+        "global_Et": 0.0034560293233985746,
+        "worst_Et": 0.020771685636379066,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013529665166199975
+      },
+      {
+        "step": 3800,
+        "global_Et": 0.003457807802400833,
+        "worst_Et": 0.020770343764468124,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013558377699144307
+      },
+      {
+        "step": 3820,
+        "global_Et": 0.0034559457927436903,
+        "worst_Et": 0.02076864681789895,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01360128026948972
+      },
+      {
+        "step": 3840,
+        "global_Et": 0.0034515683716386867,
+        "worst_Et": 0.02076751334077014,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013647170952266894
+      },
+      {
+        "step": 3860,
+        "global_Et": 0.0034471032731575725,
+        "worst_Et": 0.020767527184741088,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013683944940354815
+      },
+      {
+        "step": 3880,
+        "global_Et": 0.0034449543588538885,
+        "worst_Et": 0.020768653749265207,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013703377965110298
+      },
+      {
+        "step": 3900,
+        "global_Et": 0.0034462825814278327,
+        "worst_Et": 0.02077028063117129,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013703973465720757
+      },
+      {
+        "step": 3920,
+        "global_Et": 0.003450408525559822,
+        "worst_Et": 0.020771530956535837,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01369049185297966
+      },
+      {
+        "step": 3940,
+        "global_Et": 0.0034551261168015404,
+        "worst_Et": 0.020771721152465245,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01367063624792795
+      },
+      {
+        "step": 3960,
+        "global_Et": 0.0034578840559669525,
+        "worst_Et": 0.020770747989150067,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013650877758843228
+      },
+      {
+        "step": 3980,
+        "global_Et": 0.003457234645408479,
+        "worst_Et": 0.02076915798985534,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.01363366657406096
+      },
+      {
+        "step": 4000,
+        "global_Et": 0.0034536337992088547,
+        "worst_Et": 0.020767826835182385,
+        "worst_region": "all_transition",
+        "Bn_over_full_B": 0.013617349610198256
+      }
+    ]
+  },
+  "tail_last100_median_growth": 0.9921858461419599,
+  "all_finite": true,
+  "full_PIC_replay": false
+}
